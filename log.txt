@@ -1,0 +1,1040 @@
+ 0(8954) DEBUG: <core> [core/sr_module.c:761]: find_mod_export_record(): found export of <t_relay> in module tm [/usr/local/lib64/kamailio/modules/tm.so]
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type24, i/count 0/2: type 9(9)/ data (nil)
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type24, i/count 1/2: type 3(3)/ data (nil)
+ 0(8954) DEBUG: <core> [core/sr_module.c:761]: find_mod_export_record(): found export of <sl_reply_error> in module sl [/usr/local/lib64/kamailio/modules/sl.so]
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type16, i/count 0/3: type 22(16)/ data 0x7fe089ec9e90
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type16, i/count 1/3: type 8(8)/ data 0x7fe089eca5d0
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type16, i/count 2/3: type 0(0)/ data (nil)
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type2, i/count 0/2: type 3(3)/ data 0x1
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type2, i/count 1/2: type 3(3)/ data 0x1
+ 0(8954) DEBUG: <core> [core/route.c:129]: route_add(): mapping routing block (0x55abd14ce3a0)[RELAY] to 1
+ 0(8954) DEBUG: <core> [core/pvapi.c:386]: pv_cache_add(): pvar [$ua] added in cache
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type2, i/count 0/2: type 3(3)/ data 0x1
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type2, i/count 1/2: type 3(3)/ data 0x1
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type16, i/count 0/3: type 22(16)/ data 0x7fe089ecbfa0
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type16, i/count 1/3: type 8(8)/ data 0x7fe089ecc6e0
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type16, i/count 2/3: type 0(0)/ data (nil)
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type24, i/count 0/2: type 9(9)/ data (nil)
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type24, i/count 1/2: type 3(3)/ data (nil)
+ 0(8954) DEBUG: <core> [core/sr_module.c:761]: find_mod_export_record(): found export of <mf_process_maxfwd_header> in module maxfwd [/usr/local/lib64/kamailio/modules/maxfwd.so]
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type24, i/count 0/2: type 9(9)/ data (nil)
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type24, i/count 1/2: type 3(3)/ data (nil)
+ 0(8954) DEBUG: <core> [core/sr_module.c:761]: find_mod_export_record(): found export of <sl_send_reply> in module sl [/usr/local/lib64/kamailio/modules/sl.so]
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type2, i/count 0/2: type 3(3)/ data 0x1
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type2, i/count 1/2: type 3(3)/ data 0x1
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type16, i/count 0/3: type 22(16)/ data 0x7fe089ecdb60
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type16, i/count 1/3: type 8(8)/ data 0x7fe089ece390
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type16, i/count 2/3: type 0(0)/ data (nil)
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type24, i/count 0/2: type 9(9)/ data (nil)
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type24, i/count 1/2: type 3(3)/ data (nil)
+ 0(8954) DEBUG: <core> [core/sr_module.c:761]: find_mod_export_record(): found export of <is_method> in module textops [/usr/local/lib64/kamailio/modules/textops.so]
+ 0(8954) DEBUG: <core> [core/pvapi.c:410]: pv_cache_lookup(): pvar [$rU] found in cache
+ 0(8954) DEBUG: <core> [core/pvapi.c:410]: pv_cache_lookup(): pvar [$null] found in cache
+ 0(8954) DEBUG: <core> [core/cfg.y:3347]: yyparse(): comparison with $null switched to defined operator
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type24, i/count 0/2: type 9(9)/ data (nil)
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type24, i/count 1/2: type 3(3)/ data (nil)
+ 0(8954) DEBUG: <core> [core/sr_module.c:761]: find_mod_export_record(): found export of <sl_send_reply> in module sl [/usr/local/lib64/kamailio/modules/sl.so]
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type2, i/count 0/2: type 3(3)/ data 0x1
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type2, i/count 1/2: type 3(3)/ data 0x1
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type16, i/count 0/3: type 22(16)/ data 0x7fe089ed0e90
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type16, i/count 1/3: type 8(8)/ data 0x7fe089ed1e00
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type16, i/count 2/3: type 0(0)/ data (nil)
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type24, i/count 0/2: type 9(9)/ data (nil)
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type24, i/count 1/2: type 3(3)/ data (nil)
+ 0(8954) DEBUG: <core> [core/sr_module.c:761]: find_mod_export_record(): found export of <sanity_check> in module sanity [/usr/local/lib64/kamailio/modules/sanity.so]
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type24, i/count 0/2: type 9(9)/ data (nil)
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type24, i/count 1/2: type 3(3)/ data (nil)
+ 0(8954) DEBUG: <core> [core/sr_module.c:761]: find_mod_export_record(): found export of <xlog> in module xlog [/usr/local/lib64/kamailio/modules/xlog.so]
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type2, i/count 0/2: type 3(3)/ data 0x1
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type2, i/count 1/2: type 3(3)/ data 0x1
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type16, i/count 0/3: type 22(16)/ data 0x7fe089ed4030
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type16, i/count 1/3: type 8(8)/ data 0x7fe089ed4860
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type16, i/count 2/3: type 0(0)/ data (nil)
+ 0(8954) DEBUG: <core> [core/route.c:129]: route_add(): mapping routing block (0x55abd14ce3a0)[REQINIT] to 2
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type24, i/count 0/2: type 9(9)/ data (nil)
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type24, i/count 1/2: type 3(3)/ data (nil)
+ 0(8954) DEBUG: <core> [core/sr_module.c:761]: find_mod_export_record(): found export of <has_totag> in module siputils [/usr/local/lib64/kamailio/modules/siputils.so]
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type2, i/count 0/2: type 3(3)/ data 0x1
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type2, i/count 1/2: type 3(3)/ data 0x2
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type16, i/count 0/3: type 22(16)/ data 0x7fe089ed5a70
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type16, i/count 1/3: type 8(8)/ data 0x7fe089ed61b0
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type16, i/count 2/3: type 0(0)/ data (nil)
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type24, i/count 0/2: type 9(9)/ data (nil)
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type24, i/count 1/2: type 3(3)/ data (nil)
+ 0(8954) DEBUG: <core> [core/sr_module.c:761]: find_mod_export_record(): found export of <loose_route> in module rr [/usr/local/lib64/kamailio/modules/rr.so]
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type5, i/count 0/1: type 1(1)/ data 0x7fe089ed6e00
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type24, i/count 0/2: type 9(9)/ data (nil)
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type24, i/count 1/2: type 3(3)/ data (nil)
+ 0(8954) DEBUG: <core> [core/sr_module.c:761]: find_mod_export_record(): found export of <is_method> in module textops [/usr/local/lib64/kamailio/modules/textops.so]
+ 0(8954) DEBUG: <core> [core/cfg.lex:2280]: pp_define_get(): ### returning define ID [FLT_ACC] value [1]
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type39, i/count 0/1: type 3(3)/ data 0x1
+ 0(8954) DEBUG: <core> [core/cfg.lex:2280]: pp_define_get(): ### returning define ID [FLT_ACCFAILED] value [3]
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type39, i/count 0/1: type 3(3)/ data 0x3
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type24, i/count 0/2: type 9(9)/ data (nil)
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type24, i/count 1/2: type 3(3)/ data (nil)
+ 0(8954) DEBUG: <core> [core/sr_module.c:761]: find_mod_export_record(): found export of <is_method> in module textops [/usr/local/lib64/kamailio/modules/textops.so]
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type5, i/count 0/1: type 1(1)/ data 0x7fe089ed8910
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type24, i/count 0/2: type 9(9)/ data (nil)
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type24, i/count 1/2: type 3(3)/ data (nil)
+ 0(8954) DEBUG: <core> [core/sr_module.c:761]: find_mod_export_record(): found export of <is_method> in module textops [/usr/local/lib64/kamailio/modules/textops.so]
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type24, i/count 0/2: type 9(9)/ data (nil)
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type24, i/count 1/2: type 3(3)/ data (nil)
+ 0(8954) DEBUG: <core> [core/sr_module.c:761]: find_mod_export_record(): found export of <record_route> in module rr [/usr/local/lib64/kamailio/modules/rr.so]
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type16, i/count 0/3: type 22(16)/ data 0x7fe089ed8ea0
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type16, i/count 1/3: type 8(8)/ data 0x7fe089ed9750
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type16, i/count 2/3: type 0(0)/ data (nil)
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type16, i/count 0/3: type 22(16)/ data 0x7fe089ed8150
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type16, i/count 1/3: type 8(8)/ data 0x7fe089ed8a00
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type16, i/count 2/3: type 8(8)/ data 0x7fe089ed98b0
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type16, i/count 0/3: type 22(16)/ data 0x7fe089ed7390
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type16, i/count 1/3: type 8(8)/ data 0x7fe089ed7b50
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type16, i/count 2/3: type 8(8)/ data 0x7fe089ed9a10
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type5, i/count 0/1: type 1(1)/ data 0x7fe089ed9cd0
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type2, i/count 0/2: type 3(3)/ data 0x1
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type2, i/count 1/2: type 3(3)/ data 0x1
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type16, i/count 0/3: type 22(16)/ data 0x7fe089ed66c0
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type16, i/count 1/3: type 8(8)/ data 0x7fe089ed6ef0
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type16, i/count 2/3: type 0(0)/ data (nil)
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type24, i/count 0/2: type 9(9)/ data (nil)
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type24, i/count 1/2: type 3(3)/ data (nil)
+ 0(8954) DEBUG: <core> [core/sr_module.c:761]: find_mod_export_record(): found export of <is_method> in module textops [/usr/local/lib64/kamailio/modules/textops.so]
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type5, i/count 0/1: type 1(1)/ data 0x7fe089edbc00
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type2, i/count 0/2: type 3(3)/ data 0x1
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type2, i/count 1/2: type 3(3)/ data 0x1
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type16, i/count 0/3: type 22(16)/ data 0x7fe089edb4c0
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type16, i/count 1/3: type 8(8)/ data 0x7fe089edbcf0
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type16, i/count 2/3: type 0(0)/ data (nil)
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type24, i/count 0/2: type 9(9)/ data (nil)
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type24, i/count 1/2: type 3(3)/ data (nil)
+ 0(8954) DEBUG: <core> [core/sr_module.c:761]: find_mod_export_record(): found export of <is_method> in module textops [/usr/local/lib64/kamailio/modules/textops.so]
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type24, i/count 0/2: type 9(9)/ data (nil)
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type24, i/count 1/2: type 3(3)/ data (nil)
+ 0(8954) DEBUG: <core> [core/sr_module.c:761]: find_mod_export_record(): found export of <t_check_trans> in module tm [/usr/local/lib64/kamailio/modules/tm.so]
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type5, i/count 0/1: type 1(1)/ data 0x7fe089edd5a0
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type2, i/count 0/2: type 3(3)/ data 0x1
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type2, i/count 1/2: type 3(3)/ data 0x1
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type2, i/count 0/2: type 3(3)/ data 0x1
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type2, i/count 1/2: type 3(3)/ data 0x1
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type16, i/count 0/3: type 22(16)/ data 0x7fe089edce60
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type16, i/count 1/3: type 8(8)/ data 0x7fe089edd690
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type16, i/count 2/3: type 8(8)/ data 0x7fe089edd950
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type16, i/count 0/3: type 22(16)/ data 0x7fe089edc450
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type16, i/count 1/3: type 8(8)/ data 0x7fe089eddab0
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type16, i/count 2/3: type 0(0)/ data (nil)
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type24, i/count 0/2: type 9(9)/ data (nil)
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type24, i/count 1/2: type 3(3)/ data (nil)
+ 0(8954) DEBUG: <core> [core/sr_module.c:761]: find_mod_export_record(): found export of <sl_send_reply> in module sl [/usr/local/lib64/kamailio/modules/sl.so]
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type2, i/count 0/2: type 3(3)/ data 0x1
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type2, i/count 1/2: type 3(3)/ data 0x1
+ 0(8954) DEBUG: <core> [core/route.c:129]: route_add(): mapping routing block (0x55abd14ce3a0)[WITHINDLG] to 3
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type24, i/count 0/2: type 9(9)/ data (nil)
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type24, i/count 1/2: type 3(3)/ data (nil)
+ 0(8954) DEBUG: <core> [core/sr_module.c:761]: find_mod_export_record(): found export of <is_method> in module textops [/usr/local/lib64/kamailio/modules/textops.so]
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type2, i/count 0/2: type 3(3)/ data 0x1
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type2, i/count 1/2: type 3(3)/ data 0x2
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type16, i/count 0/3: type 22(16)/ data 0x7fe089edf120
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type16, i/count 1/3: type 8(8)/ data 0x7fe089edf860
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type16, i/count 2/3: type 0(0)/ data (nil)
+ 0(8954) DEBUG: <core> [core/cfg.lex:2280]: pp_define_get(): ### returning define ID [FLT_NATS] value [5]
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type41, i/count 0/1: type 3(3)/ data 0x5
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type24, i/count 0/2: type 9(9)/ data (nil)
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type24, i/count 1/2: type 3(3)/ data (nil)
+ 0(8954) DEBUG: <core> [core/cfg.lex:2280]: pp_define_get(): ### returning define ID [FLB_NATB] value [6]
+ 0(8954) DEBUG: <core> [core/sr_module.c:761]: find_mod_export_record(): found export of <setbflag> in module kex [/usr/local/lib64/kamailio/modules/kex.so]
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type16, i/count 0/3: type 22(16)/ data 0x7fe089edfc80
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type16, i/count 1/3: type 8(8)/ data 0x7fe089ee04b0
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type16, i/count 2/3: type 0(0)/ data (nil)
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type24, i/count 0/2: type 9(9)/ data (nil)
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type24, i/count 1/2: type 3(3)/ data (nil)
+ 0(8954) DEBUG: <core> [core/sr_module.c:761]: find_mod_export_record(): found export of <save> in module registrar [/usr/local/lib64/kamailio/modules/registrar.so]
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type24, i/count 0/2: type 9(9)/ data (nil)
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type24, i/count 1/2: type 3(3)/ data (nil)
+ 0(8954) DEBUG: <core> [core/sr_module.c:761]: find_mod_export_record(): found export of <sl_reply_error> in module sl [/usr/local/lib64/kamailio/modules/sl.so]
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type16, i/count 0/3: type 22(16)/ data 0x7fe089ee19b0
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type16, i/count 1/3: type 8(8)/ data 0x7fe089ee21e0
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type16, i/count 2/3: type 0(0)/ data (nil)
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type5, i/count 0/1: type 1(1)/ data 0x7fe089ee24a0
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type2, i/count 0/2: type 3(3)/ data 0x1
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type2, i/count 1/2: type 3(3)/ data 0x1
+ 0(8954) DEBUG: <core> [core/route.c:129]: route_add(): mapping routing block (0x55abd14ce3a0)[REGISTRAR] to 4
+ 0(8954) DEBUG: <core> [core/usr_avp.c:915]: parse_avp_ident(): Parsing 'oexten'
+ 0(8954) DEBUG: <core> [core/pvapi.c:386]: pv_cache_add(): pvar [$avp(oexten)] added in cache
+ 0(8954) DEBUG: <core> [core/pvapi.c:410]: pv_cache_lookup(): pvar [$rU] found in cache
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type63, i/count 0/2: type 21(15)/ data 0x7fe089ee2c80
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type63, i/count 1/2: type 22(16)/ data 0x7fe089ee2e10
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type24, i/count 0/2: type 9(9)/ data (nil)
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type24, i/count 1/2: type 3(3)/ data (nil)
+ 0(8954) DEBUG: <core> [core/sr_module.c:761]: find_mod_export_record(): found export of <lookup> in module registrar [/usr/local/lib64/kamailio/modules/registrar.so]
+ 0(8954) DEBUG: <core> [core/pvapi.c:386]: pv_cache_add(): pvar [$var(rc)] added in cache
+ 0(8954) DEBUG: <core> [core/pvapi.c:386]: pv_cache_add(): pvar [$rc] added in cache
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type63, i/count 0/2: type 21(15)/ data 0x7fe089ee4b00
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type63, i/count 1/2: type 22(16)/ data 0x7fe089ee4c90
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type5, i/count 0/1: type 1(1)/ data 0x7fe089ee5530
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type24, i/count 0/2: type 9(9)/ data (nil)
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type24, i/count 1/2: type 3(3)/ data (nil)
+ 0(8954) DEBUG: <core> [core/sr_module.c:761]: find_mod_export_record(): found export of <t_newtran> in module tm [/usr/local/lib64/kamailio/modules/tm.so]
+ 0(8954) DEBUG: <core> [core/pvapi.c:410]: pv_cache_lookup(): pvar [$var(rc)] found in cache
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type24, i/count 0/2: type 9(9)/ data (nil)
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type24, i/count 1/2: type 3(3)/ data (nil)
+ 0(8954) DEBUG: <core> [core/sr_module.c:761]: find_mod_export_record(): found export of <send_reply> in module sl [/usr/local/lib64/kamailio/modules/sl.so]
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type2, i/count 0/2: type 3(3)/ data 0x1
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type2, i/count 1/2: type 3(3)/ data 0x1
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type24, i/count 0/2: type 9(9)/ data (nil)
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type24, i/count 1/2: type 3(3)/ data (nil)
+ 0(8954) DEBUG: <core> [core/sr_module.c:761]: find_mod_export_record(): found export of <send_reply> in module sl [/usr/local/lib64/kamailio/modules/sl.so]
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type2, i/count 0/2: type 3(3)/ data 0x1
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type2, i/count 1/2: type 3(3)/ data 0x1
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type17, i/count 0/2: type 22(16)/ data 0x7fe089ee5ac0
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type17, i/count 1/2: type 24(18)/ data 0x7fe089ee6940
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type16, i/count 0/3: type 22(16)/ data 0x7fe089ee4130
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type16, i/count 1/3: type 8(8)/ data 0x7fe089ee53d0
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type16, i/count 2/3: type 0(0)/ data (nil)
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type24, i/count 0/2: type 9(9)/ data (nil)
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type24, i/count 1/2: type 3(3)/ data (nil)
+ 0(8954) DEBUG: <core> [core/sr_module.c:761]: find_mod_export_record(): found export of <is_method> in module textops [/usr/local/lib64/kamailio/modules/textops.so]
+ 0(8954) DEBUG: <core> [core/cfg.lex:2280]: pp_define_get(): ### returning define ID [FLT_ACCMISSED] value [2]
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type39, i/count 0/1: type 3(3)/ data 0x2
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type16, i/count 0/3: type 22(16)/ data 0x7fe089ee94f0
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type16, i/count 1/3: type 8(8)/ data 0x7fe089ee8e80
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type16, i/count 2/3: type 0(0)/ data (nil)
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type5, i/count 0/1: type 1(1)/ data 0x7fe089ee9140
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type2, i/count 0/2: type 3(3)/ data 0x1
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type2, i/count 1/2: type 3(3)/ data 0x1
+ 0(8954) DEBUG: <core> [core/route.c:129]: route_add(): mapping routing block (0x55abd14ce3a0)[LOCATION] to 5
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type24, i/count 0/2: type 9(9)/ data (nil)
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type24, i/count 1/2: type 3(3)/ data (nil)
+ 0(8954) DEBUG: <core> [core/sr_module.c:761]: find_mod_export_record(): found export of <is_method> in module textops [/usr/local/lib64/kamailio/modules/textops.so]
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type2, i/count 0/2: type 3(3)/ data 0x1
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type2, i/count 1/2: type 3(3)/ data 0x2
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type16, i/count 0/3: type 22(16)/ data 0x7fe089eeaac0
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type16, i/count 1/3: type 8(8)/ data 0x7fe089eeb200
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type16, i/count 2/3: type 0(0)/ data (nil)
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type24, i/count 0/2: type 9(9)/ data (nil)
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type24, i/count 1/2: type 3(3)/ data (nil)
+ 0(8954) DEBUG: <core> [core/sr_module.c:761]: find_mod_export_record(): found export of <is_method> in module textops [/usr/local/lib64/kamailio/modules/textops.so]
+ 0(8954) DEBUG: <core> [core/parser/parse_hname2.c:314]: parse_sip_header_name(): parsed header name [Event] type 22
+ 0(8954) DEBUG: pv [pv_core.c:3831]: pv_parse_hdr_name(): using hdr type (22) instead of <Event>
+ 0(8954) DEBUG: <core> [core/pvapi.c:386]: pv_cache_add(): pvar [$hdr(Event)] added in cache
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type5, i/count 0/1: type 1(1)/ data 0x7fe089eedfa0
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type24, i/count 0/2: type 9(9)/ data (nil)
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type24, i/count 1/2: type 3(3)/ data (nil)
+ 0(8954) DEBUG: <core> [core/sr_module.c:761]: find_mod_export_record(): found export of <sl_send_reply> in module sl [/usr/local/lib64/kamailio/modules/sl.so]
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type2, i/count 0/2: type 3(3)/ data 0x1
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type2, i/count 1/2: type 3(3)/ data 0x1
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type16, i/count 0/3: type 22(16)/ data 0x7fe089eed860
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type16, i/count 1/3: type 8(8)/ data 0x7fe089eee090
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type16, i/count 2/3: type 0(0)/ data (nil)
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type24, i/count 0/2: type 9(9)/ data (nil)
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type24, i/count 1/2: type 3(3)/ data (nil)
+ 0(8954) DEBUG: <core> [core/sr_module.c:761]: find_mod_export_record(): found export of <is_method> in module textops [/usr/local/lib64/kamailio/modules/textops.so]
+ 0(8954) DEBUG: <core> [core/pvapi.c:410]: pv_cache_lookup(): pvar [$rU] found in cache
+ 0(8954) DEBUG: <core> [core/pvapi.c:410]: pv_cache_lookup(): pvar [$null] found in cache
+ 0(8954) DEBUG: <core> [core/cfg.y:3347]: yyparse(): comparison with $null switched to defined operator
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type24, i/count 0/2: type 9(9)/ data (nil)
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type24, i/count 1/2: type 3(3)/ data (nil)
+ 0(8954) DEBUG: <core> [core/sr_module.c:761]: find_mod_export_record(): found export of <sl_send_reply> in module sl [/usr/local/lib64/kamailio/modules/sl.so]
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type2, i/count 0/2: type 3(3)/ data 0x1
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type2, i/count 1/2: type 3(3)/ data 0x1
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type16, i/count 0/3: type 22(16)/ data 0x7fe089eeff50
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type16, i/count 1/3: type 8(8)/ data 0x7fe089ef0ec0
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type16, i/count 2/3: type 0(0)/ data (nil)
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type2, i/count 0/2: type 3(3)/ data 0x1
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type2, i/count 1/2: type 3(3)/ data 0x2
+ 0(8954) DEBUG: <core> [core/route.c:129]: route_add(): mapping routing block (0x55abd14ce3a0)[PRESENCE] to 6
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type24, i/count 0/2: type 9(9)/ data (nil)
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type24, i/count 1/2: type 3(3)/ data (nil)
+ 0(8954) DEBUG: <core> [core/sr_module.c:761]: find_mod_export_record(): found export of <is_method> in module textops [/usr/local/lib64/kamailio/modules/textops.so]
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type24, i/count 0/2: type 9(9)/ data (nil)
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type24, i/count 1/2: type 3(3)/ data (nil)
+ 0(8954) DEBUG: <core> [core/sr_module.c:761]: find_mod_export_record(): found export of <auth_check> in module auth_db [/usr/local/lib64/kamailio/modules/auth_db.so]
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type24, i/count 0/2: type 9(9)/ data (nil)
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type24, i/count 1/2: type 3(3)/ data (nil)
+ 0(8954) DEBUG: <core> [core/sr_module.c:761]: find_mod_export_record(): found export of <auth_challenge> in module auth [/usr/local/lib64/kamailio/modules/auth.so]
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type2, i/count 0/2: type 3(3)/ data 0x1
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type2, i/count 1/2: type 3(3)/ data 0x1
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type16, i/count 0/3: type 22(16)/ data 0x7fe089ef3f70
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type16, i/count 1/3: type 8(8)/ data 0x7fe089ef38b0
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type16, i/count 2/3: type 0(0)/ data (nil)
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type24, i/count 0/2: type 9(9)/ data (nil)
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type24, i/count 1/2: type 3(3)/ data (nil)
+ 0(8954) DEBUG: <core> [core/sr_module.c:761]: find_mod_export_record(): found export of <is_method> in module textops [/usr/local/lib64/kamailio/modules/textops.so]
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type24, i/count 0/2: type 9(9)/ data (nil)
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type24, i/count 1/2: type 3(3)/ data (nil)
+ 0(8954) DEBUG: <core> [core/sr_module.c:761]: find_mod_export_record(): found export of <consume_credentials> in module auth [/usr/local/lib64/kamailio/modules/auth.so]
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type16, i/count 0/3: type 22(16)/ data 0x7fe089ef5dd0
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type16, i/count 1/3: type 8(8)/ data 0x7fe089ef6600
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type16, i/count 2/3: type 0(0)/ data (nil)
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type16, i/count 0/3: type 22(16)/ data 0x7fe089ef3000
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type16, i/count 1/3: type 8(8)/ data 0x7fe089ef51c0
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type16, i/count 2/3: type 0(0)/ data (nil)
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type24, i/count 0/2: type 9(9)/ data (nil)
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type24, i/count 1/2: type 3(3)/ data (nil)
+ 0(8954) DEBUG: <core> [core/sr_module.c:761]: find_mod_export_record(): found export of <sl_send_reply> in module sl [/usr/local/lib64/kamailio/modules/sl.so]
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type2, i/count 0/2: type 3(3)/ data 0x1
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type2, i/count 1/2: type 3(3)/ data 0x1
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type16, i/count 0/3: type 22(16)/ data 0x7fe089ef79e0
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type16, i/count 1/3: type 8(8)/ data 0x7fe089ef8210
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type16, i/count 2/3: type 0(0)/ data (nil)
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type2, i/count 0/2: type 3(3)/ data 0x1
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type2, i/count 1/2: type 3(3)/ data 0x2
+ 0(8954) DEBUG: <core> [core/route.c:129]: route_add(): mapping routing block (0x55abd14ce3a0)[AUTH] to 7
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type2, i/count 0/2: type 3(3)/ data 0x1
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type2, i/count 1/2: type 3(3)/ data 0x2
+ 0(8954) DEBUG: <core> [core/route.c:129]: route_add(): mapping routing block (0x55abd14ce3a0)[NATDETECT] to 8
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type2, i/count 0/2: type 3(3)/ data 0x1
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type2, i/count 1/2: type 3(3)/ data 0x2
+ 0(8954) DEBUG: <core> [core/route.c:129]: route_add(): mapping routing block (0x55abd14ce3a0)[NATMANAGE] to 9
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type2, i/count 0/2: type 3(3)/ data 0x1
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type2, i/count 1/2: type 3(3)/ data 0x2
+ 0(8954) DEBUG: <core> [core/route.c:129]: route_add(): mapping routing block (0x55abd14ce3a0)[DLGURI] to 10
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type2, i/count 0/2: type 3(3)/ data 0x1
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type2, i/count 1/2: type 3(3)/ data 0x2
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type16, i/count 0/3: type 22(16)/ data 0x7fe089ef9570
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type16, i/count 1/3: type 8(8)/ data 0x7fe089ef9cb0
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type16, i/count 2/3: type 0(0)/ data (nil)
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type24, i/count 0/2: type 9(9)/ data (nil)
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type24, i/count 1/2: type 3(3)/ data (nil)
+ 0(8954) DEBUG: <core> [core/sr_module.c:761]: find_mod_export_record(): found export of <append_hf> in module textops [/usr/local/lib64/kamailio/modules/textops.so]
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type5, i/count 0/1: type 1(1)/ data 0x7fe089efa2b0
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type2, i/count 0/2: type 3(3)/ data 0x1
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type2, i/count 1/2: type 3(3)/ data 0x1
+ 0(8954) DEBUG: <core> [core/route.c:129]: route_add(): mapping routing block (0x55abd14ce3a0)[SIPOUT] to 11
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type2, i/count 0/2: type 3(3)/ data 0x1
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type2, i/count 1/2: type 3(3)/ data 0x2
+ 0(8954) DEBUG: <core> [core/route.c:129]: route_add(): mapping routing block (0x55abd14ce3a0)[PSTN] to 12
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type2, i/count 0/2: type 3(3)/ data 0x1
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type2, i/count 1/2: type 3(3)/ data 0x2
+ 0(8954) DEBUG: <core> [core/route.c:129]: route_add(): mapping routing block (0x55abd14ce3a0)[TOVOICEMAIL] to 13
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type24, i/count 0/2: type 9(9)/ data (nil)
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type24, i/count 1/2: type 3(3)/ data (nil)
+ 0(8954) DEBUG: <core> [core/sr_module.c:761]: find_mod_export_record(): found export of <xdbg> in module xlog [/usr/local/lib64/kamailio/modules/xlog.so]
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type5, i/count 0/1: type 1(1)/ data 0x7fe089efb2d0
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type2, i/count 0/2: type 3(3)/ data 0x1
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type2, i/count 1/2: type 3(3)/ data 0x2
+ 0(8954) DEBUG: <core> [core/route.c:129]: route_add(): mapping routing block (0x55abd14ce400)[MANAGE_BRANCH] to 1
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type24, i/count 0/2: type 9(9)/ data (nil)
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type24, i/count 1/2: type 3(3)/ data (nil)
+ 0(8954) DEBUG: <core> [core/sr_module.c:761]: find_mod_export_record(): found export of <sanity_check> in module sanity [/usr/local/lib64/kamailio/modules/sanity.so]
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type24, i/count 0/2: type 9(9)/ data (nil)
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type24, i/count 1/2: type 3(3)/ data (nil)
+ 0(8954) DEBUG: <core> [core/sr_module.c:761]: find_mod_export_record(): found export of <xlog> in module xlog [/usr/local/lib64/kamailio/modules/xlog.so]
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type2, i/count 0/2: type 3(3)/ data (nil)
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type2, i/count 1/2: type 3(3)/ data 0x9
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type16, i/count 0/3: type 22(16)/ data 0x7fe089efd3f0
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type16, i/count 1/3: type 8(8)/ data 0x7fe089efdc20
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type16, i/count 2/3: type 0(0)/ data (nil)
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type2, i/count 0/2: type 3(3)/ data 0x1
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type2, i/count 1/2: type 3(3)/ data 0x2
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type24, i/count 0/2: type 9(9)/ data (nil)
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type24, i/count 1/2: type 3(3)/ data (nil)
+ 0(8954) DEBUG: <core> [core/sr_module.c:761]: find_mod_export_record(): found export of <xdbg> in module xlog [/usr/local/lib64/kamailio/modules/xlog.so]
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type5, i/count 0/1: type 1(1)/ data 0x7fe089efe9f0
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type16, i/count 0/3: type 22(16)/ data 0x7fe089eff760
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type16, i/count 1/3: type 8(8)/ data 0x7fe089efeae0
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type16, i/count 2/3: type 0(0)/ data (nil)
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type2, i/count 0/2: type 3(3)/ data 0x1
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type2, i/count 1/2: type 3(3)/ data 0x2
+ 0(8954) DEBUG: <core> [core/route.c:129]: route_add(): mapping routing block (0x55abd14ce3c0)[MANAGE_REPLY] to 1
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type5, i/count 0/1: type 1(1)/ data 0x7fe089f00030
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type24, i/count 0/2: type 9(9)/ data (nil)
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type24, i/count 1/2: type 3(3)/ data (nil)
+ 0(8954) DEBUG: <core> [core/sr_module.c:761]: find_mod_export_record(): found export of <t_is_canceled> in module tm [/usr/local/lib64/kamailio/modules/tm.so]
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type2, i/count 0/2: type 3(3)/ data 0x1
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type2, i/count 1/2: type 3(3)/ data 0x1
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type16, i/count 0/3: type 22(16)/ data 0x7fe089f004d0
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type16, i/count 1/3: type 8(8)/ data 0x7fe089f00c10
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type16, i/count 2/3: type 0(0)/ data (nil)
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type2, i/count 0/2: type 3(3)/ data 0x1
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type2, i/count 1/2: type 3(3)/ data 0x2
+ 0(8954) DEBUG: <core> [core/route.c:129]: route_add(): mapping routing block (0x55abd14ce3e0)[MANAGE_FAILURE] to 1
+ 0(8954) DEBUG: <core> [core/pvapi.c:386]: pv_cache_add(): pvar [$vn(du)] added in cache
+ 0(8954) DEBUG: <core> [core/pvapi.c:386]: pv_cache_add(): pvar [$du] added in cache
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type63, i/count 0/2: type 21(15)/ data 0x7fe089f014c0
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type63, i/count 1/2: type 22(16)/ data 0x7fe089f01740
+ 0(8954) DEBUG: <core> [core/pvapi.c:386]: pv_cache_add(): pvar [$vn(ru)] added in cache
+ 0(8954) DEBUG: <core> [core/pvapi.c:386]: pv_cache_add(): pvar [$ru] added in cache
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type63, i/count 0/2: type 21(15)/ data 0x7fe089f022e0
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type63, i/count 1/2: type 22(16)/ data 0x7fe089f02560
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type24, i/count 0/2: type 9(9)/ data (nil)
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type24, i/count 1/2: type 3(3)/ data (nil)
+ 0(8954) DEBUG: <core> [core/sr_module.c:761]: find_mod_export_record(): found export of <xlog> in module xlog [/usr/local/lib64/kamailio/modules/xlog.so]
+ 0(8954) DEBUG: <core> [core/pvapi.c:386]: pv_cache_add(): pvar [$uac_req(all)] added in cache
+ 0(8954) DEBUG: <core> [core/pvapi.c:410]: pv_cache_lookup(): pvar [$null] found in cache
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type63, i/count 0/2: type 21(15)/ data 0x7fe089f033f0
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type63, i/count 1/2: type 22(16)/ data 0x7fe089f039f0
+ 0(8954) DEBUG: <core> [core/pvapi.c:386]: pv_cache_add(): pvar [$uac_req(method)] added in cache
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type63, i/count 0/2: type 21(15)/ data 0x7fe089f04270
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type63, i/count 1/2: type 22(16)/ data 0x7fe089f04400
+ 0(8954) DEBUG: <core> [core/pvapi.c:386]: pv_cache_add(): pvar [$uac_req(hdrs)] added in cache
+ 0(8954) DEBUG: <core> [core/usr_avp.c:915]: parse_avp_ident(): Parsing 'username'
+ 0(8954) DEBUG: <core> [core/pvapi.c:386]: pv_cache_add(): pvar [$avp(username)] added in cache
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type63, i/count 0/2: type 21(15)/ data 0x7fe089f04f10
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type63, i/count 1/2: type 22(16)/ data 0x7fe089f0b140
+ 0(8954) DEBUG: <core> [core/pvapi.c:386]: pv_cache_add(): pvar [$vn(expires)] added in cache
+ 0(8954) DEBUG: <core> [core/pvapi.c:410]: pv_cache_lookup(): pvar [$null] found in cache
+ 0(8954) DEBUG: <core> [core/cfg.y:3344]: yyparse(): comparison with $null switched to notdefined operator
+ 0(8954) DEBUG: <core> [core/pvapi.c:410]: pv_cache_lookup(): pvar [$uac_req(hdrs)] found in cache
+ 0(8954) DEBUG: <core> [core/pvapi.c:410]: pv_cache_lookup(): pvar [$uac_req(hdrs)] found in cache
+ 0(8954) DEBUG: <core> [core/pvapi.c:410]: pv_cache_lookup(): pvar [$vn(expires)] found in cache
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type63, i/count 0/2: type 21(15)/ data 0x7fe089f0c610
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type63, i/count 1/2: type 22(16)/ data 0x7fe089f0ff20
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type24, i/count 0/2: type 9(9)/ data (nil)
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type24, i/count 1/2: type 3(3)/ data (nil)
+ 0(8954) DEBUG: <core> [core/sr_module.c:761]: find_mod_export_record(): found export of <is_present_hf> in module textops [/usr/local/lib64/kamailio/modules/textops.so]
+ 0(8954) DEBUG: <core> [core/pvapi.c:410]: pv_cache_lookup(): pvar [$uac_req(hdrs)] found in cache
+ 0(8954) DEBUG: <core> [core/pvapi.c:410]: pv_cache_lookup(): pvar [$uac_req(hdrs)] found in cache
+ 0(8954) DEBUG: <core> [core/parser/parse_hname2.c:314]: parse_sip_header_name(): parsed header name [Expires] type 14
+ 0(8954) DEBUG: pv [pv_core.c:3831]: pv_parse_hdr_name(): using hdr type (14) instead of <Expires>
+ 0(8954) DEBUG: <core> [core/pvapi.c:386]: pv_cache_add(): pvar [$hdr(Expires)] added in cache
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type63, i/count 0/2: type 21(15)/ data 0x7fe089f11a00
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type63, i/count 1/2: type 22(16)/ data 0x7fe089f14be0
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type16, i/count 0/3: type 22(16)/ data 0x7fe089f111d0
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type16, i/count 1/3: type 8(8)/ data 0x7fe089f15320
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type16, i/count 2/3: type 0(0)/ data (nil)
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type16, i/count 0/3: type 22(16)/ data 0x7fe089f0cc60
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type16, i/count 1/3: type 8(8)/ data 0x7fe089f10660
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type16, i/count 2/3: type 8(8)/ data 0x7fe089f15480
+ 0(8954) DEBUG: <core> [core/pvapi.c:386]: pv_cache_add(): pvar [$vn(ua)] added in cache
+ 0(8954) DEBUG: <core> [core/pvapi.c:410]: pv_cache_lookup(): pvar [$null] found in cache
+ 0(8954) DEBUG: <core> [core/cfg.y:3344]: yyparse(): comparison with $null switched to notdefined operator
+ 0(8954) DEBUG: <core> [core/pvapi.c:410]: pv_cache_lookup(): pvar [$uac_req(hdrs)] found in cache
+ 0(8954) DEBUG: <core> [core/pvapi.c:410]: pv_cache_lookup(): pvar [$uac_req(hdrs)] found in cache
+ 0(8954) DEBUG: <core> [core/pvapi.c:410]: pv_cache_lookup(): pvar [$vn(ua)] found in cache
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type63, i/count 0/2: type 21(15)/ data 0x7fe089f16360
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type63, i/count 1/2: type 22(16)/ data 0x7fe089f19c70
+ 0(8954) DEBUG: <core> [core/pvapi.c:410]: pv_cache_lookup(): pvar [$ua] found in cache
+ 0(8954) DEBUG: <core> [core/pvapi.c:410]: pv_cache_lookup(): pvar [$null] found in cache
+ 0(8954) DEBUG: <core> [core/cfg.y:3344]: yyparse(): comparison with $null switched to notdefined operator
+ 0(8954) DEBUG: <core> [core/pvapi.c:410]: pv_cache_lookup(): pvar [$uac_req(hdrs)] found in cache
+ 0(8954) DEBUG: <core> [core/pvapi.c:410]: pv_cache_lookup(): pvar [$uac_req(hdrs)] found in cache
+ 0(8954) DEBUG: <core> [core/pvapi.c:410]: pv_cache_lookup(): pvar [$ua] found in cache
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type63, i/count 0/2: type 21(15)/ data 0x7fe089f1ae30
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type63, i/count 1/2: type 22(16)/ data 0x7fe089f1e740
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type16, i/count 0/3: type 22(16)/ data 0x7fe089f1b480
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type16, i/count 1/3: type 8(8)/ data 0x7fe089f1ee80
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type16, i/count 2/3: type 0(0)/ data (nil)
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type16, i/count 0/3: type 22(16)/ data 0x7fe089f169b0
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type16, i/count 1/3: type 8(8)/ data 0x7fe089f1a3b0
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type16, i/count 2/3: type 8(8)/ data 0x7fe089f1efe0
+ 0(8954) DEBUG: <core> [core/pvapi.c:386]: pv_cache_add(): pvar [$uac_req(auser)] added in cache
+ 0(8954) DEBUG: <core> [core/pvapi.c:410]: pv_cache_lookup(): pvar [$avp(username)] found in cache
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type63, i/count 0/2: type 21(15)/ data 0x7fe089f1f3a0
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type63, i/count 1/2: type 22(16)/ data 0x7fe089f1f530
+ 0(8954) DEBUG: <core> [core/pvapi.c:386]: pv_cache_add(): pvar [$uac_req(apasswd)] added in cache
+ 0(8954) DEBUG: <core> [core/usr_avp.c:915]: parse_avp_ident(): Parsing 'passwd'
+ 0(8954) DEBUG: <core> [core/pvapi.c:386]: pv_cache_add(): pvar [$avp(passwd)] added in cache
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type63, i/count 0/2: type 21(15)/ data 0x7fe089f1ffc0
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type63, i/count 1/2: type 22(16)/ data 0x7fe089f20250
+ 0(8954) DEBUG: <core> [core/pvapi.c:386]: pv_cache_add(): pvar [$uac_req(evroute)] added in cache
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type63, i/count 0/2: type 21(15)/ data 0x7fe089f20ce0
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type63, i/count 1/2: type 22(16)/ data 0x7fe089f20d80
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type24, i/count 0/2: type 9(9)/ data (nil)
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type24, i/count 1/2: type 3(3)/ data (nil)
+ 0(8954) DEBUG: <core> [core/sr_module.c:761]: find_mod_export_record(): found export of <ds_select> in module dispatcher [/usr/local/lib64/kamailio/modules/dispatcher.so]
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type24, i/count 0/2: type 9(9)/ data (nil)
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type24, i/count 1/2: type 3(3)/ data (nil)
+ 0(8954) DEBUG: <core> [core/sr_module.c:761]: find_mod_export_record(): found export of <ds_set_dst> in module dispatcher [/usr/local/lib64/kamailio/modules/dispatcher.so]
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type24, i/count 0/2: type 9(9)/ data (nil)
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type24, i/count 1/2: type 3(3)/ data (nil)
+ 0(8954) DEBUG: <core> [core/sr_module.c:761]: find_mod_export_record(): found export of <xlog> in module xlog [/usr/local/lib64/kamailio/modules/xlog.so]
+ 0(8954) DEBUG: <core> [core/pvapi.c:386]: pv_cache_add(): pvar [$uac_req(ruri)] added in cache
+ 0(8954) DEBUG: <core> [core/pvapi.c:386]: pv_cache_add(): pvar [$(du{uri.host})] added in cache
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type63, i/count 0/2: type 21(15)/ data 0x7fe089f23920
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type63, i/count 1/2: type 22(16)/ data 0x7fe089f24ee0
+ 0(8954) DEBUG: <core> [core/pvapi.c:386]: pv_cache_add(): pvar [$uac_req(furi)] added in cache
+ 0(8954) DEBUG: <core> [core/pvapi.c:410]: pv_cache_lookup(): pvar [$avp(username)] found in cache
+ 0(8954) DEBUG: <core> [core/pvapi.c:410]: pv_cache_lookup(): pvar [$(du{uri.host})] found in cache
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type63, i/count 0/2: type 21(15)/ data 0x7fe089f23dc0
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type63, i/count 1/2: type 22(16)/ data 0x7fe089f289b0
+ 0(8954) DEBUG: <core> [core/pvapi.c:386]: pv_cache_add(): pvar [$uac_req(turi)] added in cache
+ 0(8954) DEBUG: <core> [core/pvapi.c:410]: pv_cache_lookup(): pvar [$uac_req(furi)] found in cache
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type63, i/count 0/2: type 21(15)/ data 0x7fe089f29440
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type63, i/count 1/2: type 22(16)/ data 0x7fe089f295d0
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type24, i/count 0/2: type 9(9)/ data (nil)
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type24, i/count 1/2: type 3(3)/ data (nil)
+ 0(8954) DEBUG: <core> [core/sr_module.c:761]: find_mod_export_record(): found export of <uac_req_send> in module uac [/usr/local/lib64/kamailio/modules/uac.so]
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type24, i/count 0/2: type 9(9)/ data (nil)
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type24, i/count 1/2: type 3(3)/ data (nil)
+ 0(8954) DEBUG: <core> [core/sr_module.c:761]: find_mod_export_record(): found export of <ds_next_dst> in module dispatcher [/usr/local/lib64/kamailio/modules/dispatcher.so]
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type23, i/count 0/2: type 22(16)/ data 0x7fe089f22c20
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type23, i/count 1/2: type 8(8)/ data 0x7fe089f23450
+ 0(8954) DEBUG: <core> [core/pvapi.c:410]: pv_cache_lookup(): pvar [$du] found in cache
+ 0(8954) DEBUG: <core> [core/pvapi.c:410]: pv_cache_lookup(): pvar [$vn(du)] found in cache
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type63, i/count 0/2: type 21(15)/ data 0x7fe089f2a560
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type63, i/count 1/2: type 22(16)/ data 0x7fe089f2a6f0
+ 0(8954) DEBUG: <core> [core/pvapi.c:410]: pv_cache_lookup(): pvar [$ru] found in cache
+ 0(8954) DEBUG: <core> [core/pvapi.c:410]: pv_cache_lookup(): pvar [$vn(ru)] found in cache
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type63, i/count 0/2: type 21(15)/ data 0x7fe089f2b080
+ 0(8954) DEBUG: <core> [core/route_struct.c:128]: mk_action(): ACTION type63, i/count 1/2: type 22(16)/ data 0x7fe089f2b210
+ 0(8954) DEBUG: <core> [core/route.c:129]: route_add(): mapping routing block (0x55abd14ce3a0)[REGFWD] to 14
+ 0(8954) DEBUG: <core> [core/ppcfg.c:266]: pp_ifdef_level_check(): same number of pairing preprocessor directives #!IF[N]DEF - #!ENDIF
+ 0(8954) DEBUG: <core> [core/route.c:129]: route_add(): mapping routing block (0x55abd14ce440)[core:receive-parse-error] to 1
+ 0(8954) DEBUG: <core> [core/socket_info.c:1712]: add_interfaces(): If:       lo Fam:        2 Flg:            10049 Adr: 127.0.0.1
+ 0(8954) DEBUG: <core> [core/socket_info.c:1712]: add_interfaces(): If:     eth0 Fam:        2 Flg:            11043 Adr: 172.31.35.208
+ 0(8954) DEBUG: <core> [core/socket_info.c:1712]: add_interfaces(): If:       lo Fam:        2 Flg:            10049 Adr: 127.0.0.1
+ 0(8954) DEBUG: <core> [core/socket_info.c:1712]: add_interfaces(): If:     eth0 Fam:        2 Flg:            11043 Adr: 172.31.35.208
+ 0(8954) DEBUG: <core> [core/name_alias.h:63]: grep_aliases(): matching (1:ip-172-31-35-208.us-east-2.compute.internal:5060) vs. (1:localhost:5060)
+ 0(8954) DEBUG: <core> [core/name_alias.h:63]: grep_aliases(): matching (2:localhost:5060) vs. (1:ip-172-31-35-208.us-east-2.compute.internal:5060)
+ 0(8954) DEBUG: <core> [core/name_alias.h:63]: grep_aliases(): matching (2:localhost:5060) vs. (1:localhost:5060)
+ 0(8954) DEBUG: <core> [core/name_alias.h:63]: grep_aliases(): matching (2:ip-172-31-35-208.us-east-2.compute.internal:5060) vs. (2:localhost:5060)
+ 0(8954) DEBUG: <core> [core/name_alias.h:63]: grep_aliases(): matching (2:ip-172-31-35-208.us-east-2.compute.internal:5060) vs. (1:ip-172-31-35-208.us-east-2.compute.internal:5060)
+ 0(8954) DEBUG: <core> [core/name_alias.h:63]: grep_aliases(): matching (2:ip-172-31-35-208.us-east-2.compute.internal:5060) vs. (1:localhost:5060)
+ 0(8954) DEBUG: <core> [core/socket_info.c:836]: ksr_sockets_index(): number of listen sockets: 0
+Listening on 
+             udp: 127.0.0.1:5060
+             udp: 172.31.35.208:5060
+             tcp: 127.0.0.1:5060
+             tcp: 172.31.35.208:5060
+Aliases: 
+             tcp: ip-172-31-35-208.us-east-2.compute.internal:5060
+             tcp: localhost:5060
+             udp: ip-172-31-35-208.us-east-2.compute.internal:5060
+             udp: localhost:5060
+
+ 0(8954) DEBUG: <core> [core/mem/pkg.c:107]: pkg_print_manager(): pkg - using memory manager: q_malloc
+ 0(8954) DEBUG: <core> [core/mem/shm.c:301]: shm_print_manager(): shm - using memory manager: q_malloc
+ 0(8954) DEBUG: <core> [core/cfg/cfg.c:179]: cfg_declare(): new config group has been registered: 'core' (num=59, size=236)
+ 0(8954) DEBUG: <core> [core/cfg/cfg.c:179]: cfg_declare(): new config group has been registered: 'tcp' (num=29, size=116)
+ 0(8954) DEBUG: <core> [core/timer.c:236]: init_timer(): starting with *ticks=632506646
+ 0(8954) DEBUG: <core> [core/timer.c:278]: init_timer(): timer_list between 0x7fe084766f30 and 0x7fe0847aaf30
+ 0(8954) DEBUG: <core> [core/pt.c:136]: register_procs(): registering new processes: 0 (old) + 1 (new) = 1 (total)
+ 0(8954) INFO: <core> [core/tcp_main.c:5201]: init_tcp(): using epoll_lt as the io watch method (auto detected)
+ 0(8956) DEBUG: <core> [core/daemonize.c:201]: enable_dumpable(): trying enable core dumping...
+ 0(8956) DEBUG: <core> [core/daemonize.c:219]: enable_dumpable(): core dumping is enabled now (1)...
+ 0(8956) DEBUG: <core> [core/daemonize.c:582]: set_core_dump(): core dump limits set to 18446744073709551615
+ 0(8956) DEBUG: <core> [core/async_task.c:146]: async_task_init(): start initializing async task framework
+ 0(8956) DEBUG: <core> [core/sr_module.c:1034]: init_mod(): db_mysql
+ 0(8956) DEBUG: db_mysql [km_db_mysql.c:81]: kam_mysql_mod_init(): MySQL client version is 8.0.35
+ 0(8956) DEBUG: <core> [core/sr_module.c:1034]: init_mod(): jsonrpcs
+ 0(8956) DEBUG: jsonrpcs [jsonrpcs_mod.c:1241]: mod_init(): preparing to listen on fifo file: kamailio_rpc.fifo
+ 0(8956) DEBUG: jsonrpcs [jsonrpcs_fifo.c:568]: jsonrpc_fifo_mod_init(): fifo path is [/var/run/kamailio/kamailio_rpc.fifo]
+ 0(8956) DEBUG: jsonrpcs [jsonrpcs_fifo.c:155]: jsonrpc_init_fifo_file(): testing if fifo file exists ...
+ 0(8956) DEBUG: jsonrpcs [jsonrpcs_fifo.c:74]: jsonrpc_init_fifo_server(): FIFO created @ /var/run/kamailio/kamailio_rpc.fifo
+ 0(8956) DEBUG: jsonrpcs [jsonrpcs_fifo.c:90]: jsonrpc_init_fifo_server(): fifo /var/run/kamailio/kamailio_rpc.fifo opened, mode=660
+ 0(8956) DEBUG: <core> [core/pt.c:136]: register_procs(): registering new processes: 1 (old) + 1 (new) = 2 (total)
+ 0(8956) DEBUG: jsonrpcs [jsonrpcs_mod.c:1259]: mod_init(): preparing to listen on datagram socket: kamailio_rpc.sock
+ 0(8956) DEBUG: jsonrpcs [jsonrpcs_sock.c:131]: jsonrpc_dgram_mod_init(): testing socket existence...
+ 0(8956) DEBUG: jsonrpcs [jsonrpcs_sock.c:138]: jsonrpc_dgram_mod_init(): the socket's name/address is kamailio_rpc.sock
+ 0(8956) DEBUG: jsonrpcs [jsonrpcs_sock.c:193]: jsonrpc_dgram_mod_init(): UNIX socket provided
+ 0(8956) DEBUG: jsonrpcs [jsonrpcs_sock.c:213]: jsonrpc_dgram_mod_init(): unix socket path is [/var/run/kamailio/kamailio_rpc.sock]
+ 0(8956) INFO: jsonrpcs [jsonrpcs_sock.c:219]: jsonrpc_dgram_mod_init(): the socket /var/run/kamailio/kamailio_rpc.sock already exists, trying to delete it...
+ 0(8956) DEBUG: jsonrpcs [jsonrpcs_sock.c:359]: jsonrpc_dgram_init_server(): we have a unix socket: /var/run/kamailio/kamailio_rpc.sock
+ 0(8956) DEBUG: <core> [core/pt.c:136]: register_procs(): registering new processes: 2 (old) + 1 (new) = 3 (total)
+ 0(8956) DEBUG: <core> [core/sr_module.c:1034]: init_mod(): kex
+ 0(8956) DEBUG: <core> [core/utils/sruid.c:125]: sruid_init(): root for sruid is [srid-65b0c805-22fc-] (0 / 19)
+ 0(8956) DEBUG: <core> [core/sr_module.c:1034]: init_mod(): corex
+ 0(8956) DEBUG: <core> [core/sr_module.c:1034]: init_mod(): tm
+ 0(8956) DEBUG: tm [tm.c:751]: mod_init(): TM - (sizeof cell=688, sip_msg=2016) initializing...
+ 0(8956) DEBUG: <core> [core/utils/sruid.c:125]: sruid_init(): root for sruid is [tmrp-65b0c805-22fc-] (0 / 19)
+ 0(8956) DEBUG: tm [callid.c:105]: init_callid(): Call-ID initialization: '5ce7cac945c8e315'
+ 0(8956) DEBUG: tm [lock.c:66]: lock_initialize(): lock initialization started
+ 0(8956) DEBUG: tm [timer.c:193]: tm_init_timers(): tm init timers - fr=480 fr_inv=1920 wait=80 t1=500 t2=4000 max_inv_lifetime=2880 max_noninv_lifetime=512
+ 0(8956) DEBUG: <core> [core/cfg/cfg.c:179]: cfg_declare(): new config group has been registered: 'tm' (num=38, size=176)
+ 0(8956) DEBUG: <core> [core/crypto/md5utils.c:67]: MD5StringArray(): MD5 calculated: 3393f0703fb0ccaca74109ff37de39f5
+ 0(8956) DEBUG: <core> [core/crypto/md5utils.c:67]: MD5StringArray(): MD5 calculated: a6a1c5f60faecf035a1ae5b6e96e979a
+ 0(8956) DEBUG: <core> [core/sr_module.c:1034]: init_mod(): tmx
+ 0(8956) DEBUG: <core> [core/sr_module.c:761]: find_mod_export_record(): found export of <load_tm> in module tm [/usr/local/lib64/kamailio/modules/tm.so]
+ 0(8956) DEBUG: <core> [core/sr_module.c:761]: find_mod_export_record(): found export of <t_newtran> in module tm [/usr/local/lib64/kamailio/modules/tm.so]
+ 0(8956) DEBUG: <core> [core/sr_module.c:761]: find_mod_export_record(): found export of <t_relay_to_tcp> in module tm [/usr/local/lib64/kamailio/modules/tm.so]
+ 0(8956) DEBUG: <core> [core/sr_module.c:761]: find_mod_export_record(): found export of <t_relay_to_udp> in module tm [/usr/local/lib64/kamailio/modules/tm.so]
+ 0(8956) DEBUG: <core> [core/sr_module.c:761]: find_mod_export_record(): found export of <t_relay> in module tm [/usr/local/lib64/kamailio/modules/tm.so]
+ 0(8956) DEBUG: <core> [core/sr_module.c:761]: find_mod_export_record(): found export of <t_forward_nonack> in module tm [/usr/local/lib64/kamailio/modules/tm.so]
+ 0(8956) DEBUG: <core> [core/sr_module.c:761]: find_mod_export_record(): found export of <t_release> in module tm [/usr/local/lib64/kamailio/modules/tm.so]
+ 0(8956) DEBUG: <core> [core/sr_module.c:1034]: init_mod(): sl
+ 0(8956) DEBUG: <core> [core/crypto/md5utils.c:67]: MD5StringArray(): MD5 calculated: 9dd61ff61e802d8e2bef5f14621ef3c2
+ 0(8956) DEBUG: <core> [core/sr_module.c:761]: find_mod_export_record(): found export of <load_tm> in module tm [/usr/local/lib64/kamailio/modules/tm.so]
+ 0(8956) DEBUG: <core> [core/sr_module.c:761]: find_mod_export_record(): found export of <t_newtran> in module tm [/usr/local/lib64/kamailio/modules/tm.so]
+ 0(8956) DEBUG: <core> [core/sr_module.c:761]: find_mod_export_record(): found export of <t_relay_to_tcp> in module tm [/usr/local/lib64/kamailio/modules/tm.so]
+ 0(8956) DEBUG: <core> [core/sr_module.c:761]: find_mod_export_record(): found export of <t_relay_to_udp> in module tm [/usr/local/lib64/kamailio/modules/tm.so]
+ 0(8956) DEBUG: <core> [core/sr_module.c:761]: find_mod_export_record(): found export of <t_relay> in module tm [/usr/local/lib64/kamailio/modules/tm.so]
+ 0(8956) DEBUG: <core> [core/sr_module.c:761]: find_mod_export_record(): found export of <t_forward_nonack> in module tm [/usr/local/lib64/kamailio/modules/tm.so]
+ 0(8956) DEBUG: <core> [core/sr_module.c:761]: find_mod_export_record(): found export of <t_release> in module tm [/usr/local/lib64/kamailio/modules/tm.so]
+ 0(8956) DEBUG: <core> [core/sr_module.c:1034]: init_mod(): rr
+ 0(8956) DEBUG: <core> [core/sr_module.c:767]: find_mod_export_record(): export of <bind_ob> not found (flags 0)
+ 0(8956) INFO: rr [../outbound/api.h:53]: ob_load_api(): unable to import bind_ob - maybe module is not loaded
+ 0(8956) INFO: rr [rr_mod.c:185]: mod_init(): outbound module not available
+ 0(8956) DEBUG: <core> [core/sr_module.c:1034]: init_mod(): pv
+ 0(8956) DEBUG: <core> [core/sr_module.c:1034]: init_mod(): maxfwd
+ 0(8956) DEBUG: <core> [core/cfg/cfg.c:179]: cfg_declare(): new config group has been registered: 'maxfwd' (num=1, size=4)
+ 0(8956) DEBUG: <core> [core/sr_module.c:1034]: init_mod(): usrloc
+ 0(8956) DEBUG: <core> [core/utils/sruid.c:125]: sruid_init(): root for sruid is [ulcx-65b0c805-22fc-] (0 / 19)
+ 0(8956) DEBUG: <core> [core/pt.c:136]: register_procs(): registering new processes: 3 (old) + 1 (new) = 4 (total)
+ 0(8956) DEBUG: <core> [core/sr_module.c:761]: find_mod_export_record(): found export of <db_bind_api> in module db_mysql [/usr/local/lib64/kamailio/modules/db_mysql.so]
+ 0(8956) DEBUG: <core> [db.c:215]: db_bind_mod(): using db bind api for db_mysql
+ 0(8956) DEBUG: <core> [core/sr_module.c:1034]: init_mod(): registrar
+ 0(8956) DEBUG: <core> [core/utils/sruid.c:125]: sruid_init(): root for sruid is [uloc-65b0c805-22fc-] (0 / 19)
+ 0(8956) DEBUG: <core> [core/sr_module.c:761]: find_mod_export_record(): found export of <bind_sl> in module sl [/usr/local/lib64/kamailio/modules/sl.so]
+ 0(8956) DEBUG: <core> [core/cfg/cfg.c:179]: cfg_declare(): new config group has been registered: 'registrar' (num=12, size=64)
+ 0(8956) DEBUG: <core> [core/sr_module.c:761]: find_mod_export_record(): found export of <ul_bind_usrloc> in module usrloc [/usr/local/lib64/kamailio/modules/usrloc.so]
+ 0(8956) DEBUG: <core> [core/sr_module.c:1034]: init_mod(): textops
+ 0(8956) DEBUG: <core> [core/sr_module.c:1034]: init_mod(): textopsx
+ 0(8956) DEBUG: <core> [core/sr_module.c:1034]: init_mod(): siputils
+ 0(8956) DEBUG: <core> [core/sr_module.c:761]: find_mod_export_record(): found export of <bind_sl> in module sl [/usr/local/lib64/kamailio/modules/sl.so]
+ 0(8956) DEBUG: <core> [core/usr_avp.c:915]: parse_avp_ident(): Parsing 's:rpid'
+ 0(8956) DEBUG: <core> [core/cfg/cfg.c:179]: cfg_declare(): new config group has been registered: 'siputils' (num=1, size=4)
+ 0(8956) DEBUG: <core> [core/sr_module.c:1034]: init_mod(): xlog
+ 0(8956) DEBUG: <core> [core/cfg/cfg.c:179]: cfg_declare(): new config group has been registered: 'xlog' (num=1, size=4)
+ 0(8956) DEBUG: <core> [core/sr_module.c:1034]: init_mod(): sanity
+ 0(8956) DEBUG: sanity [sanity_mod.c:100]: mod_init(): sanity initializing
+ 0(8956) DEBUG: <core> [core/sr_module.c:761]: find_mod_export_record(): found export of <bind_sl> in module sl [/usr/local/lib64/kamailio/modules/sl.so]
+ 0(8956) DEBUG: sanity [sanity_mod.c:110]: mod_init(): parsing proxy requires string:
+ 0(8956) DEBUG: sanity [sanity.c:182]: parse_str_list(): list is empty
+ 0(8956) DEBUG: <core> [core/sr_module.c:1034]: init_mod(): ctl
+ 0(8956) DEBUG: ctl [ctl.c:241]: mod_init(): listening on:
+ 0(8956) DEBUG: ctl [ctl.c:250]: mod_init():         [binrpc:unix stream] /var/run/kamailio//kamailio_ctl
+ 0(8956) DEBUG: <core> [core/pt.c:136]: register_procs(): registering new processes: 4 (old) + 1 (new) = 5 (total)
+ 0(8956) DEBUG: <core> [core/sr_module.c:1034]: init_mod(): cfg_rpc
+ 0(8956) DEBUG: <core> [core/sr_module.c:1034]: init_mod(): acc
+ 0(8956) DEBUG: <core> [core/sr_module.c:761]: find_mod_export_record(): found export of <load_tm> in module tm [/usr/local/lib64/kamailio/modules/tm.so]
+ 0(8956) DEBUG: <core> [core/sr_module.c:761]: find_mod_export_record(): found export of <t_newtran> in module tm [/usr/local/lib64/kamailio/modules/tm.so]
+ 0(8956) DEBUG: <core> [core/sr_module.c:761]: find_mod_export_record(): found export of <t_relay_to_tcp> in module tm [/usr/local/lib64/kamailio/modules/tm.so]
+ 0(8956) DEBUG: <core> [core/sr_module.c:761]: find_mod_export_record(): found export of <t_relay_to_udp> in module tm [/usr/local/lib64/kamailio/modules/tm.so]
+ 0(8956) DEBUG: <core> [core/sr_module.c:761]: find_mod_export_record(): found export of <t_relay> in module tm [/usr/local/lib64/kamailio/modules/tm.so]
+ 0(8956) DEBUG: <core> [core/sr_module.c:761]: find_mod_export_record(): found export of <t_forward_nonack> in module tm [/usr/local/lib64/kamailio/modules/tm.so]
+ 0(8956) DEBUG: <core> [core/sr_module.c:761]: find_mod_export_record(): found export of <t_release> in module tm [/usr/local/lib64/kamailio/modules/tm.so]
+ 0(8956) DEBUG: <core> [core/sr_module.c:1034]: init_mod(): dispatcher
+ 0(8956) DEBUG: <core> [core/cfg/cfg.c:179]: cfg_declare(): new config group has been registered: 'dispatcher' (num=3, size=24)
+ 0(8956) DEBUG: <core> [core/sr_module.c:761]: find_mod_export_record(): found export of <db_bind_api> in module db_mysql [/usr/local/lib64/kamailio/modules/db_mysql.so]
+ 0(8956) DEBUG: <core> [db.c:215]: db_bind_mod(): using db bind api for db_mysql
+ 0(8956) DEBUG: <core> [db.c:320]: db_do_init2(): connection 0x7fe089f4f3e0 not found in pool
+ 0(8956) DEBUG: db_mysql [km_my_con.c:108]: db_mysql_new_connection(): opening connection: mysql://xxxx:xxxx@my-bucket-priymak20231120152601247000000001.cmq0h3hyc1g1.us-east-2.rds.amazonaws.com/kamailio
+WARNING: MYSQL_OPT_RECONNECT is deprecated and will be removed in a future version.
+ 0(8956) DEBUG: db_mysql [km_my_con.c:173]: db_mysql_new_connection(): connection type is my-bucket-priymak20231120152601247000000001.cmq0h3hyc1g1.us-east-2.rds.amazonaws.com via TCP/IP
+ 0(8956) DEBUG: db_mysql [km_my_con.c:174]: db_mysql_new_connection(): protocol version is 10
+ 0(8956) DEBUG: db_mysql [km_my_con.c:175]: db_mysql_new_connection(): server version is 8.0.35
+ 0(8956) DEBUG: <core> [db_query.c:72]: db_do_submit_query(): submitted query: select `table_version` from `version` where `table_name`='dispatcher', result 0
+ 0(8956) DEBUG: <core> [db_res.c:120]: db_new_result(): allocate 56 bytes for result set at 0x7fe089f4fd90
+ 0(8956) DEBUG: db_mysql [km_res.c:67]: db_mysql_get_columns(): 1 columns returned from the query
+ 0(8956) DEBUG: <core> [db_res.c:156]: db_allocate_columns(): allocate 8 bytes for result names at 0x7fe089f4fec0
+ 0(8956) DEBUG: <core> [db_res.c:166]: db_allocate_columns(): allocate 4 bytes for result types at 0x7fe089f4ff40
+ 0(8956) DEBUG: db_mysql [km_res.c:84]: db_mysql_get_columns(): allocate 16 bytes for RES_NAMES[0] at 0x7fe089f4ffc0
+ 0(8956) DEBUG: db_mysql [km_res.c:91]: db_mysql_get_columns(): RES_NAMES(0x7fe089f4ffc0)[0]=[table_version]
+ 0(8956) DEBUG: db_mysql [km_res.c:105]: db_mysql_get_columns(): use DB1_INT result type
+ 0(8956) DEBUG: <core> [db_res.c:186]: db_allocate_rows(): allocate 16 bytes for rows at 0x7fe089f50040
+ 0(8956) DEBUG: <core> [db_row.c:116]: db_allocate_row(): allocate 32 bytes for row values at 0x7fe089f500c0
+ 0(8956) DEBUG: <core> [db_val.c:74]: db_str2val(): converting INT [4]
+ 0(8956) DEBUG: <core> [db_res.c:79]: db_free_columns(): freeing 1 columns
+ 0(8956) DEBUG: <core> [db_res.c:83]: db_free_columns(): freeing RES_NAMES[0] at 0x7fe089f4ffc0
+ 0(8956) DEBUG: <core> [db_res.c:97]: db_free_columns(): freeing result names at 0x7fe089f4fec0
+ 0(8956) DEBUG: <core> [db_res.c:102]: db_free_columns(): freeing result types at 0x7fe089f4ff40
+ 0(8956) DEBUG: <core> [db_res.c:52]: db_free_rows(): freeing 1 rows
+ 0(8956) DEBUG: <core> [db_row.c:94]: db_free_row(): freeing row values at 0x7fe089f500c0
+ 0(8956) DEBUG: <core> [db_res.c:60]: db_free_rows(): freeing rows at 0x7fe089f50040
+ 0(8956) DEBUG: <core> [db_res.c:138]: db_free_result(): freeing result set at 0x7fe089f4fd90
+ 0(8956) DEBUG: dispatcher [dispatch.c:1113]: ds_load_db(): loading dispatcher db records - nrcols: 5
+ 0(8956) DEBUG: <core> [db_query.c:72]: db_do_submit_query(): submitted query: select `setid`,`destination`,`flags`,`priority`,`attrs` from `dispatcher` , result 0
+ 0(8956) DEBUG: <core> [db_res.c:120]: db_new_result(): allocate 56 bytes for result set at 0x7fe089f4fd90
+ 0(8956) DEBUG: db_mysql [km_res.c:67]: db_mysql_get_columns(): 5 columns returned from the query
+ 0(8956) DEBUG: <core> [db_res.c:156]: db_allocate_columns(): allocate 40 bytes for result names at 0x7fe089f4fec0
+ 0(8956) DEBUG: <core> [db_res.c:166]: db_allocate_columns(): allocate 20 bytes for result types at 0x7fe089f4ff60
+ 0(8956) DEBUG: db_mysql [km_res.c:84]: db_mysql_get_columns(): allocate 16 bytes for RES_NAMES[0] at 0x7fe089f4fff0
+ 0(8956) DEBUG: db_mysql [km_res.c:91]: db_mysql_get_columns(): RES_NAMES(0x7fe089f4fff0)[0]=[setid]
+ 0(8956) DEBUG: db_mysql [km_res.c:105]: db_mysql_get_columns(): use DB1_INT result type
+ 0(8956) DEBUG: db_mysql [km_res.c:84]: db_mysql_get_columns(): allocate 16 bytes for RES_NAMES[1] at 0x7fe089f50070
+ 0(8956) DEBUG: db_mysql [km_res.c:91]: db_mysql_get_columns(): RES_NAMES(0x7fe089f50070)[1]=[destination]
+ 0(8956) DEBUG: db_mysql [km_res.c:148]: db_mysql_get_columns(): use DB1_STRING result type
+ 0(8956) DEBUG: db_mysql [km_res.c:84]: db_mysql_get_columns(): allocate 16 bytes for RES_NAMES[2] at 0x7fe089f500f0
+ 0(8956) DEBUG: db_mysql [km_res.c:91]: db_mysql_get_columns(): RES_NAMES(0x7fe089f500f0)[2]=[flags]
+ 0(8956) DEBUG: db_mysql [km_res.c:105]: db_mysql_get_columns(): use DB1_INT result type
+ 0(8956) DEBUG: db_mysql [km_res.c:84]: db_mysql_get_columns(): allocate 16 bytes for RES_NAMES[3] at 0x7fe089f50170
+ 0(8956) DEBUG: db_mysql [km_res.c:91]: db_mysql_get_columns(): RES_NAMES(0x7fe089f50170)[3]=[priority]
+ 0(8956) DEBUG: db_mysql [km_res.c:105]: db_mysql_get_columns(): use DB1_INT result type
+ 0(8956) DEBUG: db_mysql [km_res.c:84]: db_mysql_get_columns(): allocate 16 bytes for RES_NAMES[4] at 0x7fe089f501f0
+ 0(8956) DEBUG: db_mysql [km_res.c:91]: db_mysql_get_columns(): RES_NAMES(0x7fe089f501f0)[4]=[attrs]
+ 0(8956) DEBUG: db_mysql [km_res.c:148]: db_mysql_get_columns(): use DB1_STRING result type
+ 0(8956) DEBUG: <core> [db_res.c:186]: db_allocate_rows(): allocate 32 bytes for rows at 0x7fe089f50270
+ 0(8956) DEBUG: <core> [db_row.c:116]: db_allocate_row(): allocate 160 bytes for row values at 0x7fe089f50300
+ 0(8956) DEBUG: <core> [db_val.c:74]: db_str2val(): converting INT [1]
+ 0(8956) DEBUG: <core> [db_val.c:143]: db_str2val(): converting STRING [3.138.109.217]
+ 0(8956) DEBUG: <core> [db_val.c:74]: db_str2val(): converting INT [9]
+ 0(8956) DEBUG: <core> [db_val.c:74]: db_str2val(): converting INT [0]
+ 0(8956) DEBUG: <core> [db_val.c:143]: db_str2val(): converting STRING []
+ 0(8956) DEBUG: <core> [db_row.c:116]: db_allocate_row(): allocate 160 bytes for row values at 0x7fe089f50410
+ 0(8956) DEBUG: <core> [db_val.c:74]: db_str2val(): converting INT [1]
+ 0(8956) DEBUG: <core> [db_val.c:143]: db_str2val(): converting STRING [3.141.19.252]
+ 0(8956) DEBUG: <core> [db_val.c:74]: db_str2val(): converting INT [9]
+ 0(8956) DEBUG: <core> [db_val.c:74]: db_str2val(): converting INT [0]
+ 0(8956) DEBUG: <core> [db_val.c:143]: db_str2val(): converting STRING []
+ 0(8956) DEBUG: dispatcher [dispatch.c:1180]: ds_load_db(): attributes string: []
+ 0(8956) DEBUG: <core> [core/parser/parse_uri.c:1389]: parse_uri(): bad uri,  state 0 parsed: <3.13> (4) / <3.138.109.217> (13)
+ 0(8956) INFO: dispatcher [dispatch.c:408]: pack_dest(): uri without sip scheme - fixing it: 3.138.109.217
+ 0(8956) DEBUG: dispatcher [dispatch.c:597]: add_dest2list(): dest [1/1] <sip:3.138.109.217>
+ 0(8956) DEBUG: dispatcher [dispatch.c:1180]: ds_load_db(): attributes string: []
+ 0(8956) DEBUG: <core> [core/parser/parse_uri.c:1389]: parse_uri(): bad uri,  state 0 parsed: <3.14> (4) / <3.141.19.252> (12)
+ 0(8956) INFO: dispatcher [dispatch.c:408]: pack_dest(): uri without sip scheme - fixing it: 3.141.19.252
+ 0(8956) DEBUG: dispatcher [dispatch.c:597]: add_dest2list(): dest [1/2] <sip:3.141.19.252>
+ 0(8956) DEBUG: <core> [db_res.c:79]: db_free_columns(): freeing 5 columns
+ 0(8956) DEBUG: <core> [db_res.c:83]: db_free_columns(): freeing RES_NAMES[0] at 0x7fe089f4fff0
+ 0(8956) DEBUG: <core> [db_res.c:83]: db_free_columns(): freeing RES_NAMES[1] at 0x7fe089f50070
+ 0(8956) DEBUG: <core> [db_res.c:83]: db_free_columns(): freeing RES_NAMES[2] at 0x7fe089f500f0
+ 0(8956) DEBUG: <core> [db_res.c:83]: db_free_columns(): freeing RES_NAMES[3] at 0x7fe089f50170
+ 0(8956) DEBUG: <core> [db_res.c:83]: db_free_columns(): freeing RES_NAMES[4] at 0x7fe089f501f0
+ 0(8956) DEBUG: <core> [db_res.c:97]: db_free_columns(): freeing result names at 0x7fe089f4fec0
+ 0(8956) DEBUG: <core> [db_res.c:102]: db_free_columns(): freeing result types at 0x7fe089f4ff60
+ 0(8956) DEBUG: <core> [db_res.c:52]: db_free_rows(): freeing 2 rows
+ 0(8956) DEBUG: <core> [db_row.c:94]: db_free_row(): freeing row values at 0x7fe089f50300
+ 0(8956) DEBUG: <core> [db_row.c:94]: db_free_row(): freeing row values at 0x7fe089f50410
+ 0(8956) DEBUG: <core> [db_res.c:60]: db_free_rows(): freeing rows at 0x7fe089f50270
+ 0(8956) DEBUG: <core> [db_res.c:138]: db_free_result(): freeing result set at 0x7fe089f4fd90
+ 0(8956) DEBUG: dispatcher [dispatch.c:1208]: ds_load_db(): found [1] dest sets
+ 0(8956) DEBUG: dispatcher [dispatch.c:225]: ds_log_dst_cb(): dst>> 1 sip:3.141.19.252 9 0 (,0,0,0)
+ 0(8956) DEBUG: dispatcher [dispatch.c:225]: ds_log_dst_cb(): dst>> 1 sip:3.138.109.217 9 0 (,0,0,0)
+ 0(8956) DEBUG: <core> [db_pool.c:102]: pool_remove(): removing connection from the pool
+ 0(8956) DEBUG: <core> [core/sr_module.c:761]: find_mod_export_record(): found export of <load_tm> in module tm [/usr/local/lib64/kamailio/modules/tm.so]
+ 0(8956) DEBUG: <core> [core/sr_module.c:761]: find_mod_export_record(): found export of <t_newtran> in module tm [/usr/local/lib64/kamailio/modules/tm.so]
+ 0(8956) DEBUG: <core> [core/sr_module.c:761]: find_mod_export_record(): found export of <t_relay_to_tcp> in module tm [/usr/local/lib64/kamailio/modules/tm.so]
+ 0(8956) DEBUG: <core> [core/sr_module.c:761]: find_mod_export_record(): found export of <t_relay_to_udp> in module tm [/usr/local/lib64/kamailio/modules/tm.so]
+ 0(8956) DEBUG: <core> [core/sr_module.c:761]: find_mod_export_record(): found export of <t_relay> in module tm [/usr/local/lib64/kamailio/modules/tm.so]
+ 0(8956) DEBUG: <core> [core/sr_module.c:761]: find_mod_export_record(): found export of <t_forward_nonack> in module tm [/usr/local/lib64/kamailio/modules/tm.so]
+ 0(8956) DEBUG: <core> [core/sr_module.c:761]: find_mod_export_record(): found export of <t_release> in module tm [/usr/local/lib64/kamailio/modules/tm.so]
+ 0(8956) DEBUG: <core> [core/sr_module.c:1034]: init_mod(): path
+ 0(8956) DEBUG: <core> [core/sr_module.c:767]: find_mod_export_record(): export of <bind_ob> not found (flags 0)
+ 0(8956) INFO: path [../outbound/api.h:53]: ob_load_api(): unable to import bind_ob - maybe module is not loaded
+ 0(8956) INFO: path [path_mod.c:148]: mod_init(): outbound module not available
+ 0(8956) DEBUG: <core> [core/sr_module.c:1034]: init_mod(): uac
+ 0(8956) DEBUG: <core> [core/sr_module.c:761]: find_mod_export_record(): found export of <load_tm> in module tm [/usr/local/lib64/kamailio/modules/tm.so]
+ 0(8956) DEBUG: <core> [core/sr_module.c:761]: find_mod_export_record(): found export of <t_newtran> in module tm [/usr/local/lib64/kamailio/modules/tm.so]
+ 0(8956) DEBUG: <core> [core/sr_module.c:761]: find_mod_export_record(): found export of <t_relay_to_tcp> in module tm [/usr/local/lib64/kamailio/modules/tm.so]
+ 0(8956) DEBUG: <core> [core/sr_module.c:761]: find_mod_export_record(): found export of <t_relay_to_udp> in module tm [/usr/local/lib64/kamailio/modules/tm.so]
+ 0(8956) DEBUG: <core> [core/sr_module.c:761]: find_mod_export_record(): found export of <t_relay> in module tm [/usr/local/lib64/kamailio/modules/tm.so]
+ 0(8956) DEBUG: <core> [core/sr_module.c:761]: find_mod_export_record(): found export of <t_forward_nonack> in module tm [/usr/local/lib64/kamailio/modules/tm.so]
+ 0(8956) DEBUG: <core> [core/sr_module.c:761]: find_mod_export_record(): found export of <t_release> in module tm [/usr/local/lib64/kamailio/modules/tm.so]
+ 0(8956) DEBUG: <core> [core/sr_module.c:761]: find_mod_export_record(): found export of <load_rr> in module rr [/usr/local/lib64/kamailio/modules/rr.so]
+ 0(8956) DEBUG: <core> [core/sr_module.c:761]: find_mod_export_record(): found export of <load_tm> in module tm [/usr/local/lib64/kamailio/modules/tm.so]
+ 0(8956) DEBUG: <core> [core/sr_module.c:761]: find_mod_export_record(): found export of <t_newtran> in module tm [/usr/local/lib64/kamailio/modules/tm.so]
+ 0(8956) DEBUG: <core> [core/sr_module.c:761]: find_mod_export_record(): found export of <t_relay_to_tcp> in module tm [/usr/local/lib64/kamailio/modules/tm.so]
+ 0(8956) DEBUG: <core> [core/sr_module.c:761]: find_mod_export_record(): found export of <t_relay_to_udp> in module tm [/usr/local/lib64/kamailio/modules/tm.so]
+ 0(8956) DEBUG: <core> [core/sr_module.c:761]: find_mod_export_record(): found export of <t_relay> in module tm [/usr/local/lib64/kamailio/modules/tm.so]
+ 0(8956) DEBUG: <core> [core/sr_module.c:761]: find_mod_export_record(): found export of <t_forward_nonack> in module tm [/usr/local/lib64/kamailio/modules/tm.so]
+ 0(8956) DEBUG: <core> [core/sr_module.c:761]: find_mod_export_record(): found export of <t_release> in module tm [/usr/local/lib64/kamailio/modules/tm.so]
+ 0(8956) DEBUG: <core> [core/sr_module.c:1034]: init_mod(): debugger
+ 0(8956) DEBUG: <core> [core/cfg/cfg.c:179]: cfg_declare(): new config group has been registered: 'dbg' (num=3, size=12)
+ 0(8956) DEBUG: debugger [debugger_mod.c:174]: mod_init(): cfg level_mode:0 facility_mode:0 hash_size:0
+ 0(8956) DEBUG: <core> [core/sr_module.c:1034]: init_mod(): auth
+ 0(8956) DEBUG: auth [auth_mod.c:261]: mod_init(): auth module - initializing
+ 0(8956) DEBUG: <core> [core/sr_module.c:761]: find_mod_export_record(): found export of <bind_sl> in module sl [/usr/local/lib64/kamailio/modules/sl.so]
+ 0(8956) DEBUG: <core> [core/usr_avp.c:915]: parse_avp_ident(): Parsing 'digest_challenge'
+ 0(8956) INFO: auth [auth_mod.c:333]: mod_init(): qop set, but nonce-count (nonce_count) support disabled
+ 0(8956) DEBUG: <core> [core/sr_module.c:1034]: init_mod(): auth_db
+ 0(8956) DEBUG: <core> [core/sr_module.c:761]: find_mod_export_record(): found export of <db_bind_api> in module db_mysql [/usr/local/lib64/kamailio/modules/db_mysql.so]
+ 0(8956) DEBUG: <core> [db.c:215]: db_bind_mod(): using db bind api for db_mysql
+ 0(8956) DEBUG: <core> [core/sr_module.c:761]: find_mod_export_record(): found export of <bind_auth_s> in module auth [/usr/local/lib64/kamailio/modules/auth.so]
+ 0(8956) DEBUG: <core> [core/pt.c:97]: init_pt(): registering new processes: 5 (old) + 28 (new) = 33 (total)
+ 0(8956) INFO: <core> [main.c:3232]: main(): processes (at least): 33 - shm size: 67108864 - pkg size: 8388608
+ 0(8956) DEBUG: <core> [core/rvalue.c:2820]: fix_rval(): RV fixing type 3
+ 0(8956) DEBUG: <core> [core/rvalue.c:2820]: fix_rval(): RV fixing type 2
+ 0(8956) DEBUG: <core> [core/rvalue.c:2828]: fix_rval(): RV is str: "INVITE"
+ 0(8956) DEBUG: <core> [core/route.c:476]: exp_optimize_right(): op10(O51, _ST22_) => op10(O51, _ST1_)
+ 0(8956) DEBUG: <core> [core/route.c:909]: fix_actions(): fixing ds_select_dst()
+ 0(8956) DEBUG: <core> [core/route.c:909]: fix_actions(): fixing sl_send_reply()
+ 0(8956) DEBUG: <core> [core/rvalue.c:2820]: fix_rval(): RV fixing type 4
+ 0(8956) DEBUG: <core> [core/route.c:909]: fix_actions(): fixing is_method()
+ 0(8956) DEBUG: textops [textops.c:3841]: fixup_method(): using id for method [CANCEL/2]
+ 0(8956) DEBUG: <core> [core/rvalue.c:2820]: fix_rval(): RV fixing type 4
+ 0(8956) DEBUG: <core> [core/route.c:909]: fix_actions(): fixing t_check_trans()
+ 0(8956) DEBUG: <core> [core/rvalue.c:2820]: fix_rval(): RV fixing type 4
+ 0(8956) DEBUG: <core> [core/route.c:909]: fix_actions(): fixing is_method()
+ 0(8956) DEBUG: textops [textops.c:3841]: fixup_method(): using id for method [ACK/4]
+ 0(8956) DEBUG: <core> [core/rvalue.c:2820]: fix_rval(): RV fixing type 4
+ 0(8956) DEBUG: <core> [core/route.c:909]: fix_actions(): fixing t_precheck_trans()
+ 0(8956) DEBUG: <core> [core/route.c:909]: fix_actions(): fixing t_check_trans()
+ 0(8956) DEBUG: <core> [core/route.c:909]: fix_actions(): fixing t_check_trans()
+ 0(8956) DEBUG: <core> [core/route.c:909]: fix_actions(): fixing remove_hf()
+ 0(8956) DEBUG: <core> [core/parser/parse_hname2.c:314]: parse_sip_header_name(): parsed header name [Route] type 9
+ 0(8956) DEBUG: textops [textops.c:3764]: hname_fixup(): using hdr type (9) instead of <Route>
+ 0(8956) DEBUG: <core> [core/rvalue.c:2820]: fix_rval(): RV fixing type 4
+ 0(8956) DEBUG: <core> [core/route.c:909]: fix_actions(): fixing is_method()
+ 0(8956) DEBUG: textops [textops.c:3836]: fixup_method(): using id for methods [INVITE,SUBSCRIBE/65]
+ 0(8956) DEBUG: <core> [core/route.c:909]: fix_actions(): fixing record_route()
+ 0(8956) DEBUG: <core> [core/rvalue.c:2820]: fix_rval(): RV fixing type 4
+ 0(8956) DEBUG: <core> [core/route.c:909]: fix_actions(): fixing is_method()
+ 0(8956) DEBUG: textops [textops.c:3841]: fixup_method(): using id for method [INVITE/1]
+ 0(8956) DEBUG: <core> [core/rvalue.c:2820]: fix_rval(): RV fixing type 7
+ 0(8956) DEBUG: <core> [core/route.c:909]: fix_actions(): fixing sl_send_reply()
+ 0(8956) DEBUG: <core> [core/rvalue.c:2820]: fix_rval(): RV fixing type 4
+ 0(8956) DEBUG: <core> [core/route.c:909]: fix_actions(): fixing is_method()
+ 0(8956) DEBUG: textops [textops.c:3836]: fixup_method(): using id for methods [INVITE,BYE,SUBSCRIBE,UPDATE/2121]
+ 0(8956) DEBUG: <core> [core/rvalue.c:2820]: fix_rval(): RV fixing type 4
+ 0(8956) DEBUG: <core> [core/route.c:909]: fix_actions(): fixing t_is_set()
+ 0(8956) DEBUG: <core> [core/route.c:909]: fix_actions(): fixing t_on_branch()
+ 0(8956) DEBUG: <core> [core/rvalue.c:2820]: fix_rval(): RV fixing type 4
+ 0(8956) DEBUG: <core> [core/route.c:909]: fix_actions(): fixing is_method()
+ 0(8956) DEBUG: textops [textops.c:3836]: fixup_method(): using id for methods [INVITE,SUBSCRIBE,UPDATE/2113]
+ 0(8956) DEBUG: <core> [core/rvalue.c:2820]: fix_rval(): RV fixing type 4
+ 0(8956) DEBUG: <core> [core/route.c:909]: fix_actions(): fixing t_is_set()
+ 0(8956) DEBUG: <core> [core/route.c:909]: fix_actions(): fixing t_on_reply()
+ 0(8956) DEBUG: <core> [core/rvalue.c:2820]: fix_rval(): RV fixing type 4
+ 0(8956) DEBUG: <core> [core/route.c:909]: fix_actions(): fixing is_method()
+ 0(8956) DEBUG: textops [textops.c:3841]: fixup_method(): using id for method [INVITE/1]
+ 0(8956) DEBUG: <core> [core/rvalue.c:2820]: fix_rval(): RV fixing type 4
+ 0(8956) DEBUG: <core> [core/route.c:909]: fix_actions(): fixing t_is_set()
+ 0(8956) DEBUG: <core> [core/route.c:909]: fix_actions(): fixing t_on_failure()
+ 0(8956) DEBUG: <core> [core/rvalue.c:2820]: fix_rval(): RV fixing type 4
+ 0(8956) DEBUG: <core> [core/route.c:909]: fix_actions(): fixing t_relay()
+ 0(8956) DEBUG: <core> [core/route.c:909]: fix_actions(): fixing sl_reply_error()
+ 0(8956) DEBUG: <core> [core/rvalue.c:2820]: fix_rval(): RV fixing type 7
+ 0(8956) DEBUG: <core> [core/rvalue.c:2820]: fix_rval(): RV fixing type 4
+ 0(8956) DEBUG: <core> [core/route.c:909]: fix_actions(): fixing mf_process_maxfwd_header()
+ 0(8956) DEBUG: <core> [core/route.c:909]: fix_actions(): fixing sl_send_reply()
+ 0(8956) DEBUG: <core> [core/rvalue.c:2820]: fix_rval(): RV fixing type 4
+ 0(8956) DEBUG: <core> [core/route.c:909]: fix_actions(): fixing is_method()
+ 0(8956) DEBUG: textops [textops.c:3841]: fixup_method(): using id for method [OPTIONS/512]
+ 0(8956) DEBUG: <core> [core/rvalue.c:2820]: fix_rval(): RV fixing type 3
+ 0(8956) DEBUG: <core> [core/rvalue.c:2820]: fix_rval(): RV fixing type 7
+ 0(8956) DEBUG: <core> [core/route.c:909]: fix_actions(): fixing sl_send_reply()
+ 0(8956) DEBUG: <core> [core/rvalue.c:2820]: fix_rval(): RV fixing type 4
+ 0(8956) DEBUG: <core> [core/route.c:909]: fix_actions(): fixing sanity_check()
+ 0(8956) DEBUG: <core> [core/route.c:909]: fix_actions(): fixing xlog()
+ 0(8956) DEBUG: <core> [core/pvapi.c:502]: pv_spec_lookup(): PV <$si> is not in cache
+ 0(8956) DEBUG: <core> [core/pvapi.c:386]: pv_cache_add(): pvar [$si] added in cache
+ 0(8956) DEBUG: <core> [core/pvapi.c:502]: pv_spec_lookup(): PV <$sp> is not in cache
+ 0(8956) DEBUG: <core> [core/pvapi.c:386]: pv_cache_add(): pvar [$sp] added in cache
+ 0(8956) DEBUG: <core> [core/rvalue.c:2820]: fix_rval(): RV fixing type 4
+ 0(8956) DEBUG: <core> [core/route.c:909]: fix_actions(): fixing has_totag()
+ 0(8956) DEBUG: <core> [core/rvalue.c:2820]: fix_rval(): RV fixing type 4
+ 0(8956) DEBUG: <core> [core/route.c:909]: fix_actions(): fixing loose_route()
+ 0(8956) DEBUG: <core> [core/rvalue.c:2820]: fix_rval(): RV fixing type 4
+ 0(8956) DEBUG: <core> [core/route.c:909]: fix_actions(): fixing is_method()
+ 0(8956) DEBUG: textops [textops.c:3841]: fixup_method(): using id for method [BYE/8]
+ 0(8956) DEBUG: <core> [core/rvalue.c:2820]: fix_rval(): RV fixing type 4
+ 0(8956) DEBUG: <core> [core/route.c:909]: fix_actions(): fixing is_method()
+ 0(8956) DEBUG: textops [textops.c:3841]: fixup_method(): using id for method [ACK/4]
+ 0(8956) DEBUG: <core> [core/rvalue.c:2820]: fix_rval(): RV fixing type 4
+ 0(8956) DEBUG: <core> [core/route.c:909]: fix_actions(): fixing is_method()
+ 0(8956) DEBUG: textops [textops.c:3841]: fixup_method(): using id for method [NOTIFY/128]
+ 0(8956) DEBUG: <core> [core/route.c:909]: fix_actions(): fixing record_route()
+ 0(8956) DEBUG: <core> [core/rvalue.c:2820]: fix_rval(): RV fixing type 4
+ 0(8956) DEBUG: <core> [core/route.c:909]: fix_actions(): fixing is_method()
+ 0(8956) DEBUG: textops [textops.c:3841]: fixup_method(): using id for method [SUBSCRIBE/64]
+ 0(8956) DEBUG: <core> [core/rvalue.c:2820]: fix_rval(): RV fixing type 3
+ 0(8956) DEBUG: <core> [core/rvalue.c:2820]: fix_rval(): RV fixing type 4
+ 0(8956) DEBUG: <core> [core/route.c:909]: fix_actions(): fixing is_method()
+ 0(8956) DEBUG: textops [textops.c:3841]: fixup_method(): using id for method [ACK/4]
+ 0(8956) DEBUG: <core> [core/rvalue.c:2820]: fix_rval(): RV fixing type 4
+ 0(8956) DEBUG: <core> [core/route.c:909]: fix_actions(): fixing t_check_trans()
+ 0(8956) DEBUG: <core> [core/route.c:909]: fix_actions(): fixing sl_send_reply()
+ 0(8956) DEBUG: <core> [core/rvalue.c:2820]: fix_rval(): RV fixing type 4
+ 0(8956) DEBUG: <core> [core/route.c:909]: fix_actions(): fixing is_method()
+ 0(8956) DEBUG: textops [textops.c:3841]: fixup_method(): using id for method [REGISTER/32]
+ 0(8956) DEBUG: <core> [core/rvalue.c:2820]: fix_rval(): RV fixing type 4
+ 0(8956) DEBUG: <core> [core/route.c:909]: fix_actions(): fixing setbflag()
+ 0(8956) DEBUG: <core> [core/rvalue.c:2820]: fix_rval(): RV fixing type 4
+ 0(8956) DEBUG: <core> [core/route.c:909]: fix_actions(): fixing save()
+ 0(8956) DEBUG: <core> [db.c:320]: db_do_init2(): connection 0x7fe089ed3780 not found in pool
+ 0(8956) DEBUG: db_mysql [km_my_con.c:108]: db_mysql_new_connection(): opening connection: mysql://xxxx:xxxx@my-bucket-priymak20231120152601247000000001.cmq0h3hyc1g1.us-east-2.rds.amazonaws.com/kamailio
+WARNING: MYSQL_OPT_RECONNECT is deprecated and will be removed in a future version.
+ 0(8956) DEBUG: db_mysql [km_my_con.c:173]: db_mysql_new_connection(): connection type is my-bucket-priymak20231120152601247000000001.cmq0h3hyc1g1.us-east-2.rds.amazonaws.com via TCP/IP
+ 0(8956) DEBUG: db_mysql [km_my_con.c:174]: db_mysql_new_connection(): protocol version is 10
+ 0(8956) DEBUG: db_mysql [km_my_con.c:175]: db_mysql_new_connection(): server version is 8.0.35
+ 0(8956) DEBUG: <core> [db_query.c:72]: db_do_submit_query(): submitted query: select `table_version` from `version` where `table_name`='location', result 0
+ 0(8956) DEBUG: <core> [db_res.c:120]: db_new_result(): allocate 56 bytes for result set at 0x7fe089ee0980
+ 0(8956) DEBUG: db_mysql [km_res.c:67]: db_mysql_get_columns(): 1 columns returned from the query
+ 0(8956) DEBUG: <core> [db_res.c:156]: db_allocate_columns(): allocate 8 bytes for result names at 0x7fe089ee0ab0
+ 0(8956) DEBUG: <core> [db_res.c:166]: db_allocate_columns(): allocate 4 bytes for result types at 0x7fe089ee0b30
+ 0(8956) DEBUG: db_mysql [km_res.c:84]: db_mysql_get_columns(): allocate 16 bytes for RES_NAMES[0] at 0x7fe089ee0bb0
+ 0(8956) DEBUG: db_mysql [km_res.c:91]: db_mysql_get_columns(): RES_NAMES(0x7fe089ee0bb0)[0]=[table_version]
+ 0(8956) DEBUG: db_mysql [km_res.c:105]: db_mysql_get_columns(): use DB1_INT result type
+ 0(8956) DEBUG: <core> [db_res.c:186]: db_allocate_rows(): allocate 16 bytes for rows at 0x7fe089ee0c30
+ 0(8956) DEBUG: <core> [db_row.c:116]: db_allocate_row(): allocate 32 bytes for row values at 0x7fe089ee0cb0
+ 0(8956) DEBUG: <core> [db_val.c:74]: db_str2val(): converting INT [9]
+ 0(8956) DEBUG: <core> [db_res.c:79]: db_free_columns(): freeing 1 columns
+ 0(8956) DEBUG: <core> [db_res.c:83]: db_free_columns(): freeing RES_NAMES[0] at 0x7fe089ee0bb0
+ 0(8956) DEBUG: <core> [db_res.c:97]: db_free_columns(): freeing result names at 0x7fe089ee0ab0
+ 0(8956) DEBUG: <core> [db_res.c:102]: db_free_columns(): freeing result types at 0x7fe089ee0b30
+ 0(8956) DEBUG: <core> [db_res.c:52]: db_free_rows(): freeing 1 rows
+ 0(8956) DEBUG: <core> [db_row.c:94]: db_free_row(): freeing row values at 0x7fe089ee0cb0
+ 0(8956) DEBUG: <core> [db_res.c:60]: db_free_rows(): freeing rows at 0x7fe089ee0c30
+ 0(8956) DEBUG: <core> [db_res.c:138]: db_free_result(): freeing result set at 0x7fe089ee0980
+ 0(8956) DEBUG: <core> [db_query.c:72]: db_do_submit_query(): submitted query: select `username` from `location` where `username`='dummy_user', result 0
+ 0(8956) DEBUG: <core> [db_res.c:120]: db_new_result(): allocate 56 bytes for result set at 0x7fe089ee0980
+ 0(8956) DEBUG: db_mysql [km_res.c:67]: db_mysql_get_columns(): 1 columns returned from the query
+ 0(8956) DEBUG: <core> [db_res.c:156]: db_allocate_columns(): allocate 8 bytes for result names at 0x7fe089ee0ab0
+ 0(8956) DEBUG: <core> [db_res.c:166]: db_allocate_columns(): allocate 4 bytes for result types at 0x7fe089ee0b30
+ 0(8956) DEBUG: db_mysql [km_res.c:84]: db_mysql_get_columns(): allocate 16 bytes for RES_NAMES[0] at 0x7fe089ee0bb0
+ 0(8956) DEBUG: db_mysql [km_res.c:91]: db_mysql_get_columns(): RES_NAMES(0x7fe089ee0bb0)[0]=[username]
+ 0(8956) DEBUG: db_mysql [km_res.c:148]: db_mysql_get_columns(): use DB1_STRING result type
+ 0(8956) DEBUG: db_mysql [km_res.c:182]: db_mysql_convert_rows(): no rows returned from the query
+ 0(8956) DEBUG: <core> [db_res.c:79]: db_free_columns(): freeing 1 columns
+ 0(8956) DEBUG: <core> [db_res.c:83]: db_free_columns(): freeing RES_NAMES[0] at 0x7fe089ee0bb0
+ 0(8956) DEBUG: <core> [db_res.c:97]: db_free_columns(): freeing result names at 0x7fe089ee0ab0
+ 0(8956) DEBUG: <core> [db_res.c:102]: db_free_columns(): freeing result types at 0x7fe089ee0b30
+ 0(8956) DEBUG: <core> [db_res.c:138]: db_free_result(): freeing result set at 0x7fe089ee0980
+ 0(8956) DEBUG: <core> [db_pool.c:102]: pool_remove(): removing connection from the pool
+ 0(8956) DEBUG: <core> [core/route.c:909]: fix_actions(): fixing sl_reply_error()
+ 0(8956) DEBUG: <core> [core/rvalue.c:2820]: fix_rval(): RV fixing type 7
+ 0(8956) DEBUG: <core> [core/rvalue.c:2820]: fix_rval(): RV fixing type 4
+ 0(8956) DEBUG: <core> [core/route.c:909]: fix_actions(): fixing lookup()
+ 0(8956) DEBUG: <core> [core/rvalue.c:2820]: fix_rval(): RV fixing type 7
+ 0(8956) DEBUG: <core> [core/route.c:909]: fix_actions(): fixing t_newtran()
+ 0(8956) DEBUG: <core> [core/rvalue.c:2820]: fix_rval(): RV fixing type 7
+ 0(8956) DEBUG: <core> [core/route.c:909]: fix_actions(): fixing send_reply()
+ 0(8956) DEBUG: <core> [core/route.c:909]: fix_actions(): fixing send_reply()
+ 0(8956) DEBUG: <core> [core/switch.c:225]: fix_switch(): 3 cases, 0 default
+ 0(8956) DEBUG: <core> [core/switch.c:400]: fix_switch(): optimized to condtable (3) default: no
+ 0(8956) DEBUG: <core> [core/rvalue.c:2820]: fix_rval(): RV fixing type 4
+ 0(8956) DEBUG: <core> [core/route.c:909]: fix_actions(): fixing is_method()
+ 0(8956) DEBUG: textops [textops.c:3841]: fixup_method(): using id for method [INVITE/1]
+ 0(8956) DEBUG: <core> [core/rvalue.c:2820]: fix_rval(): RV fixing type 4
+ 0(8956) DEBUG: <core> [core/route.c:909]: fix_actions(): fixing is_method()
+ 0(8956) DEBUG: textops [textops.c:3836]: fixup_method(): using id for methods [PUBLISH,SUBSCRIBE/8256]
+ 0(8956) DEBUG: <core> [core/rvalue.c:2820]: fix_rval(): RV fixing type 4
+ 0(8956) DEBUG: <core> [core/route.c:909]: fix_actions(): fixing is_method()
+ 0(8956) DEBUG: textops [textops.c:3841]: fixup_method(): using id for method [SUBSCRIBE/64]
+ 0(8956) DEBUG: <core> [core/rvalue.c:2820]: fix_rval(): RV fixing type 7
+ 0(8956) DEBUG: <core> [core/rvalue.c:2820]: fix_rval(): RV fixing type 2
+ 0(8956) DEBUG: <core> [core/rvalue.c:2828]: fix_rval(): RV is str: "message-summary"
+ 0(8956) DEBUG: <core> [core/route.c:909]: fix_actions(): fixing sl_send_reply()
+ 0(8956) DEBUG: <core> [core/rvalue.c:2820]: fix_rval(): RV fixing type 4
+ 0(8956) DEBUG: <core> [core/route.c:909]: fix_actions(): fixing is_method()
+ 0(8956) DEBUG: textops [textops.c:3841]: fixup_method(): using id for method [PUBLISH/8192]
+ 0(8956) DEBUG: <core> [core/rvalue.c:2820]: fix_rval(): RV fixing type 7
+ 0(8956) DEBUG: <core> [core/route.c:909]: fix_actions(): fixing sl_send_reply()
+ 0(8956) DEBUG: <core> [core/rvalue.c:2820]: fix_rval(): RV fixing type 4
+ 0(8956) DEBUG: <core> [core/route.c:909]: fix_actions(): fixing is_method()
+ 0(8956) DEBUG: textops [textops.c:3841]: fixup_method(): using id for method [REGISTER/32]
+ 0(8956) DEBUG: <core> [core/rvalue.c:2820]: fix_rval(): RV fixing type 3
+ 0(8956) DEBUG: <core> [core/rvalue.c:2820]: fix_rval(): RV fixing type 4
+ 0(8956) DEBUG: <core> [core/route.c:909]: fix_actions(): fixing auth_check()
+ 0(8956) DEBUG: <core> [core/route.c:909]: fix_actions(): fixing auth_challenge()
+ 0(8956) DEBUG: <core> [core/rvalue.c:2820]: fix_rval(): RV fixing type 4
+ 0(8956) DEBUG: <core> [core/route.c:909]: fix_actions(): fixing is_method()
+ 0(8956) DEBUG: textops [textops.c:3836]: fixup_method(): using id for methods [REGISTER,PUBLISH/8224]
+ 0(8956) DEBUG: <core> [core/route.c:909]: fix_actions(): fixing consume_credentials()
+ 0(8956) DEBUG: <core> [core/rvalue.c:2820]: fix_rval(): RV fixing type 3
+ 0(8956) DEBUG: <core> [core/rvalue.c:2820]: fix_rval(): RV fixing type 3
+ 0(8956) DEBUG: <core> [core/route.c:909]: fix_actions(): fixing sl_send_reply()
+ 0(8956) DEBUG: <core> [core/rvalue.c:2820]: fix_rval(): RV fixing type 3
+ 0(8956) DEBUG: <core> [core/route.c:909]: fix_actions(): fixing append_hf()
+ 0(8956) DEBUG: <core> [core/rvalue.c:2820]: fix_rval(): RV fixing type 7
+ 0(8956) DEBUG: <core> [core/rvalue.c:2820]: fix_rval(): RV fixing type 7
+ 0(8956) DEBUG: <core> [core/route.c:909]: fix_actions(): fixing xlog()
+ 0(8956) DEBUG: <core> [core/pvapi.c:410]: pv_cache_lookup(): pvar [$du] found in cache
+ 0(8956) DEBUG: <core> [core/pvapi.c:410]: pv_cache_lookup(): pvar [$avp(username)] found in cache
+ 0(8956) DEBUG: <core> [core/pvapi.c:410]: pv_cache_lookup(): pvar [$avp(passwd)] found in cache
+ 0(8956) DEBUG: <core> [core/rvalue.c:2820]: fix_rval(): RV fixing type 7
+ 0(8956) DEBUG: <core> [core/rvalue.c:2820]: fix_rval(): RV fixing type 2
+ 0(8956) DEBUG: <core> [core/rvalue.c:2828]: fix_rval(): RV is str: "REGISTER"
+ 0(8956) DEBUG: <core> [core/rvalue.c:2820]: fix_rval(): RV fixing type 2
+ 0(8956) DEBUG: <core> [core/rvalue.c:2828]: fix_rval(): RV is str: "Contact: <sip:"
+ 0(8956) DEBUG: <core> [core/rvalue.c:2820]: fix_rval(): RV fixing type 7
+ 0(8956) DEBUG: <core> [core/rvalue.c:3507]: rve_optimize(): FIXUP RVE (1118,24-1118,56): changed + into string concat
+ 0(8956) DEBUG: <core> [core/rvalue.c:2820]: fix_rval(): RV fixing type 2
+ 0(8956) DEBUG: <core> [core/rvalue.c:2828]: fix_rval(): RV is str: "@"
+ 0(8956) DEBUG: <core> [core/rvalue.c:3507]: rve_optimize(): FIXUP RVE (1118,24-1118,62): changed + into string concat
+ 0(8956) DEBUG: <core> [core/rvalue.c:2820]: fix_rval(): RV fixing type 2
+ 0(8956) DEBUG: <core> [core/rvalue.c:2828]: fix_rval(): RV is str: "MY_IP4_ADDR"
+ 0(8956) DEBUG: <core> [core/rvalue.c:3507]: rve_optimize(): FIXUP RVE (1118,24-1119,47): changed + into string concat
+ 0(8956) DEBUG: <core> [core/rvalue.c:3582]: rve_optimize(): FIXUP RVE (1118,24-1119,47): optimized str rve op(op($v, a), b) with op($v, "@MY_IP4_ADDR"); op=27
+ 0(8956) DEBUG: <core> [core/rvalue.c:2820]: fix_rval(): RV fixing type 2
+ 0(8956) DEBUG: <core> [core/rvalue.c:2828]: fix_rval(): RV is str: ":"
+ 0(8956) DEBUG: <core> [core/rvalue.c:3507]: rve_optimize(): FIXUP RVE (1118,24-1120,37): changed + into string concat
+ 0(8956) DEBUG: <core> [core/rvalue.c:3582]: rve_optimize(): FIXUP RVE (1118,24-1120,37): optimized str rve op(op($v, a), b) with op($v, "@MY_IP4_ADDR:"); op=27
+ 0(8956) DEBUG: <core> [core/rvalue.c:2820]: fix_rval(): RV fixing type 2
+ 0(8956) DEBUG: <core> [core/rvalue.c:2828]: fix_rval(): RV is str: "MY_SIP_PORT"
+ 0(8956) DEBUG: <core> [core/rvalue.c:3507]: rve_optimize(): FIXUP RVE (1118,24-1120,53): changed + into string concat
+ 0(8956) DEBUG: <core> [core/rvalue.c:3582]: rve_optimize(): FIXUP RVE (1118,24-1120,53): optimized str rve op(op($v, a), b) with op($v, "@MY_IP4_ADDR:MY_SIP_PORT"); op=27
+ 0(8956) DEBUG: <core> [core/rvalue.c:2820]: fix_rval(): RV fixing type 2
+ 0(8956) DEBUG: <core> [core/rvalue.c:2828]: fix_rval(): RV is str: ">
+"
+ 0(8956) DEBUG: <core> [core/rvalue.c:3507]: rve_optimize(): FIXUP RVE (1118,24-1120,63): changed + into string concat
+ 0(8956) DEBUG: <core> [core/rvalue.c:3582]: rve_optimize(): FIXUP RVE (1118,24-1120,63): optimized str rve op(op($v, a), b) with op($v, "@MY_IP4_ADDR:MY_SIP_PORT>
+"); op=27
+ 0(8956) DEBUG: <core> [core/rvalue.c:2820]: fix_rval(): RV fixing type 7
+ 0(8956) DEBUG: <core> [core/rvalue.c:2820]: fix_rval(): RV fixing type 7
+ 0(8956) DEBUG: <core> [core/rvalue.c:2820]: fix_rval(): RV fixing type 2
+ 0(8956) DEBUG: <core> [core/rvalue.c:2828]: fix_rval(): RV is str: "Expires: "
+ 0(8956) DEBUG: <core> [core/rvalue.c:2820]: fix_rval(): RV fixing type 7
+ 0(8956) DEBUG: <core> [core/rvalue.c:2820]: fix_rval(): RV fixing type 2
+ 0(8956) DEBUG: <core> [core/rvalue.c:2828]: fix_rval(): RV is str: "
+"
+ 0(8956) DEBUG: <core> [core/rvalue.c:2820]: fix_rval(): RV fixing type 4
+ 0(8956) DEBUG: <core> [core/route.c:909]: fix_actions(): fixing is_present_hf()
+ 0(8956) DEBUG: <core> [core/parser/parse_hname2.c:314]: parse_sip_header_name(): parsed header name [Expires] type 14
+ 0(8956) DEBUG: textops [textops.c:3764]: hname_fixup(): using hdr type (14) instead of <Expires>
+ 0(8956) DEBUG: <core> [core/rvalue.c:2820]: fix_rval(): RV fixing type 7
+ 0(8956) DEBUG: <core> [core/rvalue.c:2820]: fix_rval(): RV fixing type 2
+ 0(8956) DEBUG: <core> [core/rvalue.c:2828]: fix_rval(): RV is str: "Expires: "
+ 0(8956) DEBUG: <core> [core/rvalue.c:2820]: fix_rval(): RV fixing type 7
+ 0(8956) DEBUG: <core> [core/rvalue.c:2820]: fix_rval(): RV fixing type 2
+ 0(8956) DEBUG: <core> [core/rvalue.c:2828]: fix_rval(): RV is str: "
+"
+ 0(8956) DEBUG: <core> [core/rvalue.c:2820]: fix_rval(): RV fixing type 7
+ 0(8956) DEBUG: <core> [core/rvalue.c:2820]: fix_rval(): RV fixing type 7
+ 0(8956) DEBUG: <core> [core/rvalue.c:2820]: fix_rval(): RV fixing type 2
+ 0(8956) DEBUG: <core> [core/rvalue.c:2828]: fix_rval(): RV is str: "X-User-Agent: "
+ 0(8956) DEBUG: <core> [core/rvalue.c:2820]: fix_rval(): RV fixing type 7
+ 0(8956) DEBUG: <core> [core/rvalue.c:2820]: fix_rval(): RV fixing type 2
+ 0(8956) DEBUG: <core> [core/rvalue.c:2828]: fix_rval(): RV is str: "
+"
+ 0(8956) DEBUG: <core> [core/rvalue.c:2820]: fix_rval(): RV fixing type 7
+ 0(8956) DEBUG: <core> [core/rvalue.c:2820]: fix_rval(): RV fixing type 7
+ 0(8956) DEBUG: <core> [core/rvalue.c:2820]: fix_rval(): RV fixing type 2
+ 0(8956) DEBUG: <core> [core/rvalue.c:2828]: fix_rval(): RV is str: "X-User-Agent: "
+ 0(8956) DEBUG: <core> [core/rvalue.c:2820]: fix_rval(): RV fixing type 7
+ 0(8956) DEBUG: <core> [core/rvalue.c:2820]: fix_rval(): RV fixing type 2
+ 0(8956) DEBUG: <core> [core/rvalue.c:2828]: fix_rval(): RV is str: "
+"
+ 0(8956) DEBUG: <core> [core/rvalue.c:2820]: fix_rval(): RV fixing type 7
+ 0(8956) DEBUG: <core> [core/rvalue.c:2820]: fix_rval(): RV fixing type 7
+ 0(8956) DEBUG: <core> [core/rvalue.c:2820]: fix_rval(): RV fixing type 1
+ 0(8956) DEBUG: <core> [core/rvalue.c:2824]: fix_rval(): RV is int: 1
+ 0(8956) DEBUG: <core> [core/route.c:909]: fix_actions(): fixing ds_select()
+ 0(8956) DEBUG: <core> [core/rvalue.c:2820]: fix_rval(): RV fixing type 4
+ 0(8956) DEBUG: <core> [core/route.c:909]: fix_actions(): fixing ds_set_dst()
+ 0(8956) DEBUG: <core> [core/route.c:909]: fix_actions(): fixing xlog()
+ 0(8956) DEBUG: <core> [core/pvapi.c:410]: pv_cache_lookup(): pvar [$du] found in cache
+ 0(8956) DEBUG: <core> [core/rvalue.c:2820]: fix_rval(): RV fixing type 2
+ 0(8956) DEBUG: <core> [core/rvalue.c:2828]: fix_rval(): RV is str: "sip:"
+ 0(8956) DEBUG: <core> [core/rvalue.c:2820]: fix_rval(): RV fixing type 7
+ 0(8956) DEBUG: <core> [core/rvalue.c:3507]: rve_optimize(): FIXUP RVE (1139,32-1139,55): changed + into string concat
+ 0(8956) DEBUG: <core> [core/rvalue.c:2820]: fix_rval(): RV fixing type 2
+ 0(8956) DEBUG: <core> [core/rvalue.c:2828]: fix_rval(): RV is str: "sip:"
+ 0(8956) DEBUG: <core> [core/rvalue.c:2820]: fix_rval(): RV fixing type 7
+ 0(8956) DEBUG: <core> [core/rvalue.c:3507]: rve_optimize(): FIXUP RVE (1140,32-1140,54): changed + into string concat
+ 0(8956) DEBUG: <core> [core/rvalue.c:2820]: fix_rval(): RV fixing type 2
+ 0(8956) DEBUG: <core> [core/rvalue.c:2828]: fix_rval(): RV is str: "@"
+ 0(8956) DEBUG: <core> [core/rvalue.c:3507]: rve_optimize(): FIXUP RVE (1140,32-1140,60): changed + into string concat
+ 0(8956) DEBUG: <core> [core/rvalue.c:2820]: fix_rval(): RV fixing type 7
+ 0(8956) DEBUG: <core> [core/rvalue.c:3507]: rve_optimize(): FIXUP RVE (1140,32-1140,78): changed + into string concat
+ 0(8956) DEBUG: <core> [core/rvalue.c:2820]: fix_rval(): RV fixing type 7
+ 0(8956) DEBUG: <core> [core/route.c:909]: fix_actions(): fixing uac_req_send()
+ 0(8956) DEBUG: <core> [core/route.c:909]: fix_actions(): fixing ds_next_dst()
+ 0(8956) DEBUG: <core> [core/rvalue.c:2820]: fix_rval(): RV fixing type 7
+ 0(8956) DEBUG: <core> [core/rvalue.c:2820]: fix_rval(): RV fixing type 7
+ 0(8956) DEBUG: <core> [core/rvalue.c:2820]: fix_rval(): RV fixing type 4
+ 0(8956) DEBUG: <core> [core/route.c:909]: fix_actions(): fixing sanity_check()
+ 0(8956) DEBUG: <core> [core/route.c:909]: fix_actions(): fixing xlog()
+ 0(8956) DEBUG: <core> [core/pvapi.c:410]: pv_cache_lookup(): pvar [$si] found in cache
+ 0(8956) DEBUG: <core> [core/pvapi.c:410]: pv_cache_lookup(): pvar [$sp] found in cache
+ 0(8956) DEBUG: <core> [core/route.c:909]: fix_actions(): fixing xdbg()
+ 0(8956) DEBUG: <core> [core/rvalue.c:2820]: fix_rval(): RV fixing type 3
+ 0(8956) DEBUG: <core> [core/rvalue.c:2820]: fix_rval(): RV fixing type 2
+ 0(8956) DEBUG: <core> [core/rvalue.c:2828]: fix_rval(): RV is str: "[12][0-9][0-9]"
+ 0(8956) DEBUG: <core> [core/route.c:476]: exp_optimize_right(): op11(O52, _ST22_) => op11(O52, _ST1_)
+ 0(8956) DEBUG: <core> [core/rvalue.c:2820]: fix_rval(): RV fixing type 4
+ 0(8956) DEBUG: <core> [core/route.c:909]: fix_actions(): fixing t_is_canceled()
+ 0(8956) DEBUG: <core> [core/route.c:909]: fix_actions(): fixing xdbg()
+ 0(8956) DEBUG: <core> [core/pvapi.c:502]: pv_spec_lookup(): PV <$T_branch_idx> is not in cache
+ 0(8956) DEBUG: <core> [core/pvapi.c:386]: pv_cache_add(): pvar [$T_branch_idx] added in cache
+ 0(8956) DEBUG: <core> [core/pvapi.c:410]: pv_cache_lookup(): pvar [$ru] found in cache
+ 0(8956) INFO: <core> [core/udp_server.c:163]: probe_max_receive_buffer(): SO_RCVBUF is initially 212992 for fd 9
+ 0(8956) INFO: <core> [core/udp_server.c:233]: probe_max_receive_buffer(): SO_RCVBUF is finally 425984 on fd 9
+ 0(8956) INFO: <core> [core/udp_server.c:264]: probe_max_send_buffer(): SO_SNDBUF is initially 212992 for fd 9
+ 0(8956) INFO: <core> [core/udp_server.c:334]: probe_max_send_buffer(): SO_SNDBUF is finally 425984 on fd 9
+ 0(8956) INFO: <core> [core/udp_server.c:163]: probe_max_receive_buffer(): SO_RCVBUF is initially 212992 for fd 10
+ 0(8956) INFO: <core> [core/udp_server.c:233]: probe_max_receive_buffer(): SO_RCVBUF is finally 425984 on fd 10
+ 0(8956) INFO: <core> [core/udp_server.c:264]: probe_max_send_buffer(): SO_SNDBUF is initially 212992 for fd 10
+ 0(8956) INFO: <core> [core/udp_server.c:334]: probe_max_send_buffer(): SO_SNDBUF is finally 425984 on fd 10
+ 0(8956) DEBUG: <core> [core/tcp_main.c:3146]: tcp_init(): added 127.0.0.1:5060
+ 0(8956) INFO: <core> [core/tcp_main.c:3267]: tcp_init(): Set TCP_USER_TIMEOUT=10000 ms
+ 0(8956) ERROR: <core> [core/tcp_main.c:3272]: tcp_init(): bind(c, 0x7fe089f385e8, 16) on 127.0.0.1:5060 : Address already in use
+ 0(8956) DEBUG: <core> [core/sr_module.c:874]: destroy_modules(): starting modules destroy phase
+ 0(8956) DEBUG: tm [t_funcs.c:91]: tm_shutdown(): start
+ 0(8956) DEBUG: tm [t_funcs.c:100]: tm_shutdown(): emptying hash table
+ 0(8956) DEBUG: tm [t_funcs.c:102]: tm_shutdown(): removing semaphores
+ 0(8956) DEBUG: tm [t_funcs.c:104]: tm_shutdown(): destroying tmcb lists
+ 0(8956) DEBUG: tm [t_funcs.c:107]: tm_shutdown(): done
+ 0(8956) INFO: <core> [core/sctp_core.c:53]: sctp_core_destroy(): SCTP API not initialized
+ 0(8956) DEBUG: <core> [core/mem/shm.c:289]: shm_destroy_manager(): destroying memory manager: q_malloc
+ 0(8956) DEBUG: <core> [core/mem/q_malloc.c:1444]: qm_shm_lock_destroy(): destroying the shared memory lock
+ 0(8956) DEBUG: <core> [core/mem/pkg.c:96]: pkg_destroy_manager(): destroying memory manager: q_malloc
