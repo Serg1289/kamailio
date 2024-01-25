@@ -1,0 +1,1037 @@
+fixing type 7
+ 0(20155) DEBUG: <core> [core/rvalue.c:3507]: rve_optimize(): FIXUP RVE (1118,24-1118,56): changed + into string concat
+ 0(20155) DEBUG: <core> [core/rvalue.c:2820]: fix_rval(): RV fixing type 2
+ 0(20155) DEBUG: <core> [core/rvalue.c:2828]: fix_rval(): RV is str: "@"
+ 0(20155) DEBUG: <core> [core/rvalue.c:3507]: rve_optimize(): FIXUP RVE (1118,24-1118,62): changed + into string concat
+ 0(20155) DEBUG: <core> [core/rvalue.c:2820]: fix_rval(): RV fixing type 2
+ 0(20155) DEBUG: <core> [core/rvalue.c:2828]: fix_rval(): RV is str: "MY_IP4_ADDR"
+ 0(20155) DEBUG: <core> [core/rvalue.c:3507]: rve_optimize(): FIXUP RVE (1118,24-1119,47): changed + into string concat
+ 0(20155) DEBUG: <core> [core/rvalue.c:3582]: rve_optimize(): FIXUP RVE (1118,24-1119,47): optimized str rve op(op($v, a), b) with op($v, "@MY_IP4_ADDR"); op=27
+ 0(20155) DEBUG: <core> [core/rvalue.c:2820]: fix_rval(): RV fixing type 2
+ 0(20155) DEBUG: <core> [core/rvalue.c:2828]: fix_rval(): RV is str: ":"
+ 0(20155) DEBUG: <core> [core/rvalue.c:3507]: rve_optimize(): FIXUP RVE (1118,24-1120,37): changed + into string concat
+ 0(20155) DEBUG: <core> [core/rvalue.c:3582]: rve_optimize(): FIXUP RVE (1118,24-1120,37): optimized str rve op(op($v, a), b) with op($v, "@MY_IP4_ADDR:"); op=27
+ 0(20155) DEBUG: <core> [core/rvalue.c:2820]: fix_rval(): RV fixing type 2
+ 0(20155) DEBUG: <core> [core/rvalue.c:2828]: fix_rval(): RV is str: "MY_SIP_PORT"
+ 0(20155) DEBUG: <core> [core/rvalue.c:3507]: rve_optimize(): FIXUP RVE (1118,24-1120,53): changed + into string concat
+ 0(20155) DEBUG: <core> [core/rvalue.c:3582]: rve_optimize(): FIXUP RVE (1118,24-1120,53): optimized str rve op(op($v, a), b) with op($v, "@MY_IP4_ADDR:MY_SIP_PORT"); op=27
+ 0(20155) DEBUG: <core> [core/rvalue.c:2820]: fix_rval(): RV fixing type 2
+ 0(20155) DEBUG: <core> [core/rvalue.c:2828]: fix_rval(): RV is str: ">
+"
+ 0(20155) DEBUG: <core> [core/rvalue.c:3507]: rve_optimize(): FIXUP RVE (1118,24-1120,63): changed + into string concat
+ 0(20155) DEBUG: <core> [core/rvalue.c:3582]: rve_optimize(): FIXUP RVE (1118,24-1120,63): optimized str rve op(op($v, a), b) with op($v, "@MY_IP4_ADDR:MY_SIP_PORT>
+"); op=27
+ 0(20155) DEBUG: <core> [core/rvalue.c:2820]: fix_rval(): RV fixing type 7
+ 0(20155) DEBUG: <core> [core/rvalue.c:2820]: fix_rval(): RV fixing type 7
+ 0(20155) DEBUG: <core> [core/rvalue.c:2820]: fix_rval(): RV fixing type 2
+ 0(20155) DEBUG: <core> [core/rvalue.c:2828]: fix_rval(): RV is str: "Expires: "
+ 0(20155) DEBUG: <core> [core/rvalue.c:2820]: fix_rval(): RV fixing type 7
+ 0(20155) DEBUG: <core> [core/rvalue.c:2820]: fix_rval(): RV fixing type 2
+ 0(20155) DEBUG: <core> [core/rvalue.c:2828]: fix_rval(): RV is str: "
+"
+ 0(20155) DEBUG: <core> [core/rvalue.c:2820]: fix_rval(): RV fixing type 4
+ 0(20155) DEBUG: <core> [core/route.c:909]: fix_actions(): fixing is_present_hf()
+ 0(20155) DEBUG: <core> [core/parser/parse_hname2.c:314]: parse_sip_header_name(): parsed header name [Expires] type 14
+ 0(20155) DEBUG: textops [textops.c:3764]: hname_fixup(): using hdr type (14) instead of <Expires>
+ 0(20155) DEBUG: <core> [core/rvalue.c:2820]: fix_rval(): RV fixing type 7
+ 0(20155) DEBUG: <core> [core/rvalue.c:2820]: fix_rval(): RV fixing type 2
+ 0(20155) DEBUG: <core> [core/rvalue.c:2828]: fix_rval(): RV is str: "Expires: "
+ 0(20155) DEBUG: <core> [core/rvalue.c:2820]: fix_rval(): RV fixing type 7
+ 0(20155) DEBUG: <core> [core/rvalue.c:2820]: fix_rval(): RV fixing type 2
+ 0(20155) DEBUG: <core> [core/rvalue.c:2828]: fix_rval(): RV is str: "
+"
+ 0(20155) DEBUG: <core> [core/rvalue.c:2820]: fix_rval(): RV fixing type 7
+ 0(20155) DEBUG: <core> [core/rvalue.c:2820]: fix_rval(): RV fixing type 7
+ 0(20155) DEBUG: <core> [core/rvalue.c:2820]: fix_rval(): RV fixing type 2
+ 0(20155) DEBUG: <core> [core/rvalue.c:2828]: fix_rval(): RV is str: "X-User-Agent: "
+ 0(20155) DEBUG: <core> [core/rvalue.c:2820]: fix_rval(): RV fixing type 7
+ 0(20155) DEBUG: <core> [core/rvalue.c:2820]: fix_rval(): RV fixing type 2
+ 0(20155) DEBUG: <core> [core/rvalue.c:2828]: fix_rval(): RV is str: "
+"
+ 0(20155) DEBUG: <core> [core/rvalue.c:2820]: fix_rval(): RV fixing type 7
+ 0(20155) DEBUG: <core> [core/rvalue.c:2820]: fix_rval(): RV fixing type 7
+ 0(20155) DEBUG: <core> [core/rvalue.c:2820]: fix_rval(): RV fixing type 2
+ 0(20155) DEBUG: <core> [core/rvalue.c:2828]: fix_rval(): RV is str: "X-User-Agent: "
+ 0(20155) DEBUG: <core> [core/rvalue.c:2820]: fix_rval(): RV fixing type 7
+ 0(20155) DEBUG: <core> [core/rvalue.c:2820]: fix_rval(): RV fixing type 2
+ 0(20155) DEBUG: <core> [core/rvalue.c:2828]: fix_rval(): RV is str: "
+"
+ 0(20155) DEBUG: <core> [core/rvalue.c:2820]: fix_rval(): RV fixing type 7
+ 0(20155) DEBUG: <core> [core/rvalue.c:2820]: fix_rval(): RV fixing type 7
+ 0(20155) DEBUG: <core> [core/rvalue.c:2820]: fix_rval(): RV fixing type 1
+ 0(20155) DEBUG: <core> [core/rvalue.c:2824]: fix_rval(): RV is int: 1
+ 0(20155) DEBUG: <core> [core/route.c:909]: fix_actions(): fixing ds_select()
+ 0(20155) DEBUG: <core> [core/rvalue.c:2820]: fix_rval(): RV fixing type 4
+ 0(20155) DEBUG: <core> [core/route.c:909]: fix_actions(): fixing ds_set_dst()
+ 0(20155) DEBUG: <core> [core/route.c:909]: fix_actions(): fixing xlog()
+ 0(20155) DEBUG: <core> [core/pvapi.c:410]: pv_cache_lookup(): pvar [$du] found in cache
+ 0(20155) DEBUG: <core> [core/rvalue.c:2820]: fix_rval(): RV fixing type 2
+ 0(20155) DEBUG: <core> [core/rvalue.c:2828]: fix_rval(): RV is str: "sip:"
+ 0(20155) DEBUG: <core> [core/rvalue.c:2820]: fix_rval(): RV fixing type 7
+ 0(20155) DEBUG: <core> [core/rvalue.c:3507]: rve_optimize(): FIXUP RVE (1139,32-1139,55): changed + into string concat
+ 0(20155) DEBUG: <core> [core/rvalue.c:2820]: fix_rval(): RV fixing type 2
+ 0(20155) DEBUG: <core> [core/rvalue.c:2828]: fix_rval(): RV is str: "sip:"
+ 0(20155) DEBUG: <core> [core/rvalue.c:2820]: fix_rval(): RV fixing type 7
+ 0(20155) DEBUG: <core> [core/rvalue.c:3507]: rve_optimize(): FIXUP RVE (1140,32-1140,54): changed + into string concat
+ 0(20155) DEBUG: <core> [core/rvalue.c:2820]: fix_rval(): RV fixing type 2
+ 0(20155) DEBUG: <core> [core/rvalue.c:2828]: fix_rval(): RV is str: "@"
+ 0(20155) DEBUG: <core> [core/rvalue.c:3507]: rve_optimize(): FIXUP RVE (1140,32-1140,60): changed + into string concat
+ 0(20155) DEBUG: <core> [core/rvalue.c:2820]: fix_rval(): RV fixing type 7
+ 0(20155) DEBUG: <core> [core/rvalue.c:3507]: rve_optimize(): FIXUP RVE (1140,32-1140,78): changed + into string concat
+ 0(20155) DEBUG: <core> [core/rvalue.c:2820]: fix_rval(): RV fixing type 7
+ 0(20155) DEBUG: <core> [core/route.c:909]: fix_actions(): fixing uac_req_send()
+ 0(20155) DEBUG: <core> [core/route.c:909]: fix_actions(): fixing ds_next_dst()
+ 0(20155) DEBUG: <core> [core/rvalue.c:2820]: fix_rval(): RV fixing type 7
+ 0(20155) DEBUG: <core> [core/rvalue.c:2820]: fix_rval(): RV fixing type 7
+ 0(20155) DEBUG: <core> [core/rvalue.c:2820]: fix_rval(): RV fixing type 4
+ 0(20155) DEBUG: <core> [core/route.c:909]: fix_actions(): fixing sanity_check()
+ 0(20155) DEBUG: <core> [core/route.c:909]: fix_actions(): fixing xlog()
+ 0(20155) DEBUG: <core> [core/pvapi.c:410]: pv_cache_lookup(): pvar [$si] found in cache
+ 0(20155) DEBUG: <core> [core/pvapi.c:410]: pv_cache_lookup(): pvar [$sp] found in cache
+ 0(20155) DEBUG: <core> [core/route.c:909]: fix_actions(): fixing xdbg()
+ 0(20155) DEBUG: <core> [core/rvalue.c:2820]: fix_rval(): RV fixing type 3
+ 0(20155) DEBUG: <core> [core/rvalue.c:2820]: fix_rval(): RV fixing type 2
+ 0(20155) DEBUG: <core> [core/rvalue.c:2828]: fix_rval(): RV is str: "[12][0-9][0-9]"
+ 0(20155) DEBUG: <core> [core/route.c:476]: exp_optimize_right(): op11(O52, _ST22_) => op11(O52, _ST1_)
+ 0(20155) DEBUG: <core> [core/rvalue.c:2820]: fix_rval(): RV fixing type 4
+ 0(20155) DEBUG: <core> [core/route.c:909]: fix_actions(): fixing t_is_canceled()
+ 0(20155) DEBUG: <core> [core/route.c:909]: fix_actions(): fixing xdbg()
+ 0(20155) DEBUG: <core> [core/pvapi.c:502]: pv_spec_lookup(): PV <$T_branch_idx> is not in cache
+ 0(20155) DEBUG: <core> [core/pvapi.c:386]: pv_cache_add(): pvar [$T_branch_idx] added in cache
+ 0(20155) DEBUG: <core> [core/pvapi.c:410]: pv_cache_lookup(): pvar [$ru] found in cache
+ 0(20155) INFO: <core> [core/udp_server.c:163]: probe_max_receive_buffer(): SO_RCVBUF is initially 212992 for fd 9
+ 0(20155) INFO: <core> [core/udp_server.c:233]: probe_max_receive_buffer(): SO_RCVBUF is finally 425984 on fd 9
+ 0(20155) INFO: <core> [core/udp_server.c:264]: probe_max_send_buffer(): SO_SNDBUF is initially 212992 for fd 9
+ 0(20155) INFO: <core> [core/udp_server.c:334]: probe_max_send_buffer(): SO_SNDBUF is finally 425984 on fd 9
+ 0(20155) INFO: <core> [core/udp_server.c:163]: probe_max_receive_buffer(): SO_RCVBUF is initially 212992 for fd 10
+ 0(20155) INFO: <core> [core/udp_server.c:233]: probe_max_receive_buffer(): SO_RCVBUF is finally 425984 on fd 10
+ 0(20155) INFO: <core> [core/udp_server.c:264]: probe_max_send_buffer(): SO_SNDBUF is initially 212992 for fd 10
+ 0(20155) INFO: <core> [core/udp_server.c:334]: probe_max_send_buffer(): SO_SNDBUF is finally 425984 on fd 10
+ 0(20155) DEBUG: <core> [core/daemonize.c:201]: enable_dumpable(): trying enable core dumping...
+ 0(20155) DEBUG: <core> [core/daemonize.c:219]: enable_dumpable(): core dumping is enabled now (1)...
+ 0(20155) DEBUG: <core> [core/pvapi.c:502]: pv_spec_lookup(): PV <$mt> is not in cache
+ 0(20155) DEBUG: <core> [core/pvapi.c:386]: pv_cache_add(): pvar [$mt] added in cache
+ 0(20155) DEBUG: <core> [core/pvapi.c:502]: pv_spec_lookup(): PV <$hdr(CSeq)> is not in cache
+ 0(20155) DEBUG: <core> [core/parser/parse_hname2.c:314]: parse_sip_header_name(): parsed header name [CSeq] type 5
+ 0(20155) DEBUG: pv [pv_core.c:3831]: pv_parse_hdr_name(): using hdr type (5) instead of <CSeq>
+ 0(20155) DEBUG: <core> [core/pvapi.c:386]: pv_cache_add(): pvar [$hdr(CSeq)] added in cache
+ 0(20155) DEBUG: <core> [core/pvapi.c:502]: pv_spec_lookup(): PV <$ci> is not in cache
+ 0(20155) DEBUG: <core> [core/pvapi.c:386]: pv_cache_add(): pvar [$ci] added in cache
+ 0(20155) DEBUG: <core> [core/sr_module.c:991]: init_child(): initializing PROC_INIT with rank -127
+ 0(20155) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 0 rank -127: jsonrpcs [main]
+ 0(20155) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 0 rank -127: kex [main]
+ 0(20155) DEBUG: kex [kex_mod.c:142]: child_init(): rank is (-127)
+ 0(20155) DEBUG: <core> [core/utils/sruid.c:125]: sruid_init(): root for sruid is [srid-65b23507-4ebb-] (0 / 19)
+ 0(20155) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 0 rank -127: corex [main]
+ 0(20155) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 0 rank -127: tm [main]
+ 0(20155) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 0 rank -127: tmx [main]
+ 0(20155) DEBUG: tmx [tmx_mod.c:250]: child_init(): rank is (-127)
+ 0(20155) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 0 rank -127: sl [main]
+ 0(20155) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 0 rank -127: usrloc [main]
+ 0(20155) DEBUG: <core> [core/utils/sruid.c:125]: sruid_init(): root for sruid is [ulcx-65b23507-4ebb-] (0 / 19)
+ 0(20155) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 0 rank -127: registrar [main]
+ 0(20155) DEBUG: <core> [core/utils/sruid.c:125]: sruid_init(): root for sruid is [uloc-65b23507-4ebb-] (0 / 19)
+ 0(20155) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 0 rank -127: ctl [main]
+ 0(20155) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 0 rank -127: acc [main]
+ 0(20155) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 0 rank -127: dispatcher [main]
+ 0(20155) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 0 rank -127: uac [main]
+ 0(20155) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 0 rank -127: debugger [main]
+ 0(20155) DEBUG: debugger [debugger_mod.c:219]: child_init(): rank is (-127)
+ 0(20155) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 0 rank -127: auth_db [main]
+ 3(20158) DEBUG: <core> [core/pt.c:303]: fork_process(): seeding PRNG with 2708817798
+ 3(20158) DEBUG: <core> [core/rand/cryptorand.c:37]: cryptorand_seed(): seeding cryptorand generator with 2708817798
+ 4(20159) DEBUG: <core> [core/pt.c:303]: fork_process(): seeding PRNG with 122392516
+ 4(20159) DEBUG: <core> [core/rand/cryptorand.c:37]: cryptorand_seed(): seeding cryptorand generator with 122392516
+ 2(20157) DEBUG: <core> [core/pt.c:303]: fork_process(): seeding PRNG with 4074051724
+ 3(20158) DEBUG: <core> [core/rand/fortuna/random.c:170]: sr_add_entropy(): additional 4 bytes entropy added to cryptographic PRNG
+ 3(20158) DEBUG: <core> [core/pt.c:308]: fork_process(): test random numbers 912092856 1531054341 2655705727 1861915387
+ 3(20158) DEBUG: <core> [core/sr_module.c:991]: init_child(): initializing CHILD with rank 3
+ 3(20158) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 3 rank 3: jsonrpcs [udp receiver child=2 sock=127.0.0.1:5060]
+ 5(20160) DEBUG: <core> [core/pt.c:303]: fork_process(): seeding PRNG with 4096074820
+ 2(20157) DEBUG: <core> [core/rand/cryptorand.c:37]: cryptorand_seed(): seeding cryptorand generator with 4074051724
+ 2(20157) DEBUG: <core> [core/rand/fortuna/random.c:170]: sr_add_entropy(): additional 4 bytes entropy added to cryptographic PRNG
+ 4(20159) DEBUG: <core> [core/rand/fortuna/random.c:170]: sr_add_entropy(): additional 4 bytes entropy added to cryptographic PRNG
+ 4(20159) DEBUG: <core> [core/pt.c:308]: fork_process(): test random numbers 487379821 1774567625 2634391289 2612493886
+ 4(20159) DEBUG: <core> [core/sr_module.c:991]: init_child(): initializing CHILD with rank 4
+ 2(20157) DEBUG: <core> [core/pt.c:308]: fork_process(): test random numbers 1277564338 828423646 4166352717 1516904143
+ 3(20158) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 3 rank 3: kex [udp receiver child=2 sock=127.0.0.1:5060]
+ 5(20160) DEBUG: <core> [core/rand/cryptorand.c:37]: cryptorand_seed(): seeding cryptorand generator with 4096074820
+ 5(20160) DEBUG: <core> [core/rand/fortuna/random.c:170]: sr_add_entropy(): additional 4 bytes entropy added to cryptographic PRNG
+ 3(20158) DEBUG: kex [kex_mod.c:142]: child_init(): rank is (3)
+ 2(20157) DEBUG: <core> [core/sr_module.c:991]: init_child(): initializing CHILD with rank 2
+ 2(20157) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 2 rank 2: jsonrpcs [udp receiver child=1 sock=127.0.0.1:5060]
+ 5(20160) DEBUG: <core> [core/pt.c:308]: fork_process(): test random numbers 1037018825 201130282 4137468767 4259962882
+ 4(20159) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 4 rank 4: jsonrpcs [udp receiver child=3 sock=127.0.0.1:5060]
+ 4(20159) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 4 rank 4: kex [udp receiver child=3 sock=127.0.0.1:5060]
+ 4(20159) DEBUG: kex [kex_mod.c:142]: child_init(): rank is (4)
+ 3(20158) DEBUG: <core> [core/utils/sruid.c:125]: sruid_init(): root for sruid is [srid-65b23507-4ebe-] (0 / 19)
+ 3(20158) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 3 rank 3: corex [udp receiver child=2 sock=127.0.0.1:5060]
+ 3(20158) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 3 rank 3: tm [udp receiver child=2 sock=127.0.0.1:5060]
+ 3(20158) DEBUG: tm [callid.c:136]: child_init_callid(): callid: '380192a10984b091-20158@127.0.0.1'
+ 3(20158) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 3 rank 3: tmx [udp receiver child=2 sock=127.0.0.1:5060]
+ 3(20158) DEBUG: tmx [tmx_mod.c:250]: child_init(): rank is (3)
+ 3(20158) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 3 rank 3: sl [udp receiver child=2 sock=127.0.0.1:5060]
+ 3(20158) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 3 rank 3: usrloc [udp receiver child=2 sock=127.0.0.1:5060]
+ 3(20158) DEBUG: <core> [core/utils/sruid.c:125]: sruid_init(): root for sruid is [ulcx-65b23507-4ebe-] (0 / 19)
+ 6(20161) DEBUG: <core> [core/pt.c:303]: fork_process(): seeding PRNG with 3223102103
+ 5(20160) DEBUG: <core> [core/sr_module.c:991]: init_child(): initializing CHILD with rank 5
+ 5(20160) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 5 rank 5: jsonrpcs [udp receiver child=4 sock=127.0.0.1:5060]
+ 4(20159) DEBUG: <core> [core/utils/sruid.c:125]: sruid_init(): root for sruid is [srid-65b23507-4ebf-] (0 / 19)
+ 2(20157) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 2 rank 2: kex [udp receiver child=1 sock=127.0.0.1:5060]
+ 4(20159) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 4 rank 4: corex [udp receiver child=3 sock=127.0.0.1:5060]
+ 2(20157) DEBUG: kex [kex_mod.c:142]: child_init(): rank is (2)
+ 2(20157) DEBUG: <core> [core/utils/sruid.c:125]: sruid_init(): root for sruid is [srid-65b23507-4ebd-] (0 / 19)
+ 5(20160) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 5 rank 5: kex [udp receiver child=4 sock=127.0.0.1:5060]
+ 5(20160) DEBUG: kex [kex_mod.c:142]: child_init(): rank is (5)
+ 4(20159) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 4 rank 4: tm [udp receiver child=3 sock=127.0.0.1:5060]
+ 4(20159) DEBUG: tm [callid.c:136]: child_init_callid(): callid: '380192a10984b091-20159@127.0.0.1'
+ 2(20157) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 2 rank 2: corex [udp receiver child=1 sock=127.0.0.1:5060]
+ 2(20157) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 2 rank 2: tm [udp receiver child=1 sock=127.0.0.1:5060]
+ 5(20160) DEBUG: <core> [core/utils/sruid.c:125]: sruid_init(): root for sruid is [srid-65b23507-4ec0-] (0 / 19)
+ 4(20159) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 4 rank 4: tmx [udp receiver child=3 sock=127.0.0.1:5060]
+ 4(20159) DEBUG: tmx [tmx_mod.c:250]: child_init(): rank is (4)
+ 4(20159) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 4 rank 4: sl [udp receiver child=3 sock=127.0.0.1:5060]
+ 2(20157) DEBUG: tm [callid.c:136]: child_init_callid(): callid: '380192a10984b091-20157@127.0.0.1'
+ 4(20159) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 4 rank 4: usrloc [udp receiver child=3 sock=127.0.0.1:5060]
+ 5(20160) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 5 rank 5: corex [udp receiver child=4 sock=127.0.0.1:5060]
+ 2(20157) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 2 rank 2: tmx [udp receiver child=1 sock=127.0.0.1:5060]
+ 4(20159) DEBUG: <core> [core/utils/sruid.c:125]: sruid_init(): root for sruid is [ulcx-65b23507-4ebf-] (0 / 19)
+ 6(20161) DEBUG: <core> [core/rand/cryptorand.c:37]: cryptorand_seed(): seeding cryptorand generator with 3223102103
+ 3(20158) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 3 rank 3: registrar [udp receiver child=2 sock=127.0.0.1:5060]
+ 3(20158) DEBUG: <core> [core/utils/sruid.c:125]: sruid_init(): root for sruid is [uloc-65b23507-4ebe-] (0 / 19)
+ 2(20157) DEBUG: tmx [tmx_mod.c:250]: child_init(): rank is (2)
+ 5(20160) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 5 rank 5: tm [udp receiver child=4 sock=127.0.0.1:5060]
+ 6(20161) DEBUG: <core> [core/rand/fortuna/random.c:170]: sr_add_entropy(): additional 4 bytes entropy added to cryptographic PRNG
+ 6(20161) DEBUG: <core> [core/pt.c:308]: fork_process(): test random numbers 1893922348 397451246 2672876816 3460124952
+ 4(20159) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 4 rank 4: registrar [udp receiver child=3 sock=127.0.0.1:5060]
+ 2(20157) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 2 rank 2: sl [udp receiver child=1 sock=127.0.0.1:5060]
+ 2(20157) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 2 rank 2: usrloc [udp receiver child=1 sock=127.0.0.1:5060]
+ 5(20160) DEBUG: tm [callid.c:136]: child_init_callid(): callid: '380192a10984b091-20160@127.0.0.1'
+ 3(20158) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 3 rank 3: ctl [udp receiver child=2 sock=127.0.0.1:5060]
+ 2(20157) DEBUG: <core> [core/utils/sruid.c:125]: sruid_init(): root for sruid is [ulcx-65b23507-4ebd-] (0 / 19)
+ 4(20159) DEBUG: <core> [core/utils/sruid.c:125]: sruid_init(): root for sruid is [uloc-65b23507-4ebf-] (0 / 19)
+ 5(20160) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 5 rank 5: tmx [udp receiver child=4 sock=127.0.0.1:5060]
+ 5(20160) DEBUG: tmx [tmx_mod.c:250]: child_init(): rank is (5)
+ 2(20157) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 2 rank 2: registrar [udp receiver child=1 sock=127.0.0.1:5060]
+ 2(20157) DEBUG: <core> [core/utils/sruid.c:125]: sruid_init(): root for sruid is [uloc-65b23507-4ebd-] (0 / 19)
+ 3(20158) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 3 rank 3: acc [udp receiver child=2 sock=127.0.0.1:5060]
+ 4(20159) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 4 rank 4: ctl [udp receiver child=3 sock=127.0.0.1:5060]
+ 5(20160) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 5 rank 5: sl [udp receiver child=4 sock=127.0.0.1:5060]
+ 6(20161) DEBUG: <core> [core/sr_module.c:991]: init_child(): initializing CHILD with rank 6
+ 6(20161) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 6 rank 6: jsonrpcs [udp receiver child=5 sock=127.0.0.1:5060]
+ 5(20160) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 5 rank 5: usrloc [udp receiver child=4 sock=127.0.0.1:5060]
+ 5(20160) DEBUG: <core> [core/utils/sruid.c:125]: sruid_init(): root for sruid is [ulcx-65b23507-4ec0-] (0 / 19)
+ 5(20160) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 5 rank 5: registrar [udp receiver child=4 sock=127.0.0.1:5060]
+ 4(20159) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 4 rank 4: acc [udp receiver child=3 sock=127.0.0.1:5060]
+ 3(20158) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 3 rank 3: dispatcher [udp receiver child=2 sock=127.0.0.1:5060]
+ 2(20157) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 2 rank 2: ctl [udp receiver child=1 sock=127.0.0.1:5060]
+ 2(20157) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 2 rank 2: acc [udp receiver child=1 sock=127.0.0.1:5060]
+ 6(20161) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 6 rank 6: kex [udp receiver child=5 sock=127.0.0.1:5060]
+ 5(20160) DEBUG: <core> [core/utils/sruid.c:125]: sruid_init(): root for sruid is [uloc-65b23507-4ec0-] (0 / 19)
+ 3(20158) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 3 rank 3: uac [udp receiver child=2 sock=127.0.0.1:5060]
+ 3(20158) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 3 rank 3: debugger [udp receiver child=2 sock=127.0.0.1:5060]
+ 4(20159) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 4 rank 4: dispatcher [udp receiver child=3 sock=127.0.0.1:5060]
+ 4(20159) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 4 rank 4: uac [udp receiver child=3 sock=127.0.0.1:5060]
+ 4(20159) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 4 rank 4: debugger [udp receiver child=3 sock=127.0.0.1:5060]
+ 4(20159) DEBUG: debugger [debugger_mod.c:219]: child_init(): rank is (4)
+ 4(20159) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 4 rank 4: auth_db [udp receiver child=3 sock=127.0.0.1:5060]
+ 4(20159) DEBUG: <core> [db.c:320]: db_do_init2(): connection 0x7f47234ff5d0 not found in pool
+ 7(20162) DEBUG: <core> [core/pt.c:303]: fork_process(): seeding PRNG with 3568113348
+ 6(20161) DEBUG: kex [kex_mod.c:142]: child_init(): rank is (6)
+ 3(20158) DEBUG: debugger [debugger_mod.c:219]: child_init(): rank is (3)
+ 2(20157) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 2 rank 2: dispatcher [udp receiver child=1 sock=127.0.0.1:5060]
+ 5(20160) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 5 rank 5: ctl [udp receiver child=4 sock=127.0.0.1:5060]
+ 5(20160) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 5 rank 5: acc [udp receiver child=4 sock=127.0.0.1:5060]
+ 5(20160) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 5 rank 5: dispatcher [udp receiver child=4 sock=127.0.0.1:5060]
+ 5(20160) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 5 rank 5: uac [udp receiver child=4 sock=127.0.0.1:5060]
+ 5(20160) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 5 rank 5: debugger [udp receiver child=4 sock=127.0.0.1:5060]
+ 5(20160) DEBUG: debugger [debugger_mod.c:219]: child_init(): rank is (5)
+ 5(20160) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 5 rank 5: auth_db [udp receiver child=4 sock=127.0.0.1:5060]
+ 5(20160) DEBUG: <core> [db.c:320]: db_do_init2(): connection 0x7f47234ff5d0 not found in pool
+ 5(20160) DEBUG: db_mysql [km_my_con.c:108]: db_mysql_new_connection(): opening connection: mysql://xxxx:xxxx@my-bucket-priymak20231120152601247000000001.cmq0h3hyc1g1.us-east-2.rds.amazonaws.com/kamailio
+ 1(20156) DEBUG: <core> [core/pt.c:303]: fork_process(): seeding PRNG with 2832304643
+ 1(20156) DEBUG: <core> [core/rand/cryptorand.c:37]: cryptorand_seed(): seeding cryptorand generator with 2832304643
+ 1(20156) DEBUG: <core> [core/rand/fortuna/random.c:170]: sr_add_entropy(): additional 4 bytes entropy added to cryptographic PRNG
+ 1(20156) DEBUG: <core> [core/pt.c:308]: fork_process(): test random numbers 272359434 11030447 2092582448 2389876861
+ 8(20163) DEBUG: <core> [core/pt.c:303]: fork_process(): seeding PRNG with 23724552
+ 9(20164) DEBUG: <core> [core/pt.c:303]: fork_process(): seeding PRNG with 1671193549
+ 6(20161) DEBUG: <core> [core/utils/sruid.c:125]: sruid_init(): root for sruid is [srid-65b23507-4ec1-] (0 / 19)
+ 3(20158) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 3 rank 3: auth_db [udp receiver child=2 sock=127.0.0.1:5060]
+ 3(20158) DEBUG: <core> [db.c:320]: db_do_init2(): connection 0x7f47234ff5d0 not found in pool
+ 2(20157) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 2 rank 2: uac [udp receiver child=1 sock=127.0.0.1:5060]
+ 2(20157) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 2 rank 2: debugger [udp receiver child=1 sock=127.0.0.1:5060]
+ 2(20157) DEBUG: debugger [debugger_mod.c:219]: child_init(): rank is (2)
+ 2(20157) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 2 rank 2: auth_db [udp receiver child=1 sock=127.0.0.1:5060]
+ 2(20157) DEBUG: <core> [db.c:320]: db_do_init2(): connection 0x7f47234ff5d0 not found in pool
+ 7(20162) DEBUG: <core> [core/rand/cryptorand.c:37]: cryptorand_seed(): seeding cryptorand generator with 3568113348
+ 7(20162) DEBUG: <core> [core/rand/fortuna/random.c:170]: sr_add_entropy(): additional 4 bytes entropy added to cryptographic PRNG
+ 7(20162) DEBUG: <core> [core/pt.c:308]: fork_process(): test random numbers 1645999292 1150590020 2372922147 3345081658
+ 7(20162) DEBUG: <core> [core/sr_module.c:991]: init_child(): initializing CHILD with rank 7
+ 7(20162) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 7 rank 7: jsonrpcs [udp receiver child=6 sock=127.0.0.1:5060]
+ 9(20164) DEBUG: <core> [core/rand/cryptorand.c:37]: cryptorand_seed(): seeding cryptorand generator with 1671193549
+ 9(20164) DEBUG: <core> [core/rand/fortuna/random.c:170]: sr_add_entropy(): additional 4 bytes entropy added to cryptographic PRNG
+ 4(20159) DEBUG: db_mysql [km_my_con.c:108]: db_mysql_new_connection(): opening connection: mysql://xxxx:xxxx@my-bucket-priymak20231120152601247000000001.cmq0h3hyc1g1.us-east-2.rds.amazonaws.com/kamailio
+WARNING: MYSQL_OPT_RECONNECT is deprecated and will be removed in a future version.
+WARNING: MYSQL_OPT_RECONNECT is deprecated and will be removed in a future version.
+ 6(20161) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 6 rank 6: corex [udp receiver child=5 sock=127.0.0.1:5060]
+ 6(20161) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 6 rank 6: tm [udp receiver child=5 sock=127.0.0.1:5060]
+ 6(20161) DEBUG: tm [callid.c:136]: child_init_callid(): callid: '380192a10984b091-20161@127.0.0.1'
+ 6(20161) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 6 rank 6: tmx [udp receiver child=5 sock=127.0.0.1:5060]
+ 6(20161) DEBUG: tmx [tmx_mod.c:250]: child_init(): rank is (6)
+ 6(20161) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 6 rank 6: sl [udp receiver child=5 sock=127.0.0.1:5060]
+ 6(20161) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 6 rank 6: usrloc [udp receiver child=5 sock=127.0.0.1:5060]
+ 6(20161) DEBUG: <core> [core/utils/sruid.c:125]: sruid_init(): root for sruid is [ulcx-65b23507-4ec1-] (0 / 19)
+ 6(20161) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 6 rank 6: registrar [udp receiver child=5 sock=127.0.0.1:5060]
+ 6(20161) DEBUG: <core> [core/utils/sruid.c:125]: sruid_init(): root for sruid is [uloc-65b23507-4ec1-] (0 / 19)
+ 6(20161) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 6 rank 6: ctl [udp receiver child=5 sock=127.0.0.1:5060]
+ 6(20161) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 6 rank 6: acc [udp receiver child=5 sock=127.0.0.1:5060]
+ 3(20158) DEBUG: db_mysql [km_my_con.c:108]: db_mysql_new_connection(): opening connection: mysql://xxxx:xxxx@my-bucket-priymak20231120152601247000000001.cmq0h3hyc1g1.us-east-2.rds.amazonaws.com/kamailio
+WARNING: MYSQL_OPT_RECONNECT is deprecated and will be removed in a future version.
+ 6(20161) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 6 rank 6: dispatcher [udp receiver child=5 sock=127.0.0.1:5060]
+ 6(20161) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 6 rank 6: uac [udp receiver child=5 sock=127.0.0.1:5060]
+ 2(20157) DEBUG: db_mysql [km_my_con.c:108]: db_mysql_new_connection(): opening connection: mysql://xxxx:xxxx@my-bucket-priymak20231120152601247000000001.cmq0h3hyc1g1.us-east-2.rds.amazonaws.com/kamailio
+ 7(20162) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 7 rank 7: kex [udp receiver child=6 sock=127.0.0.1:5060]
+ 7(20162) DEBUG: kex [kex_mod.c:142]: child_init(): rank is (7)
+ 8(20163) DEBUG: <core> [core/rand/cryptorand.c:37]: cryptorand_seed(): seeding cryptorand generator with 23724552
+ 7(20162) DEBUG: <core> [core/utils/sruid.c:125]: sruid_init(): root for sruid is [srid-65b23507-4ec2-] (0 / 19)
+ 7(20162) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 7 rank 7: corex [udp receiver child=6 sock=127.0.0.1:5060]
+ 9(20164) DEBUG: <core> [core/pt.c:308]: fork_process(): test random numbers 1793425722 367667307 217484457 3666595350
+ 1(20156) DEBUG: <core> [core/sr_module.c:991]: init_child(): initializing PROC_SIPINIT with rank 1
+ 6(20161) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 6 rank 6: debugger [udp receiver child=5 sock=127.0.0.1:5060]
+ 8(20163) DEBUG: <core> [core/rand/fortuna/random.c:170]: sr_add_entropy(): additional 4 bytes entropy added to cryptographic PRNG
+ 8(20163) DEBUG: <core> [core/pt.c:308]: fork_process(): test random numbers 1088932069 31681598 1282301010 3970648244
+WARNING: MYSQL_OPT_RECONNECT is deprecated and will be removed in a future version.
+ 8(20163) DEBUG: <core> [core/sr_module.c:991]: init_child(): initializing CHILD with rank 8
+ 7(20162) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 7 rank 7: tm [udp receiver child=6 sock=127.0.0.1:5060]
+ 9(20164) DEBUG: <core> [core/sr_module.c:991]: init_child(): initializing CHILD with rank 9
+ 6(20161) DEBUG: debugger [debugger_mod.c:219]: child_init(): rank is (6)
+ 6(20161) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 6 rank 6: auth_db [udp receiver child=5 sock=127.0.0.1:5060]
+ 6(20161) DEBUG: <core> [db.c:320]: db_do_init2(): connection 0x7f47234ff5d0 not found in pool
+ 1(20156) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 1 rank 1: jsonrpcs [udp receiver child=0 sock=127.0.0.1:5060]
+ 1(20156) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 1 rank 1: kex [udp receiver child=0 sock=127.0.0.1:5060]
+ 9(20164) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 9 rank 9: jsonrpcs [udp receiver child=0 sock=172.31.35.208:5060]
+ 9(20164) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 9 rank 9: kex [udp receiver child=0 sock=172.31.35.208:5060]
+ 7(20162) DEBUG: tm [callid.c:136]: child_init_callid(): callid: '380192a10984b091-20162@127.0.0.1'
+ 7(20162) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 7 rank 7: tmx [udp receiver child=6 sock=127.0.0.1:5060]
+ 8(20163) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 8 rank 8: jsonrpcs [udp receiver child=7 sock=127.0.0.1:5060]
+ 1(20156) DEBUG: kex [kex_mod.c:142]: child_init(): rank is (1)
+ 9(20164) DEBUG: kex [kex_mod.c:142]: child_init(): rank is (9)
+ 8(20163) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 8 rank 8: kex [udp receiver child=7 sock=127.0.0.1:5060]
+ 7(20162) DEBUG: tmx [tmx_mod.c:250]: child_init(): rank is (7)
+ 7(20162) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 7 rank 7: sl [udp receiver child=6 sock=127.0.0.1:5060]
+ 1(20156) DEBUG: <core> [core/utils/sruid.c:125]: sruid_init(): root for sruid is [srid-65b23507-4ebc-] (0 / 19)
+ 9(20164) DEBUG: <core> [core/utils/sruid.c:125]: sruid_init(): root for sruid is [srid-65b23507-4ec4-] (0 / 19)
+ 9(20164) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 9 rank 9: corex [udp receiver child=0 sock=172.31.35.208:5060]
+ 8(20163) DEBUG: kex [kex_mod.c:142]: child_init(): rank is (8)
+ 8(20163) DEBUG: <core> [core/utils/sruid.c:125]: sruid_init(): root for sruid is [srid-65b23507-4ec3-] (0 / 19)
+ 1(20156) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 1 rank 1: corex [udp receiver child=0 sock=127.0.0.1:5060]
+ 1(20156) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 1 rank 1: tm [udp receiver child=0 sock=127.0.0.1:5060]
+ 1(20156) DEBUG: tm [callid.c:136]: child_init_callid(): callid: '380192a10984b091-20156@127.0.0.1'
+ 7(20162) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 7 rank 7: usrloc [udp receiver child=6 sock=127.0.0.1:5060]
+ 7(20162) DEBUG: <core> [core/utils/sruid.c:125]: sruid_init(): root for sruid is [ulcx-65b23507-4ec2-] (0 / 19)
+ 7(20162) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 7 rank 7: registrar [udp receiver child=6 sock=127.0.0.1:5060]
+ 7(20162) DEBUG: <core> [core/utils/sruid.c:125]: sruid_init(): root for sruid is [uloc-65b23507-4ec2-] (0 / 19)
+ 6(20161) DEBUG: db_mysql [km_my_con.c:108]: db_mysql_new_connection(): opening connection: mysql://xxxx:xxxx@my-bucket-priymak20231120152601247000000001.cmq0h3hyc1g1.us-east-2.rds.amazonaws.com/kamailio
+ 9(20164) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 9 rank 9: tm [udp receiver child=0 sock=172.31.35.208:5060]
+ 9(20164) DEBUG: tm [callid.c:136]: child_init_callid(): callid: '380192a10984b091-20164@127.0.0.1'
+ 8(20163) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 8 rank 8: corex [udp receiver child=7 sock=127.0.0.1:5060]
+ 8(20163) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 8 rank 8: tm [udp receiver child=7 sock=127.0.0.1:5060]
+ 8(20163) DEBUG: tm [callid.c:136]: child_init_callid(): callid: '380192a10984b091-20163@127.0.0.1'
+ 8(20163) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 8 rank 8: tmx [udp receiver child=7 sock=127.0.0.1:5060]
+ 8(20163) DEBUG: tmx [tmx_mod.c:250]: child_init(): rank is (8)
+ 8(20163) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 8 rank 8: sl [udp receiver child=7 sock=127.0.0.1:5060]
+ 8(20163) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 8 rank 8: usrloc [udp receiver child=7 sock=127.0.0.1:5060]
+ 8(20163) DEBUG: <core> [core/utils/sruid.c:125]: sruid_init(): root for sruid is [ulcx-65b23507-4ec3-] (0 / 19)
+10(20165) DEBUG: <core> [core/pt.c:303]: fork_process(): seeding PRNG with 871355620
+ 1(20156) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 1 rank 1: tmx [udp receiver child=0 sock=127.0.0.1:5060]
+ 9(20164) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 9 rank 9: tmx [udp receiver child=0 sock=172.31.35.208:5060]
+ 9(20164) DEBUG: tmx [tmx_mod.c:250]: child_init(): rank is (9)
+ 9(20164) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 9 rank 9: sl [udp receiver child=0 sock=172.31.35.208:5060]
+ 9(20164) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 9 rank 9: usrloc [udp receiver child=0 sock=172.31.35.208:5060]
+ 9(20164) DEBUG: <core> [core/utils/sruid.c:125]: sruid_init(): root for sruid is [ulcx-65b23507-4ec4-] (0 / 19)
+ 9(20164) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 9 rank 9: registrar [udp receiver child=0 sock=172.31.35.208:5060]
+ 7(20162) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 7 rank 7: ctl [udp receiver child=6 sock=127.0.0.1:5060]
+WARNING: MYSQL_OPT_RECONNECT is deprecated and will be removed in a future version.
+ 1(20156) DEBUG: tmx [tmx_mod.c:250]: child_init(): rank is (1)
+ 1(20156) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 1 rank 1: sl [udp receiver child=0 sock=127.0.0.1:5060]
+ 1(20156) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 1 rank 1: usrloc [udp receiver child=0 sock=127.0.0.1:5060]
+ 1(20156) DEBUG: <core> [core/utils/sruid.c:125]: sruid_init(): root for sruid is [ulcx-65b23507-4ebc-] (0 / 19)
+ 9(20164) DEBUG: <core> [core/utils/sruid.c:125]: sruid_init(): root for sruid is [uloc-65b23507-4ec4-] (0 / 19)
+ 9(20164) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 9 rank 9: ctl [udp receiver child=0 sock=172.31.35.208:5060]
+ 8(20163) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 8 rank 8: registrar [udp receiver child=7 sock=127.0.0.1:5060]
+ 7(20162) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 7 rank 7: acc [udp receiver child=6 sock=127.0.0.1:5060]
+10(20165) DEBUG: <core> [core/rand/cryptorand.c:37]: cryptorand_seed(): seeding cryptorand generator with 871355620
+10(20165) DEBUG: <core> [core/rand/fortuna/random.c:170]: sr_add_entropy(): additional 4 bytes entropy added to cryptographic PRNG
+10(20165) DEBUG: <core> [core/pt.c:308]: fork_process(): test random numbers 1176661095 1547908033 2011020204 3938905628
+ 1(20156) DEBUG: <core> [db.c:320]: db_do_init2(): connection 0x7f47234ff5d0 not found in pool
+ 9(20164) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 9 rank 9: acc [udp receiver child=0 sock=172.31.35.208:5060]
+ 7(20162) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 7 rank 7: dispatcher [udp receiver child=6 sock=127.0.0.1:5060]
+ 7(20162) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 7 rank 7: uac [udp receiver child=6 sock=127.0.0.1:5060]
+ 7(20162) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 7 rank 7: debugger [udp receiver child=6 sock=127.0.0.1:5060]
+ 8(20163) DEBUG: <core> [core/utils/sruid.c:125]: sruid_init(): root for sruid is [uloc-65b23507-4ec3-] (0 / 19)
+ 8(20163) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 8 rank 8: ctl [udp receiver child=7 sock=127.0.0.1:5060]
+ 8(20163) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 8 rank 8: acc [udp receiver child=7 sock=127.0.0.1:5060]
+ 8(20163) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 8 rank 8: dispatcher [udp receiver child=7 sock=127.0.0.1:5060]
+ 8(20163) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 8 rank 8: uac [udp receiver child=7 sock=127.0.0.1:5060]
+ 8(20163) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 8 rank 8: debugger [udp receiver child=7 sock=127.0.0.1:5060]
+ 8(20163) DEBUG: debugger [debugger_mod.c:219]: child_init(): rank is (8)
+ 1(20156) DEBUG: db_mysql [km_my_con.c:108]: db_mysql_new_connection(): opening connection: mysql://xxxx:xxxx@my-bucket-priymak20231120152601247000000001.cmq0h3hyc1g1.us-east-2.rds.amazonaws.com/kamailio
+ 9(20164) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 9 rank 9: dispatcher [udp receiver child=0 sock=172.31.35.208:5060]
+ 9(20164) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 9 rank 9: uac [udp receiver child=0 sock=172.31.35.208:5060]
+10(20165) DEBUG: <core> [core/sr_module.c:991]: init_child(): initializing CHILD with rank 10
+ 7(20162) DEBUG: debugger [debugger_mod.c:219]: child_init(): rank is (7)
+ 7(20162) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 7 rank 7: auth_db [udp receiver child=6 sock=127.0.0.1:5060]
+ 7(20162) DEBUG: <core> [db.c:320]: db_do_init2(): connection 0x7f47234ff5d0 not found in pool
+ 9(20164) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 9 rank 9: debugger [udp receiver child=0 sock=172.31.35.208:5060]
+ 9(20164) DEBUG: debugger [debugger_mod.c:219]: child_init(): rank is (9)
+10(20165) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 10 rank 10: jsonrpcs [udp receiver child=1 sock=172.31.35.208:5060]
+10(20165) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 10 rank 10: kex [udp receiver child=1 sock=172.31.35.208:5060]
+WARNING: MYSQL_OPT_RECONNECT is deprecated and will be removed in a future version.
+ 9(20164) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 9 rank 9: auth_db [udp receiver child=0 sock=172.31.35.208:5060]
+10(20165) DEBUG: kex [kex_mod.c:142]: child_init(): rank is (10)
+10(20165) DEBUG: <core> [core/utils/sruid.c:125]: sruid_init(): root for sruid is [srid-65b23507-4ec5-] (0 / 19)
+ 7(20162) DEBUG: db_mysql [km_my_con.c:108]: db_mysql_new_connection(): opening connection: mysql://xxxx:xxxx@my-bucket-priymak20231120152601247000000001.cmq0h3hyc1g1.us-east-2.rds.amazonaws.com/kamailio
+ 9(20164) DEBUG: <core> [db.c:320]: db_do_init2(): connection 0x7f47234ff5d0 not found in pool
+ 9(20164) DEBUG: db_mysql [km_my_con.c:108]: db_mysql_new_connection(): opening connection: mysql://xxxx:xxxx@my-bucket-priymak20231120152601247000000001.cmq0h3hyc1g1.us-east-2.rds.amazonaws.com/kamailio
+ 8(20163) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 8 rank 8: auth_db [udp receiver child=7 sock=127.0.0.1:5060]
+10(20165) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 10 rank 10: corex [udp receiver child=1 sock=172.31.35.208:5060]
+10(20165) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 10 rank 10: tm [udp receiver child=1 sock=172.31.35.208:5060]
+10(20165) DEBUG: tm [callid.c:136]: child_init_callid(): callid: '380192a10984b091-20165@127.0.0.1'
+10(20165) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 10 rank 10: tmx [udp receiver child=1 sock=172.31.35.208:5060]
+10(20165) DEBUG: tmx [tmx_mod.c:250]: child_init(): rank is (10)
+10(20165) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 10 rank 10: sl [udp receiver child=1 sock=172.31.35.208:5060]
+10(20165) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 10 rank 10: usrloc [udp receiver child=1 sock=172.31.35.208:5060]
+10(20165) DEBUG: <core> [core/utils/sruid.c:125]: sruid_init(): root for sruid is [ulcx-65b23507-4ec5-] (0 / 19)
+10(20165) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 10 rank 10: registrar [udp receiver child=1 sock=172.31.35.208:5060]
+10(20165) DEBUG: <core> [core/utils/sruid.c:125]: sruid_init(): root for sruid is [uloc-65b23507-4ec5-] (0 / 19)
+WARNING: MYSQL_OPT_RECONNECT is deprecated and will be removed in a future version.
+ 8(20163) DEBUG: <core> [db.c:320]: db_do_init2(): connection 0x7f47234ff5d0 not found in pool
+ 8(20163) DEBUG: db_mysql [km_my_con.c:108]: db_mysql_new_connection(): opening connection: mysql://xxxx:xxxx@my-bucket-priymak20231120152601247000000001.cmq0h3hyc1g1.us-east-2.rds.amazonaws.com/kamailio
+WARNING: MYSQL_OPT_RECONNECT is deprecated and will be removed in a future version.
+10(20165) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 10 rank 10: ctl [udp receiver child=1 sock=172.31.35.208:5060]
+10(20165) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 10 rank 10: acc [udp receiver child=1 sock=172.31.35.208:5060]
+WARNING: MYSQL_OPT_RECONNECT is deprecated and will be removed in a future version.
+10(20165) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 10 rank 10: dispatcher [udp receiver child=1 sock=172.31.35.208:5060]
+10(20165) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 10 rank 10: uac [udp receiver child=1 sock=172.31.35.208:5060]
+10(20165) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 10 rank 10: debugger [udp receiver child=1 sock=172.31.35.208:5060]
+10(20165) DEBUG: debugger [debugger_mod.c:219]: child_init(): rank is (10)
+10(20165) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 10 rank 10: auth_db [udp receiver child=1 sock=172.31.35.208:5060]
+10(20165) DEBUG: <core> [db.c:320]: db_do_init2(): connection 0x7f47234ff5d0 not found in pool
+10(20165) DEBUG: db_mysql [km_my_con.c:108]: db_mysql_new_connection(): opening connection: mysql://xxxx:xxxx@my-bucket-priymak20231120152601247000000001.cmq0h3hyc1g1.us-east-2.rds.amazonaws.com/kamailio
+WARNING: MYSQL_OPT_RECONNECT is deprecated and will be removed in a future version.
+11(20166) DEBUG: <core> [core/pt.c:303]: fork_process(): seeding PRNG with 756312327
+11(20166) DEBUG: <core> [core/rand/cryptorand.c:37]: cryptorand_seed(): seeding cryptorand generator with 756312327
+12(20167) DEBUG: <core> [core/pt.c:303]: fork_process(): seeding PRNG with 1381878914
+12(20167) DEBUG: <core> [core/rand/cryptorand.c:37]: cryptorand_seed(): seeding cryptorand generator with 1381878914
+11(20166) DEBUG: <core> [core/rand/fortuna/random.c:170]: sr_add_entropy(): additional 4 bytes entropy added to cryptographic PRNG
+12(20167) DEBUG: <core> [core/rand/fortuna/random.c:170]: sr_add_entropy(): additional 4 bytes entropy added to cryptographic PRNG
+12(20167) DEBUG: <core> [core/pt.c:308]: fork_process(): test random numbers 900267081 1612372803 520351265 3323462273
+11(20166) DEBUG: <core> [core/pt.c:308]: fork_process(): test random numbers 1717628490 1286405346 728318462 2962622525
+11(20166) DEBUG: <core> [core/sr_module.c:991]: init_child(): initializing CHILD with rank 11
+11(20166) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 11 rank 11: jsonrpcs [udp receiver child=2 sock=172.31.35.208:5060]
+11(20166) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 11 rank 11: kex [udp receiver child=2 sock=172.31.35.208:5060]
+11(20166) DEBUG: kex [kex_mod.c:142]: child_init(): rank is (11)
+11(20166) DEBUG: <core> [core/utils/sruid.c:125]: sruid_init(): root for sruid is [srid-65b23507-4ec6-] (0 / 19)
+11(20166) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 11 rank 11: corex [udp receiver child=2 sock=172.31.35.208:5060]
+13(20168) DEBUG: <core> [core/pt.c:303]: fork_process(): seeding PRNG with 1077826021
+12(20167) DEBUG: <core> [core/sr_module.c:991]: init_child(): initializing CHILD with rank 12
+12(20167) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 12 rank 12: jsonrpcs [udp receiver child=3 sock=172.31.35.208:5060]
+12(20167) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 12 rank 12: kex [udp receiver child=3 sock=172.31.35.208:5060]
+12(20167) DEBUG: kex [kex_mod.c:142]: child_init(): rank is (12)
+12(20167) DEBUG: <core> [core/utils/sruid.c:125]: sruid_init(): root for sruid is [srid-65b23507-4ec7-] (0 / 19)
+12(20167) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 12 rank 12: corex [udp receiver child=3 sock=172.31.35.208:5060]
+12(20167) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 12 rank 12: tm [udp receiver child=3 sock=172.31.35.208:5060]
+12(20167) DEBUG: tm [callid.c:136]: child_init_callid(): callid: '380192a10984b091-20167@127.0.0.1'
+12(20167) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 12 rank 12: tmx [udp receiver child=3 sock=172.31.35.208:5060]
+12(20167) DEBUG: tmx [tmx_mod.c:250]: child_init(): rank is (12)
+12(20167) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 12 rank 12: sl [udp receiver child=3 sock=172.31.35.208:5060]
+12(20167) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 12 rank 12: usrloc [udp receiver child=3 sock=172.31.35.208:5060]
+13(20168) DEBUG: <core> [core/rand/cryptorand.c:37]: cryptorand_seed(): seeding cryptorand generator with 1077826021
+13(20168) DEBUG: <core> [core/rand/fortuna/random.c:170]: sr_add_entropy(): additional 4 bytes entropy added to cryptographic PRNG
+13(20168) DEBUG: <core> [core/pt.c:308]: fork_process(): test random numbers 2016769637 1200217044 367802782 2353301282
+11(20166) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 11 rank 11: tm [udp receiver child=2 sock=172.31.35.208:5060]
+11(20166) DEBUG: tm [callid.c:136]: child_init_callid(): callid: '380192a10984b091-20166@127.0.0.1'
+12(20167) DEBUG: <core> [core/utils/sruid.c:125]: sruid_init(): root for sruid is [ulcx-65b23507-4ec7-] (0 / 19)
+12(20167) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 12 rank 12: registrar [udp receiver child=3 sock=172.31.35.208:5060]
+12(20167) DEBUG: <core> [core/utils/sruid.c:125]: sruid_init(): root for sruid is [uloc-65b23507-4ec7-] (0 / 19)
+13(20168) DEBUG: <core> [core/sr_module.c:991]: init_child(): initializing CHILD with rank 13
+11(20166) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 11 rank 11: tmx [udp receiver child=2 sock=172.31.35.208:5060]
+11(20166) DEBUG: tmx [tmx_mod.c:250]: child_init(): rank is (11)
+12(20167) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 12 rank 12: ctl [udp receiver child=3 sock=172.31.35.208:5060]
+12(20167) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 12 rank 12: acc [udp receiver child=3 sock=172.31.35.208:5060]
+13(20168) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 13 rank 13: jsonrpcs [udp receiver child=4 sock=172.31.35.208:5060]
+11(20166) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 11 rank 11: sl [udp receiver child=2 sock=172.31.35.208:5060]
+11(20166) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 11 rank 11: usrloc [udp receiver child=2 sock=172.31.35.208:5060]
+11(20166) DEBUG: <core> [core/utils/sruid.c:125]: sruid_init(): root for sruid is [ulcx-65b23507-4ec6-] (0 / 19)
+13(20168) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 13 rank 13: kex [udp receiver child=4 sock=172.31.35.208:5060]
+13(20168) DEBUG: kex [kex_mod.c:142]: child_init(): rank is (13)
+12(20167) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 12 rank 12: dispatcher [udp receiver child=3 sock=172.31.35.208:5060]
+12(20167) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 12 rank 12: uac [udp receiver child=3 sock=172.31.35.208:5060]
+12(20167) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 12 rank 12: debugger [udp receiver child=3 sock=172.31.35.208:5060]
+11(20166) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 11 rank 11: registrar [udp receiver child=2 sock=172.31.35.208:5060]
+11(20166) DEBUG: <core> [core/utils/sruid.c:125]: sruid_init(): root for sruid is [uloc-65b23507-4ec6-] (0 / 19)
+13(20168) DEBUG: <core> [core/utils/sruid.c:125]: sruid_init(): root for sruid is [srid-65b23507-4ec8-] (0 / 19)
+12(20167) DEBUG: debugger [debugger_mod.c:219]: child_init(): rank is (12)
+12(20167) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 12 rank 12: auth_db [udp receiver child=3 sock=172.31.35.208:5060]
+12(20167) DEBUG: <core> [db.c:320]: db_do_init2(): connection 0x7f47234ff5d0 not found in pool
+13(20168) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 13 rank 13: corex [udp receiver child=4 sock=172.31.35.208:5060]
+11(20166) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 11 rank 11: ctl [udp receiver child=2 sock=172.31.35.208:5060]
+11(20166) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 11 rank 11: acc [udp receiver child=2 sock=172.31.35.208:5060]
+13(20168) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 13 rank 13: tm [udp receiver child=4 sock=172.31.35.208:5060]
+13(20168) DEBUG: tm [callid.c:136]: child_init_callid(): callid: '380192a10984b091-20168@127.0.0.1'
+13(20168) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 13 rank 13: tmx [udp receiver child=4 sock=172.31.35.208:5060]
+13(20168) DEBUG: tmx [tmx_mod.c:250]: child_init(): rank is (13)
+13(20168) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 13 rank 13: sl [udp receiver child=4 sock=172.31.35.208:5060]
+13(20168) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 13 rank 13: usrloc [udp receiver child=4 sock=172.31.35.208:5060]
+12(20167) DEBUG: db_mysql [km_my_con.c:108]: db_mysql_new_connection(): opening connection: mysql://xxxx:xxxx@my-bucket-priymak20231120152601247000000001.cmq0h3hyc1g1.us-east-2.rds.amazonaws.com/kamailio
+11(20166) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 11 rank 11: dispatcher [udp receiver child=2 sock=172.31.35.208:5060]
+13(20168) DEBUG: <core> [core/utils/sruid.c:125]: sruid_init(): root for sruid is [ulcx-65b23507-4ec8-] (0 / 19)
+13(20168) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 13 rank 13: registrar [udp receiver child=4 sock=172.31.35.208:5060]
+13(20168) DEBUG: <core> [core/utils/sruid.c:125]: sruid_init(): root for sruid is [uloc-65b23507-4ec8-] (0 / 19)
+13(20168) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 13 rank 13: ctl [udp receiver child=4 sock=172.31.35.208:5060]
+13(20168) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 13 rank 13: acc [udp receiver child=4 sock=172.31.35.208:5060]
+14(20169) DEBUG: <core> [core/pt.c:303]: fork_process(): seeding PRNG with 1350136300
+11(20166) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 11 rank 11: uac [udp receiver child=2 sock=172.31.35.208:5060]
+11(20166) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 11 rank 11: debugger [udp receiver child=2 sock=172.31.35.208:5060]
+11(20166) DEBUG: debugger [debugger_mod.c:219]: child_init(): rank is (11)
+11(20166) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 11 rank 11: auth_db [udp receiver child=2 sock=172.31.35.208:5060]
+11(20166) DEBUG: <core> [db.c:320]: db_do_init2(): connection 0x7f47234ff5d0 not found in pool
+WARNING: MYSQL_OPT_RECONNECT is deprecated and will be removed in a future version.
+14(20169) DEBUG: <core> [core/rand/cryptorand.c:37]: cryptorand_seed(): seeding cryptorand generator with 1350136300
+13(20168) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 13 rank 13: dispatcher [udp receiver child=4 sock=172.31.35.208:5060]
+13(20168) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 13 rank 13: uac [udp receiver child=4 sock=172.31.35.208:5060]
+13(20168) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 13 rank 13: debugger [udp receiver child=4 sock=172.31.35.208:5060]
+13(20168) DEBUG: debugger [debugger_mod.c:219]: child_init(): rank is (13)
+13(20168) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 13 rank 13: auth_db [udp receiver child=4 sock=172.31.35.208:5060]
+13(20168) DEBUG: <core> [db.c:320]: db_do_init2(): connection 0x7f47234ff5d0 not found in pool
+13(20168) DEBUG: db_mysql [km_my_con.c:108]: db_mysql_new_connection(): opening connection: mysql://xxxx:xxxx@my-bucket-priymak20231120152601247000000001.cmq0h3hyc1g1.us-east-2.rds.amazonaws.com/kamailio
+11(20166) DEBUG: db_mysql [km_my_con.c:108]: db_mysql_new_connection(): opening connection: mysql://xxxx:xxxx@my-bucket-priymak20231120152601247000000001.cmq0h3hyc1g1.us-east-2.rds.amazonaws.com/kamailio
+14(20169) DEBUG: <core> [core/rand/fortuna/random.c:170]: sr_add_entropy(): additional 4 bytes entropy added to cryptographic PRNG
+14(20169) DEBUG: <core> [core/pt.c:308]: fork_process(): test random numbers 1891295321 1999008789 342675182 362758918
+14(20169) DEBUG: <core> [core/sr_module.c:991]: init_child(): initializing CHILD with rank 14
+14(20169) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 14 rank 14: jsonrpcs [udp receiver child=5 sock=172.31.35.208:5060]
+14(20169) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 14 rank 14: kex [udp receiver child=5 sock=172.31.35.208:5060]
+14(20169) DEBUG: kex [kex_mod.c:142]: child_init(): rank is (14)
+14(20169) DEBUG: <core> [core/utils/sruid.c:125]: sruid_init(): root for sruid is [srid-65b23507-4ec9-] (0 / 19)
+WARNING: MYSQL_OPT_RECONNECT is deprecated and will be removed in a future version.
+14(20169) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 14 rank 14: corex [udp receiver child=5 sock=172.31.35.208:5060]
+14(20169) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 14 rank 14: tm [udp receiver child=5 sock=172.31.35.208:5060]
+14(20169) DEBUG: tm [callid.c:136]: child_init_callid(): callid: '380192a10984b091-20169@127.0.0.1'
+WARNING: MYSQL_OPT_RECONNECT is deprecated and will be removed in a future version.
+14(20169) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 14 rank 14: tmx [udp receiver child=5 sock=172.31.35.208:5060]
+14(20169) DEBUG: tmx [tmx_mod.c:250]: child_init(): rank is (14)
+14(20169) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 14 rank 14: sl [udp receiver child=5 sock=172.31.35.208:5060]
+14(20169) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 14 rank 14: usrloc [udp receiver child=5 sock=172.31.35.208:5060]
+14(20169) DEBUG: <core> [core/utils/sruid.c:125]: sruid_init(): root for sruid is [ulcx-65b23507-4ec9-] (0 / 19)
+14(20169) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 14 rank 14: registrar [udp receiver child=5 sock=172.31.35.208:5060]
+14(20169) DEBUG: <core> [core/utils/sruid.c:125]: sruid_init(): root for sruid is [uloc-65b23507-4ec9-] (0 / 19)
+14(20169) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 14 rank 14: ctl [udp receiver child=5 sock=172.31.35.208:5060]
+14(20169) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 14 rank 14: acc [udp receiver child=5 sock=172.31.35.208:5060]
+15(20170) DEBUG: <core> [core/pt.c:303]: fork_process(): seeding PRNG with 373853198
+15(20170) DEBUG: <core> [core/rand/cryptorand.c:37]: cryptorand_seed(): seeding cryptorand generator with 373853198
+15(20170) DEBUG: <core> [core/rand/fortuna/random.c:170]: sr_add_entropy(): additional 4 bytes entropy added to cryptographic PRNG
+14(20169) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 14 rank 14: dispatcher [udp receiver child=5 sock=172.31.35.208:5060]
+14(20169) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 14 rank 14: uac [udp receiver child=5 sock=172.31.35.208:5060]
+14(20169) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 14 rank 14: debugger [udp receiver child=5 sock=172.31.35.208:5060]
+14(20169) DEBUG: debugger [debugger_mod.c:219]: child_init(): rank is (14)
+14(20169) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 14 rank 14: auth_db [udp receiver child=5 sock=172.31.35.208:5060]
+15(20170) DEBUG: <core> [core/pt.c:308]: fork_process(): test random numbers 73887692 1893503817 1550447086 3085214511
+15(20170) DEBUG: <core> [core/sr_module.c:991]: init_child(): initializing CHILD with rank 15
+15(20170) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 15 rank 15: jsonrpcs [udp receiver child=6 sock=172.31.35.208:5060]
+14(20169) DEBUG: <core> [db.c:320]: db_do_init2(): connection 0x7f47234ff5d0 not found in pool
+14(20169) DEBUG: db_mysql [km_my_con.c:108]: db_mysql_new_connection(): opening connection: mysql://xxxx:xxxx@my-bucket-priymak20231120152601247000000001.cmq0h3hyc1g1.us-east-2.rds.amazonaws.com/kamailio
+15(20170) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 15 rank 15: kex [udp receiver child=6 sock=172.31.35.208:5060]
+15(20170) DEBUG: kex [kex_mod.c:142]: child_init(): rank is (15)
+15(20170) DEBUG: <core> [core/utils/sruid.c:125]: sruid_init(): root for sruid is [srid-65b23507-4eca-] (0 / 19)
+15(20170) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 15 rank 15: corex [udp receiver child=6 sock=172.31.35.208:5060]
+15(20170) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 15 rank 15: tm [udp receiver child=6 sock=172.31.35.208:5060]
+15(20170) DEBUG: tm [callid.c:136]: child_init_callid(): callid: '380192a10984b091-20170@127.0.0.1'
+15(20170) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 15 rank 15: tmx [udp receiver child=6 sock=172.31.35.208:5060]
+15(20170) DEBUG: tmx [tmx_mod.c:250]: child_init(): rank is (15)
+15(20170) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 15 rank 15: sl [udp receiver child=6 sock=172.31.35.208:5060]
+15(20170) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 15 rank 15: usrloc [udp receiver child=6 sock=172.31.35.208:5060]
+15(20170) DEBUG: <core> [core/utils/sruid.c:125]: sruid_init(): root for sruid is [ulcx-65b23507-4eca-] (0 / 19)
+15(20170) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 15 rank 15: registrar [udp receiver child=6 sock=172.31.35.208:5060]
+15(20170) DEBUG: <core> [core/utils/sruid.c:125]: sruid_init(): root for sruid is [uloc-65b23507-4eca-] (0 / 19)
+15(20170) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 15 rank 15: ctl [udp receiver child=6 sock=172.31.35.208:5060]
+16(20171) DEBUG: <core> [core/pt.c:303]: fork_process(): seeding PRNG with 734692947
+WARNING: MYSQL_OPT_RECONNECT is deprecated and will be removed in a future version.
+16(20171) DEBUG: <core> [core/rand/cryptorand.c:37]: cryptorand_seed(): seeding cryptorand generator with 734692947
+16(20171) DEBUG: <core> [core/rand/fortuna/random.c:170]: sr_add_entropy(): additional 4 bytes entropy added to cryptographic PRNG
+16(20171) DEBUG: <core> [core/pt.c:308]: fork_process(): test random numbers 1243730036 718421655 4127316755 2828213126
+15(20170) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 15 rank 15: acc [udp receiver child=6 sock=172.31.35.208:5060]
+15(20170) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 15 rank 15: dispatcher [udp receiver child=6 sock=172.31.35.208:5060]
+15(20170) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 15 rank 15: uac [udp receiver child=6 sock=172.31.35.208:5060]
+15(20170) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 15 rank 15: debugger [udp receiver child=6 sock=172.31.35.208:5060]
+15(20170) DEBUG: debugger [debugger_mod.c:219]: child_init(): rank is (15)
+16(20171) DEBUG: <core> [core/sr_module.c:991]: init_child(): initializing CHILD with rank 16
+15(20170) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 15 rank 15: auth_db [udp receiver child=6 sock=172.31.35.208:5060]
+15(20170) DEBUG: <core> [db.c:320]: db_do_init2(): connection 0x7f47234ff5d0 not found in pool
+16(20171) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 16 rank 16: jsonrpcs [udp receiver child=7 sock=172.31.35.208:5060]
+16(20171) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 16 rank 16: kex [udp receiver child=7 sock=172.31.35.208:5060]
+16(20171) DEBUG: kex [kex_mod.c:142]: child_init(): rank is (16)
+16(20171) DEBUG: <core> [core/utils/sruid.c:125]: sruid_init(): root for sruid is [srid-65b23507-4ecb-] (0 / 19)
+16(20171) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 16 rank 16: corex [udp receiver child=7 sock=172.31.35.208:5060]
+16(20171) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 16 rank 16: tm [udp receiver child=7 sock=172.31.35.208:5060]
+15(20170) DEBUG: db_mysql [km_my_con.c:108]: db_mysql_new_connection(): opening connection: mysql://xxxx:xxxx@my-bucket-priymak20231120152601247000000001.cmq0h3hyc1g1.us-east-2.rds.amazonaws.com/kamailio
+WARNING: MYSQL_OPT_RECONNECT is deprecated and will be removed in a future version.
+16(20171) DEBUG: tm [callid.c:136]: child_init_callid(): callid: '380192a10984b091-20171@127.0.0.1'
+17(20172) DEBUG: <core> [core/pt.c:303]: fork_process(): seeding PRNG with 4059499253
+16(20171) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 16 rank 16: tmx [udp receiver child=7 sock=172.31.35.208:5060]
+16(20171) DEBUG: tmx [tmx_mod.c:250]: child_init(): rank is (16)
+16(20171) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 16 rank 16: sl [udp receiver child=7 sock=172.31.35.208:5060]
+16(20171) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 16 rank 16: usrloc [udp receiver child=7 sock=172.31.35.208:5060]
+16(20171) DEBUG: <core> [core/utils/sruid.c:125]: sruid_init(): root for sruid is [ulcx-65b23507-4ecb-] (0 / 19)
+17(20172) DEBUG: <core> [core/rand/cryptorand.c:37]: cryptorand_seed(): seeding cryptorand generator with 4059499253
+17(20172) DEBUG: <core> [core/rand/fortuna/random.c:170]: sr_add_entropy(): additional 4 bytes entropy added to cryptographic PRNG
+17(20172) DEBUG: <core> [core/pt.c:308]: fork_process(): test random numbers 740168208 1291037465 1984812841 3943165722
+16(20171) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 16 rank 16: registrar [udp receiver child=7 sock=172.31.35.208:5060]
+16(20171) DEBUG: <core> [core/utils/sruid.c:125]: sruid_init(): root for sruid is [uloc-65b23507-4ecb-] (0 / 19)
+16(20171) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 16 rank 16: ctl [udp receiver child=7 sock=172.31.35.208:5060]
+16(20171) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 16 rank 16: acc [udp receiver child=7 sock=172.31.35.208:5060]
+16(20171) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 16 rank 16: dispatcher [udp receiver child=7 sock=172.31.35.208:5060]
+16(20171) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 16 rank 16: uac [udp receiver child=7 sock=172.31.35.208:5060]
+16(20171) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 16 rank 16: debugger [udp receiver child=7 sock=172.31.35.208:5060]
+16(20171) DEBUG: debugger [debugger_mod.c:219]: child_init(): rank is (16)
+16(20171) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 16 rank 16: auth_db [udp receiver child=7 sock=172.31.35.208:5060]
+16(20171) DEBUG: <core> [db.c:320]: db_do_init2(): connection 0x7f47234ff5d0 not found in pool
+16(20171) DEBUG: db_mysql [km_my_con.c:108]: db_mysql_new_connection(): opening connection: mysql://xxxx:xxxx@my-bucket-priymak20231120152601247000000001.cmq0h3hyc1g1.us-east-2.rds.amazonaws.com/kamailio
+WARNING: MYSQL_OPT_RECONNECT is deprecated and will be removed in a future version.
+18(20173) DEBUG: <core> [core/pt.c:303]: fork_process(): seeding PRNG with 2068956890
+18(20173) DEBUG: <core> [core/rand/cryptorand.c:37]: cryptorand_seed(): seeding cryptorand generator with 2068956890
+18(20173) DEBUG: <core> [core/rand/fortuna/random.c:170]: sr_add_entropy(): additional 4 bytes entropy added to cryptographic PRNG
+18(20173) DEBUG: <core> [core/pt.c:308]: fork_process(): test random numbers 455635401 1854345315 2037536015 836154373
+18(20173) DEBUG: <core> [core/sr_module.c:991]: init_child(): initializing PROC_TIMER with rank -1
+18(20173) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 18 rank -1: jsonrpcs [timer]
+ 0(20155) DEBUG: <core> [core/sr_module.c:991]: init_child(): initializing PROC_MAIN with rank 0
+17(20172) DEBUG: <core> [core/sr_module.c:991]: init_child(): initializing PROC_TIMER with rank -1
+17(20172) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 17 rank -1: jsonrpcs [slow timer]
+17(20172) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 17 rank -1: kex [slow timer]
+17(20172) DEBUG: kex [kex_mod.c:142]: child_init(): rank is (-1)
+17(20172) DEBUG: <core> [core/utils/sruid.c:125]: sruid_init(): root for sruid is [srid-65b23507-4ecc-] (0 / 19)
+17(20172) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 17 rank -1: corex [slow timer]
+17(20172) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 17 rank -1: tm [slow timer]
+17(20172) DEBUG: tm [callid.c:136]: child_init_callid(): callid: '380192a10984b091-20172@127.0.0.1'
+17(20172) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 17 rank -1: tmx [slow timer]
+17(20172) DEBUG: tmx [tmx_mod.c:250]: child_init(): rank is (-1)
+17(20172) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 17 rank -1: sl [slow timer]
+17(20172) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 17 rank -1: usrloc [slow timer]
+17(20172) DEBUG: <core> [core/utils/sruid.c:125]: sruid_init(): root for sruid is [ulcx-65b23507-4ecc-] (0 / 19)
+17(20172) DEBUG: <core> [db.c:320]: db_do_init2(): connection 0x7f47234ff5d0 not found in pool
+17(20172) DEBUG: db_mysql [km_my_con.c:108]: db_mysql_new_connection(): opening connection: mysql://xxxx:xxxx@my-bucket-priymak20231120152601247000000001.cmq0h3hyc1g1.us-east-2.rds.amazonaws.com/kamailio
+WARNING: MYSQL_OPT_RECONNECT is deprecated and will be removed in a future version.
+ 0(20155) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 0 rank 0: jsonrpcs [main]
+19(20174) DEBUG: <core> [core/pt.c:303]: fork_process(): seeding PRNG with 496445188
+19(20174) DEBUG: <core> [core/rand/cryptorand.c:37]: cryptorand_seed(): seeding cryptorand generator with 496445188
+19(20174) DEBUG: <core> [core/rand/fortuna/random.c:170]: sr_add_entropy(): additional 4 bytes entropy added to cryptographic PRNG
+18(20173) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 18 rank -1: kex [timer]
+18(20173) DEBUG: kex [kex_mod.c:142]: child_init(): rank is (-1)
+18(20173) DEBUG: <core> [core/utils/sruid.c:125]: sruid_init(): root for sruid is [srid-65b23507-4ecd-] (0 / 19)
+18(20173) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 18 rank -1: corex [timer]
+18(20173) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 18 rank -1: tm [timer]
+18(20173) DEBUG: tm [callid.c:136]: child_init_callid(): callid: '380192a10984b091-20173@127.0.0.1'
+19(20174) DEBUG: <core> [core/pt.c:308]: fork_process(): test random numbers 36061678 2144054198 1663500166 2844694679
+19(20174) DEBUG: <core> [core/sr_module.c:991]: init_child(): initializing PROC_TIMER with rank -1
+19(20174) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 19 rank -1: jsonrpcs [secondary timer]
+18(20173) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 18 rank -1: tmx [timer]
+18(20173) DEBUG: tmx [tmx_mod.c:250]: child_init(): rank is (-1)
+18(20173) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 18 rank -1: sl [timer]
+19(20174) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 19 rank -1: kex [secondary timer]
+18(20173) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 18 rank -1: usrloc [timer]
+18(20173) DEBUG: <core> [core/utils/sruid.c:125]: sruid_init(): root for sruid is [ulcx-65b23507-4ecd-] (0 / 19)
+19(20174) DEBUG: kex [kex_mod.c:142]: child_init(): rank is (-1)
+19(20174) DEBUG: <core> [core/utils/sruid.c:125]: sruid_init(): root for sruid is [srid-65b23507-4ece-] (0 / 19)
+19(20174) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 19 rank -1: corex [secondary timer]
+19(20174) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 19 rank -1: tm [secondary timer]
+18(20173) DEBUG: <core> [db.c:320]: db_do_init2(): connection 0x7f47234ff5d0 not found in pool
+18(20173) DEBUG: db_mysql [km_my_con.c:108]: db_mysql_new_connection(): opening connection: mysql://xxxx:xxxx@my-bucket-priymak20231120152601247000000001.cmq0h3hyc1g1.us-east-2.rds.amazonaws.com/kamailio
+19(20174) DEBUG: tm [callid.c:136]: child_init_callid(): callid: '380192a10984b091-20174@127.0.0.1'
+19(20174) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 19 rank -1: tmx [secondary timer]
+19(20174) DEBUG: tmx [tmx_mod.c:250]: child_init(): rank is (-1)
+19(20174) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 19 rank -1: sl [secondary timer]
+19(20174) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 19 rank -1: usrloc [secondary timer]
+19(20174) DEBUG: <core> [core/utils/sruid.c:125]: sruid_init(): root for sruid is [ulcx-65b23507-4ece-] (0 / 19)
+19(20174) DEBUG: <core> [db.c:320]: db_do_init2(): connection 0x7f47234ff5d0 not found in pool
+19(20174) DEBUG: db_mysql [km_my_con.c:108]: db_mysql_new_connection(): opening connection: mysql://xxxx:xxxx@my-bucket-priymak20231120152601247000000001.cmq0h3hyc1g1.us-east-2.rds.amazonaws.com/kamailio
+WARNING: MYSQL_OPT_RECONNECT is deprecated and will be removed in a future version.
+ 0(20155) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 0 rank 0: kex [main]
+WARNING: MYSQL_OPT_RECONNECT is deprecated and will be removed in a future version.
+ 0(20155) DEBUG: kex [kex_mod.c:142]: child_init(): rank is (0)
+ 0(20155) DEBUG: <core> [core/utils/sruid.c:125]: sruid_init(): root for sruid is [srid-65b23507-4ebb-] (0 / 19)
+ 0(20155) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 0 rank 0: corex [main]
+ 0(20155) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 0 rank 0: tm [main]
+ 0(20155) DEBUG: tm [callid.c:136]: child_init_callid(): callid: '380192a10984b091-20155@127.0.0.1'
+20(20175) DEBUG: <core> [core/pt.c:303]: fork_process(): seeding PRNG with 239443804
+21(20176) DEBUG: <core> [core/pt.c:303]: fork_process(): seeding PRNG with 1354396401
+21(20176) DEBUG: <core> [core/rand/cryptorand.c:37]: cryptorand_seed(): seeding cryptorand generator with 1354396401
+ 0(20155) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 0 rank 0: tmx [main]
+ 0(20155) DEBUG: tmx [tmx_mod.c:250]: child_init(): rank is (0)
+ 0(20155) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 0 rank 0: sl [main]
+ 0(20155) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 0 rank 0: usrloc [main]
+21(20176) DEBUG: <core> [core/rand/fortuna/random.c:170]: sr_add_entropy(): additional 4 bytes entropy added to cryptographic PRNG
+21(20176) DEBUG: <core> [core/pt.c:308]: fork_process(): test random numbers 665918398 332681509 1306197521 1984639576
+20(20175) DEBUG: <core> [core/rand/cryptorand.c:37]: cryptorand_seed(): seeding cryptorand generator with 239443804
+ 0(20155) DEBUG: <core> [core/utils/sruid.c:125]: sruid_init(): root for sruid is [ulcx-65b23507-4ebb-] (0 / 19)
+ 0(20155) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 0 rank 0: registrar [main]
+20(20175) DEBUG: <core> [core/rand/fortuna/random.c:170]: sr_add_entropy(): additional 4 bytes entropy added to cryptographic PRNG
+20(20175) DEBUG: <core> [core/pt.c:308]: fork_process(): test random numbers 1613891120 1734294741 3428902030 3990823143
+21(20176) DEBUG: <core> [core/sr_module.c:991]: init_child(): initializing PROC_RPC with rank -2
+21(20176) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 21 rank -2: jsonrpcs [JSONRPCS DATAGRAM]
+21(20176) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 21 rank -2: kex [JSONRPCS DATAGRAM]
+21(20176) DEBUG: kex [kex_mod.c:142]: child_init(): rank is (-2)
+20(20175) DEBUG: <core> [core/sr_module.c:991]: init_child(): initializing PROC_RPC with rank -2
+20(20175) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 20 rank -2: jsonrpcs [JSONRPCS FIFO]
+21(20176) DEBUG: <core> [core/utils/sruid.c:125]: sruid_init(): root for sruid is [srid-65b23507-4ed0-] (0 / 19)
+21(20176) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 21 rank -2: corex [JSONRPCS DATAGRAM]
+20(20175) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 20 rank -2: kex [JSONRPCS FIFO]
+20(20175) DEBUG: kex [kex_mod.c:142]: child_init(): rank is (-2)
+21(20176) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 21 rank -2: tm [JSONRPCS DATAGRAM]
+21(20176) DEBUG: tm [callid.c:136]: child_init_callid(): callid: '380192a10984b091-20176@127.0.0.1'
+21(20176) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 21 rank -2: tmx [JSONRPCS DATAGRAM]
+21(20176) DEBUG: tmx [tmx_mod.c:250]: child_init(): rank is (-2)
+21(20176) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 21 rank -2: sl [JSONRPCS DATAGRAM]
+21(20176) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 21 rank -2: usrloc [JSONRPCS DATAGRAM]
+21(20176) DEBUG: <core> [core/utils/sruid.c:125]: sruid_init(): root for sruid is [ulcx-65b23507-4ed0-] (0 / 19)
+20(20175) DEBUG: <core> [core/utils/sruid.c:125]: sruid_init(): root for sruid is [srid-65b23507-4ecf-] (0 / 19)
+20(20175) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 20 rank -2: corex [JSONRPCS FIFO]
+20(20175) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 20 rank -2: tm [JSONRPCS FIFO]
+21(20176) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 21 rank -2: registrar [JSONRPCS DATAGRAM]
+21(20176) DEBUG: <core> [core/utils/sruid.c:125]: sruid_init(): root for sruid is [uloc-65b23507-4ed0-] (0 / 19)
+20(20175) DEBUG: tm [callid.c:136]: child_init_callid(): callid: '380192a10984b091-20175@127.0.0.1'
+21(20176) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 21 rank -2: ctl [JSONRPCS DATAGRAM]
+20(20175) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 20 rank -2: tmx [JSONRPCS FIFO]
+20(20175) DEBUG: tmx [tmx_mod.c:250]: child_init(): rank is (-2)
+20(20175) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 20 rank -2: sl [JSONRPCS FIFO]
+20(20175) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 20 rank -2: usrloc [JSONRPCS FIFO]
+21(20176) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 21 rank -2: acc [JSONRPCS DATAGRAM]
+20(20175) DEBUG: <core> [core/utils/sruid.c:125]: sruid_init(): root for sruid is [ulcx-65b23507-4ecf-] (0 / 19)
+20(20175) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 20 rank -2: registrar [JSONRPCS FIFO]
+20(20175) DEBUG: <core> [core/utils/sruid.c:125]: sruid_init(): root for sruid is [uloc-65b23507-4ecf-] (0 / 19)
+20(20175) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 20 rank -2: ctl [JSONRPCS FIFO]
+21(20176) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 21 rank -2: dispatcher [JSONRPCS DATAGRAM]
+21(20176) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 21 rank -2: uac [JSONRPCS DATAGRAM]
+21(20176) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 21 rank -2: debugger [JSONRPCS DATAGRAM]
+20(20175) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 20 rank -2: acc [JSONRPCS FIFO]
+20(20175) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 20 rank -2: dispatcher [JSONRPCS FIFO]
+20(20175) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 20 rank -2: uac [JSONRPCS FIFO]
+20(20175) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 20 rank -2: debugger [JSONRPCS FIFO]
+21(20176) DEBUG: debugger [debugger_mod.c:219]: child_init(): rank is (-2)
+20(20175) DEBUG: debugger [debugger_mod.c:219]: child_init(): rank is (-2)
+ 0(20155) DEBUG: <core> [core/utils/sruid.c:125]: sruid_init(): root for sruid is [uloc-65b23507-4ebb-] (0 / 19)
+21(20176) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 21 rank -2: auth_db [JSONRPCS DATAGRAM]
+21(20176) DEBUG: <core> [db.c:320]: db_do_init2(): connection 0x7f47234ff5d0 not found in pool
+20(20175) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 20 rank -2: auth_db [JSONRPCS FIFO]
+ 0(20155) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 0 rank 0: ctl [main]
+ 0(20155) DEBUG: ctl [ctl.c:315]: mod_child(): ctl: mod_child(0), ctrl_sock_lst=0x558923fee380
+ 0(20155) DEBUG: ctl [ctl.c:322]: mod_child(): ctl: mod_child(0), fork_process=20178, csl=0x558923fee380
+20(20175) DEBUG: <core> [db.c:320]: db_do_init2(): connection 0x7f47234ff5d0 not found in pool
+20(20175) DEBUG: db_mysql [km_my_con.c:108]: db_mysql_new_connection(): opening connection: mysql://xxxx:xxxx@my-bucket-priymak20231120152601247000000001.cmq0h3hyc1g1.us-east-2.rds.amazonaws.com/kamailio
+WARNING: MYSQL_OPT_RECONNECT is deprecated and will be removed in a future version.
+21(20176) DEBUG: db_mysql [km_my_con.c:108]: db_mysql_new_connection(): opening connection: mysql://xxxx:xxxx@my-bucket-priymak20231120152601247000000001.cmq0h3hyc1g1.us-east-2.rds.amazonaws.com/kamailio
+WARNING: MYSQL_OPT_RECONNECT is deprecated and will be removed in a future version.
+22(20177) DEBUG: <core> [core/pt.c:303]: fork_process(): seeding PRNG with 2542352349
+22(20177) DEBUG: <core> [core/rand/cryptorand.c:37]: cryptorand_seed(): seeding cryptorand generator with 2542352349
+22(20177) DEBUG: <core> [core/rand/fortuna/random.c:170]: sr_add_entropy(): additional 4 bytes entropy added to cryptographic PRNG
+22(20177) DEBUG: <core> [core/pt.c:308]: fork_process(): test random numbers 506898224 1682248753 2560676615 3322423918
+22(20177) DEBUG: <core> [core/sr_module.c:991]: init_child(): initializing PROC_TIMER with rank -1
+22(20177) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 22 rank -1: jsonrpcs [USRLOC Timer]
+ 0(20155) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 0 rank 0: acc [main]
+ 0(20155) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 0 rank 0: dispatcher [main]
+ 0(20155) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 0 rank 0: uac [main]
+ 0(20155) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 0 rank 0: debugger [main]
+ 0(20155) DEBUG: debugger [debugger_mod.c:219]: child_init(): rank is (0)
+ 0(20155) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 0 rank 0: auth_db [main]
+ 0(20155) DEBUG: <core> [core/sr_module.c:991]: init_child(): initializing PROC_POSTCHILDINIT with rank -126
+ 0(20155) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 0 rank -126: usrloc [main process - attendant]
+ 0(20155) DEBUG: <core> [core/utils/sruid.c:125]: sruid_init(): root for sruid is [ulcx-65b23507-4ebb-] (0 / 19)
+22(20177) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 22 rank -1: kex [USRLOC Timer]
+22(20177) DEBUG: kex [kex_mod.c:142]: child_init(): rank is (-1)
+22(20177) DEBUG: <core> [core/utils/sruid.c:125]: sruid_init(): root for sruid is [srid-65b23507-4ed1-] (0 / 19)
+ 0(20155) DEBUG: <core> [db.c:320]: db_do_init2(): connection 0x7f47234ff5d0 not found in pool
+ 0(20155) DEBUG: db_mysql [km_my_con.c:108]: db_mysql_new_connection(): opening connection: mysql://xxxx:xxxx@my-bucket-priymak20231120152601247000000001.cmq0h3hyc1g1.us-east-2.rds.amazonaws.com/kamailio
+22(20177) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 22 rank -1: corex [USRLOC Timer]
+22(20177) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 22 rank -1: tm [USRLOC Timer]
+22(20177) DEBUG: tm [callid.c:136]: child_init_callid(): callid: '380192a10984b091-20177@127.0.0.1'
+22(20177) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 22 rank -1: tmx [USRLOC Timer]
+22(20177) DEBUG: tmx [tmx_mod.c:250]: child_init(): rank is (-1)
+WARNING: MYSQL_OPT_RECONNECT is deprecated and will be removed in a future version.
+22(20177) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 22 rank -1: sl [USRLOC Timer]
+22(20177) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 22 rank -1: usrloc [USRLOC Timer]
+22(20177) DEBUG: <core> [core/utils/sruid.c:125]: sruid_init(): root for sruid is [ulcx-65b23507-4ed1-] (0 / 19)
+22(20177) DEBUG: <core> [db.c:320]: db_do_init2(): connection 0x7f47234ff5d0 not found in pool
+23(20178) DEBUG: <core> [core/pt.c:303]: fork_process(): seeding PRNG with 255925360
+23(20178) DEBUG: <core> [core/rand/cryptorand.c:37]: cryptorand_seed(): seeding cryptorand generator with 255925360
+23(20178) DEBUG: <core> [core/rand/fortuna/random.c:170]: sr_add_entropy(): additional 4 bytes entropy added to cryptographic PRNG
+23(20178) DEBUG: <core> [core/pt.c:308]: fork_process(): test random numbers 1495986917 1483550446 570773279 3641819377
+22(20177) DEBUG: db_mysql [km_my_con.c:108]: db_mysql_new_connection(): opening connection: mysql://xxxx:xxxx@my-bucket-priymak20231120152601247000000001.cmq0h3hyc1g1.us-east-2.rds.amazonaws.com/kamailio
+WARNING: MYSQL_OPT_RECONNECT is deprecated and will be removed in a future version.
+23(20178) DEBUG: <core> [core/sr_module.c:991]: init_child(): initializing PROC_RPC with rank -2
+23(20178) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 23 rank -2: jsonrpcs [ctl handler]
+23(20178) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 23 rank -2: kex [ctl handler]
+23(20178) DEBUG: kex [kex_mod.c:142]: child_init(): rank is (-2)
+23(20178) DEBUG: <core> [core/utils/sruid.c:125]: sruid_init(): root for sruid is [srid-65b23507-4ed2-] (0 / 19)
+23(20178) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 23 rank -2: corex [ctl handler]
+23(20178) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 23 rank -2: tm [ctl handler]
+23(20178) DEBUG: tm [callid.c:136]: child_init_callid(): callid: '380192a10984b091-20178@127.0.0.1'
+23(20178) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 23 rank -2: tmx [ctl handler]
+23(20178) DEBUG: tmx [tmx_mod.c:250]: child_init(): rank is (-2)
+23(20178) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 23 rank -2: sl [ctl handler]
+23(20178) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 23 rank -2: usrloc [ctl handler]
+23(20178) DEBUG: <core> [core/utils/sruid.c:125]: sruid_init(): root for sruid is [ulcx-65b23507-4ed2-] (0 / 19)
+23(20178) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 23 rank -2: registrar [ctl handler]
+23(20178) DEBUG: <core> [core/utils/sruid.c:125]: sruid_init(): root for sruid is [uloc-65b23507-4ed2-] (0 / 19)
+23(20178) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 23 rank -2: ctl [ctl handler]
+23(20178) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 23 rank -2: acc [ctl handler]
+23(20178) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 23 rank -2: dispatcher [ctl handler]
+23(20178) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 23 rank -2: uac [ctl handler]
+23(20178) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 23 rank -2: debugger [ctl handler]
+23(20178) DEBUG: debugger [debugger_mod.c:219]: child_init(): rank is (-2)
+23(20178) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 23 rank -2: auth_db [ctl handler]
+23(20178) DEBUG: <core> [db.c:320]: db_do_init2(): connection 0x7f47234ff5d0 not found in pool
+23(20178) DEBUG: db_mysql [km_my_con.c:108]: db_mysql_new_connection(): opening connection: mysql://xxxx:xxxx@my-bucket-priymak20231120152601247000000001.cmq0h3hyc1g1.us-east-2.rds.amazonaws.com/kamailio
+WARNING: MYSQL_OPT_RECONNECT is deprecated and will be removed in a future version.
+ 3(20158) DEBUG: db_mysql [km_my_con.c:173]: db_mysql_new_connection(): connection type is my-bucket-priymak20231120152601247000000001.cmq0h3hyc1g1.us-east-2.rds.amazonaws.com via TCP/IP
+ 3(20158) DEBUG: db_mysql [km_my_con.c:174]: db_mysql_new_connection(): protocol version is 10
+ 3(20158) DEBUG: db_mysql [km_my_con.c:175]: db_mysql_new_connection(): server version is 8.0.35
+ 5(20160) DEBUG: db_mysql [km_my_con.c:173]: db_mysql_new_connection(): connection type is my-bucket-priymak20231120152601247000000001.cmq0h3hyc1g1.us-east-2.rds.amazonaws.com via TCP/IP
+ 5(20160) DEBUG: db_mysql [km_my_con.c:174]: db_mysql_new_connection(): protocol version is 10
+ 5(20160) DEBUG: db_mysql [km_my_con.c:175]: db_mysql_new_connection(): server version is 8.0.35
+ 4(20159) DEBUG: db_mysql [km_my_con.c:173]: db_mysql_new_connection(): connection type is my-bucket-priymak20231120152601247000000001.cmq0h3hyc1g1.us-east-2.rds.amazonaws.com via TCP/IP
+ 6(20161) DEBUG: db_mysql [km_my_con.c:173]: db_mysql_new_connection(): connection type is my-bucket-priymak20231120152601247000000001.cmq0h3hyc1g1.us-east-2.rds.amazonaws.com via TCP/IP
+ 6(20161) DEBUG: db_mysql [km_my_con.c:174]: db_mysql_new_connection(): protocol version is 10
+ 4(20159) DEBUG: db_mysql [km_my_con.c:174]: db_mysql_new_connection(): protocol version is 10
+ 4(20159) DEBUG: db_mysql [km_my_con.c:175]: db_mysql_new_connection(): server version is 8.0.35
+ 6(20161) DEBUG: db_mysql [km_my_con.c:175]: db_mysql_new_connection(): server version is 8.0.35
+ 2(20157) DEBUG: db_mysql [km_my_con.c:173]: db_mysql_new_connection(): connection type is my-bucket-priymak20231120152601247000000001.cmq0h3hyc1g1.us-east-2.rds.amazonaws.com via TCP/IP
+ 2(20157) DEBUG: db_mysql [km_my_con.c:174]: db_mysql_new_connection(): protocol version is 10
+ 2(20157) DEBUG: db_mysql [km_my_con.c:175]: db_mysql_new_connection(): server version is 8.0.35
+ 7(20162) DEBUG: db_mysql [km_my_con.c:173]: db_mysql_new_connection(): connection type is my-bucket-priymak20231120152601247000000001.cmq0h3hyc1g1.us-east-2.rds.amazonaws.com via TCP/IP
+ 7(20162) DEBUG: db_mysql [km_my_con.c:174]: db_mysql_new_connection(): protocol version is 10
+ 7(20162) DEBUG: db_mysql [km_my_con.c:175]: db_mysql_new_connection(): server version is 8.0.35
+ 1(20156) DEBUG: db_mysql [km_my_con.c:173]: db_mysql_new_connection(): connection type is my-bucket-priymak20231120152601247000000001.cmq0h3hyc1g1.us-east-2.rds.amazonaws.com via TCP/IP
+ 9(20164) DEBUG: db_mysql [km_my_con.c:173]: db_mysql_new_connection(): connection type is my-bucket-priymak20231120152601247000000001.cmq0h3hyc1g1.us-east-2.rds.amazonaws.com via TCP/IP
+ 9(20164) DEBUG: db_mysql [km_my_con.c:174]: db_mysql_new_connection(): protocol version is 10
+ 9(20164) DEBUG: db_mysql [km_my_con.c:175]: db_mysql_new_connection(): server version is 8.0.35
+ 1(20156) DEBUG: db_mysql [km_my_con.c:174]: db_mysql_new_connection(): protocol version is 10
+ 1(20156) DEBUG: db_mysql [km_my_con.c:175]: db_mysql_new_connection(): server version is 8.0.35
+ 8(20163) DEBUG: db_mysql [km_my_con.c:173]: db_mysql_new_connection(): connection type is my-bucket-priymak20231120152601247000000001.cmq0h3hyc1g1.us-east-2.rds.amazonaws.com via TCP/IP
+ 1(20156) DEBUG: <core> [db_query.c:72]: db_do_submit_query(): submitted query: select `username`,`contact`,`expires`,`q`,`callid`,`cseq`,`flags`,`cflags`,`user_agent`,`received`,`path`,`socket`,`methods`,`last_modified`,`ruid`,`instance`,`reg_id`,`server_id`,`connection_id`,`keepalive` from `location` , result 0
+ 1(20156) DEBUG: <core> [db_res.c:120]: db_new_result(): allocate 56 bytes for result set at 0x7f47234fc7e0
+ 8(20163) DEBUG: db_mysql [km_my_con.c:174]: db_mysql_new_connection(): protocol version is 10
+ 8(20163) DEBUG: db_mysql [km_my_con.c:175]: db_mysql_new_connection(): server version is 8.0.35
+ 1(20156) DEBUG: db_mysql [km_res.c:67]: db_mysql_get_columns(): 20 columns returned from the query
+ 1(20156) DEBUG: <core> [db_res.c:156]: db_allocate_columns(): allocate 160 bytes for result names at 0x7f47234fc910
+ 1(20156) DEBUG: <core> [db_res.c:166]: db_allocate_columns(): allocate 80 bytes for result types at 0x7f47234fca20
+ 1(20156) DEBUG: db_mysql [km_res.c:84]: db_mysql_get_columns(): allocate 16 bytes for RES_NAMES[0] at 0x7f47234fcae0
+ 1(20156) DEBUG: db_mysql [km_res.c:91]: db_mysql_get_columns(): RES_NAMES(0x7f47234fcae0)[0]=[username]
+ 1(20156) DEBUG: db_mysql [km_res.c:148]: db_mysql_get_columns(): use DB1_STRING result type
+ 1(20156) DEBUG: db_mysql [km_res.c:84]: db_mysql_get_columns(): allocate 16 bytes for RES_NAMES[1] at 0x7f47234fcb60
+ 1(20156) DEBUG: db_mysql [km_res.c:91]: db_mysql_get_columns(): RES_NAMES(0x7f47234fcb60)[1]=[contact]
+ 1(20156) DEBUG: db_mysql [km_res.c:148]: db_mysql_get_columns(): use DB1_STRING result type
+ 1(20156) DEBUG: db_mysql [km_res.c:84]: db_mysql_get_columns(): allocate 16 bytes for RES_NAMES[2] at 0x7f47234fcbe0
+ 1(20156) DEBUG: db_mysql [km_res.c:91]: db_mysql_get_columns(): RES_NAMES(0x7f47234fcbe0)[2]=[expires]
+ 1(20156) DEBUG: db_mysql [km_res.c:128]: db_mysql_get_columns(): use DB1_DATETIME result type
+ 1(20156) DEBUG: db_mysql [km_res.c:84]: db_mysql_get_columns(): allocate 16 bytes for RES_NAMES[3] at 0x7f4723522210
+ 1(20156) DEBUG: db_mysql [km_res.c:91]: db_mysql_get_columns(): RES_NAMES(0x7f4723522210)[3]=[q]
+ 1(20156) DEBUG: db_mysql [km_res.c:123]: db_mysql_get_columns(): use DB1_DOUBLE result type
+ 1(20156) DEBUG: db_mysql [km_res.c:84]: db_mysql_get_columns(): allocate 16 bytes for RES_NAMES[4] at 0x7f4723522290
+ 1(20156) DEBUG: db_mysql [km_res.c:91]: db_mysql_get_columns(): RES_NAMES(0x7f4723522290)[4]=[callid]
+ 1(20156) DEBUG: db_mysql [km_res.c:148]: db_mysql_get_columns(): use DB1_STRING result type
+ 1(20156) DEBUG: db_mysql [km_res.c:84]: db_mysql_get_columns(): allocate 16 bytes for RES_NAMES[5] at 0x7f4723522310
+ 1(20156) DEBUG: db_mysql [km_res.c:91]: db_mysql_get_columns(): RES_NAMES(0x7f4723522310)[5]=[cseq]
+10(20165) DEBUG: db_mysql [km_my_con.c:173]: db_mysql_new_connection(): connection type is my-bucket-priymak20231120152601247000000001.cmq0h3hyc1g1.us-east-2.rds.amazonaws.com via TCP/IP
+10(20165) DEBUG: db_mysql [km_my_con.c:174]: db_mysql_new_connection(): protocol version is 10
+ 1(20156) DEBUG: db_mysql [km_res.c:105]: db_mysql_get_columns(): use DB1_INT result type
+10(20165) DEBUG: db_mysql [km_my_con.c:175]: db_mysql_new_connection(): server version is 8.0.35
+ 1(20156) DEBUG: db_mysql [km_res.c:84]: db_mysql_get_columns(): allocate 16 bytes for RES_NAMES[6] at 0x7f4723522390
+ 1(20156) DEBUG: db_mysql [km_res.c:91]: db_mysql_get_columns(): RES_NAMES(0x7f4723522390)[6]=[flags]
+ 1(20156) DEBUG: db_mysql [km_res.c:105]: db_mysql_get_columns(): use DB1_INT result type
+ 1(20156) DEBUG: db_mysql [km_res.c:84]: db_mysql_get_columns(): allocate 16 bytes for RES_NAMES[7] at 0x7f4723522410
+ 1(20156) DEBUG: db_mysql [km_res.c:91]: db_mysql_get_columns(): RES_NAMES(0x7f4723522410)[7]=[cflags]
+ 1(20156) DEBUG: db_mysql [km_res.c:105]: db_mysql_get_columns(): use DB1_INT result type
+ 1(20156) DEBUG: db_mysql [km_res.c:84]: db_mysql_get_columns(): allocate 16 bytes for RES_NAMES[8] at 0x7f4723522490
+ 1(20156) DEBUG: db_mysql [km_res.c:91]: db_mysql_get_columns(): RES_NAMES(0x7f4723522490)[8]=[user_agent]
+ 1(20156) DEBUG: db_mysql [km_res.c:148]: db_mysql_get_columns(): use DB1_STRING result type
+ 1(20156) DEBUG: db_mysql [km_res.c:84]: db_mysql_get_columns(): allocate 16 bytes for RES_NAMES[9] at 0x7f4723522510
+ 1(20156) DEBUG: db_mysql [km_res.c:91]: db_mysql_get_columns(): RES_NAMES(0x7f4723522510)[9]=[received]
+ 1(20156) DEBUG: db_mysql [km_res.c:148]: db_mysql_get_columns(): use DB1_STRING result type
+ 1(20156) DEBUG: db_mysql [km_res.c:84]: db_mysql_get_columns(): allocate 16 bytes for RES_NAMES[10] at 0x7f4723522590
+ 1(20156) DEBUG: db_mysql [km_res.c:91]: db_mysql_get_columns(): RES_NAMES(0x7f4723522590)[10]=[path]
+ 1(20156) DEBUG: db_mysql [km_res.c:148]: db_mysql_get_columns(): use DB1_STRING result type
+ 1(20156) DEBUG: db_mysql [km_res.c:84]: db_mysql_get_columns(): allocate 16 bytes for RES_NAMES[11] at 0x7f4723522610
+ 1(20156) DEBUG: db_mysql [km_res.c:91]: db_mysql_get_columns(): RES_NAMES(0x7f4723522610)[11]=[socket]
+ 1(20156) DEBUG: db_mysql [km_res.c:148]: db_mysql_get_columns(): use DB1_STRING result type
+ 1(20156) DEBUG: db_mysql [km_res.c:84]: db_mysql_get_columns(): allocate 16 bytes for RES_NAMES[12] at 0x7f4723522690
+ 1(20156) DEBUG: db_mysql [km_res.c:91]: db_mysql_get_columns(): RES_NAMES(0x7f4723522690)[12]=[methods]
+ 1(20156) DEBUG: db_mysql [km_res.c:105]: db_mysql_get_columns(): use DB1_INT result type
+ 1(20156) DEBUG: db_mysql [km_res.c:84]: db_mysql_get_columns(): allocate 16 bytes for RES_NAMES[13] at 0x7f4723522710
+ 1(20156) DEBUG: db_mysql [km_res.c:91]: db_mysql_get_columns(): RES_NAMES(0x7f4723522710)[13]=[last_modified]
+ 1(20156) DEBUG: db_mysql [km_res.c:128]: db_mysql_get_columns(): use DB1_DATETIME result type
+ 1(20156) DEBUG: db_mysql [km_res.c:84]: db_mysql_get_columns(): allocate 16 bytes for RES_NAMES[14] at 0x7f4723522790
+ 1(20156) DEBUG: db_mysql [km_res.c:91]: db_mysql_get_columns(): RES_NAMES(0x7f4723522790)[14]=[ruid]
+ 1(20156) DEBUG: db_mysql [km_res.c:148]: db_mysql_get_columns(): use DB1_STRING result type
+ 1(20156) DEBUG: db_mysql [km_res.c:84]: db_mysql_get_columns(): allocate 16 bytes for RES_NAMES[15] at 0x7f4723522810
+ 1(20156) DEBUG: db_mysql [km_res.c:91]: db_mysql_get_columns(): RES_NAMES(0x7f4723522810)[15]=[instance]
+ 1(20156) DEBUG: db_mysql [km_res.c:148]: db_mysql_get_columns(): use DB1_STRING result type
+ 1(20156) DEBUG: db_mysql [km_res.c:84]: db_mysql_get_columns(): allocate 16 bytes for RES_NAMES[16] at 0x7f4723522890
+ 1(20156) DEBUG: db_mysql [km_res.c:91]: db_mysql_get_columns(): RES_NAMES(0x7f4723522890)[16]=[reg_id]
+ 1(20156) DEBUG: db_mysql [km_res.c:105]: db_mysql_get_columns(): use DB1_INT result type
+ 1(20156) DEBUG: db_mysql [km_res.c:84]: db_mysql_get_columns(): allocate 16 bytes for RES_NAMES[17] at 0x7f4723522910
+ 1(20156) DEBUG: db_mysql [km_res.c:91]: db_mysql_get_columns(): RES_NAMES(0x7f4723522910)[17]=[server_id]
+ 1(20156) DEBUG: db_mysql [km_res.c:105]: db_mysql_get_columns(): use DB1_INT result type
+ 1(20156) DEBUG: db_mysql [km_res.c:84]: db_mysql_get_columns(): allocate 16 bytes for RES_NAMES[18] at 0x7f4723521960
+ 1(20156) DEBUG: db_mysql [km_res.c:91]: db_mysql_get_columns(): RES_NAMES(0x7f4723521960)[18]=[connection_id]
+ 1(20156) DEBUG: db_mysql [km_res.c:105]: db_mysql_get_columns(): use DB1_INT result type
+ 1(20156) DEBUG: db_mysql [km_res.c:84]: db_mysql_get_columns(): allocate 16 bytes for RES_NAMES[19] at 0x7f47235219e0
+ 1(20156) DEBUG: db_mysql [km_res.c:91]: db_mysql_get_columns(): RES_NAMES(0x7f47235219e0)[19]=[keepalive]
+ 1(20156) DEBUG: db_mysql [km_res.c:105]: db_mysql_get_columns(): use DB1_INT result type
+ 1(20156) DEBUG: db_mysql [km_dbase.c:402]: db_mysql_fetch_result(): no rows returned from the query
+ 1(20156) DEBUG: usrloc [udomain.c:523]: preload_udomain(): table is empty
+ 1(20156) DEBUG: <core> [db_res.c:79]: db_free_columns(): freeing 20 columns
+ 1(20156) DEBUG: <core> [db_res.c:83]: db_free_columns(): freeing RES_NAMES[0] at 0x7f47234fcae0
+ 1(20156) DEBUG: <core> [db_res.c:83]: db_free_columns(): freeing RES_NAMES[1] at 0x7f47234fcb60
+ 1(20156) DEBUG: <core> [db_res.c:83]: db_free_columns(): freeing RES_NAMES[2] at 0x7f47234fcbe0
+ 1(20156) DEBUG: <core> [db_res.c:83]: db_free_columns(): freeing RES_NAMES[3] at 0x7f4723522210
+ 1(20156) DEBUG: <core> [db_res.c:83]: db_free_columns(): freeing RES_NAMES[4] at 0x7f4723522290
+ 1(20156) DEBUG: <core> [db_res.c:83]: db_free_columns(): freeing RES_NAMES[5] at 0x7f4723522310
+ 1(20156) DEBUG: <core> [db_res.c:83]: db_free_columns(): freeing RES_NAMES[6] at 0x7f4723522390
+ 1(20156) DEBUG: <core> [db_res.c:83]: db_free_columns(): freeing RES_NAMES[7] at 0x7f4723522410
+ 1(20156) DEBUG: <core> [db_res.c:83]: db_free_columns(): freeing RES_NAMES[8] at 0x7f4723522490
+ 1(20156) DEBUG: <core> [db_res.c:83]: db_free_columns(): freeing RES_NAMES[9] at 0x7f4723522510
+ 1(20156) DEBUG: <core> [db_res.c:83]: db_free_columns(): freeing RES_NAMES[10] at 0x7f4723522590
+ 1(20156) DEBUG: <core> [db_res.c:83]: db_free_columns(): freeing RES_NAMES[11] at 0x7f4723522610
+ 1(20156) DEBUG: <core> [db_res.c:83]: db_free_columns(): freeing RES_NAMES[12] at 0x7f4723522690
+ 1(20156) DEBUG: <core> [db_res.c:83]: db_free_columns(): freeing RES_NAMES[13] at 0x7f4723522710
+ 1(20156) DEBUG: <core> [db_res.c:83]: db_free_columns(): freeing RES_NAMES[14] at 0x7f4723522790
+ 1(20156) DEBUG: <core> [db_res.c:83]: db_free_columns(): freeing RES_NAMES[15] at 0x7f4723522810
+ 1(20156) DEBUG: <core> [db_res.c:83]: db_free_columns(): freeing RES_NAMES[16] at 0x7f4723522890
+ 1(20156) DEBUG: <core> [db_res.c:83]: db_free_columns(): freeing RES_NAMES[17] at 0x7f4723522910
+ 1(20156) DEBUG: <core> [db_res.c:83]: db_free_columns(): freeing RES_NAMES[18] at 0x7f4723521960
+ 1(20156) DEBUG: <core> [db_res.c:83]: db_free_columns(): freeing RES_NAMES[19] at 0x7f47235219e0
+ 1(20156) DEBUG: <core> [db_res.c:97]: db_free_columns(): freeing result names at 0x7f47234fc910
+ 1(20156) DEBUG: <core> [db_res.c:102]: db_free_columns(): freeing result types at 0x7f47234fca20
+ 1(20156) DEBUG: <core> [db_res.c:138]: db_free_result(): freeing result set at 0x7f47234fc7e0
+ 1(20156) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 1 rank 1: registrar [udp receiver child=0 sock=127.0.0.1:5060]
+ 1(20156) DEBUG: <core> [core/utils/sruid.c:125]: sruid_init(): root for sruid is [uloc-65b23507-4ebc-] (0 / 19)
+ 1(20156) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 1 rank 1: ctl [udp receiver child=0 sock=127.0.0.1:5060]
+ 1(20156) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 1 rank 1: acc [udp receiver child=0 sock=127.0.0.1:5060]
+ 1(20156) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 1 rank 1: dispatcher [udp receiver child=0 sock=127.0.0.1:5060]
+ 1(20156) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 1 rank 1: uac [udp receiver child=0 sock=127.0.0.1:5060]
+ 1(20156) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 1 rank 1: debugger [udp receiver child=0 sock=127.0.0.1:5060]
+ 1(20156) DEBUG: debugger [debugger_mod.c:219]: child_init(): rank is (1)
+ 1(20156) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 1 rank 1: auth_db [udp receiver child=0 sock=127.0.0.1:5060]
+11(20166) DEBUG: db_mysql [km_my_con.c:173]: db_mysql_new_connection(): connection type is my-bucket-priymak20231120152601247000000001.cmq0h3hyc1g1.us-east-2.rds.amazonaws.com via TCP/IP
+ 1(20156) DEBUG: <core> [db.c:329]: db_do_init2(): connection 0x7f47234fc870 found in pool
+ 1(20156) DEBUG: <core> [core/action.c:1719]: run_child_one_init_route(): attempting to run event_route[core:worker-one-init]
+ 1(20156) DEBUG: <core> [core/route.c:129]: route_add(): mapping routing block (0x558922ad7440)[core:worker-one-init] to 2
+11(20166) DEBUG: db_mysql [km_my_con.c:174]: db_mysql_new_connection(): protocol version is 10
+12(20167) DEBUG: db_mysql [km_my_con.c:173]: db_mysql_new_connection(): connection type is my-bucket-priymak20231120152601247000000001.cmq0h3hyc1g1.us-east-2.rds.amazonaws.com via TCP/IP
+12(20167) DEBUG: db_mysql [km_my_con.c:174]: db_mysql_new_connection(): protocol version is 10
+11(20166) DEBUG: db_mysql [km_my_con.c:175]: db_mysql_new_connection(): server version is 8.0.35
+12(20167) DEBUG: db_mysql [km_my_con.c:175]: db_mysql_new_connection(): server version is 8.0.35
+13(20168) DEBUG: db_mysql [km_my_con.c:173]: db_mysql_new_connection(): connection type is my-bucket-priymak20231120152601247000000001.cmq0h3hyc1g1.us-east-2.rds.amazonaws.com via TCP/IP
+13(20168) DEBUG: db_mysql [km_my_con.c:174]: db_mysql_new_connection(): protocol version is 10
+13(20168) DEBUG: db_mysql [km_my_con.c:175]: db_mysql_new_connection(): server version is 8.0.35
+14(20169) DEBUG: db_mysql [km_my_con.c:173]: db_mysql_new_connection(): connection type is my-bucket-priymak20231120152601247000000001.cmq0h3hyc1g1.us-east-2.rds.amazonaws.com via TCP/IP
+14(20169) DEBUG: db_mysql [km_my_con.c:174]: db_mysql_new_connection(): protocol version is 10
+14(20169) DEBUG: db_mysql [km_my_con.c:175]: db_mysql_new_connection(): server version is 8.0.35
+15(20170) DEBUG: db_mysql [km_my_con.c:173]: db_mysql_new_connection(): connection type is my-bucket-priymak20231120152601247000000001.cmq0h3hyc1g1.us-east-2.rds.amazonaws.com via TCP/IP
+15(20170) DEBUG: db_mysql [km_my_con.c:174]: db_mysql_new_connection(): protocol version is 10
+15(20170) DEBUG: db_mysql [km_my_con.c:175]: db_mysql_new_connection(): server version is 8.0.35
+17(20172) DEBUG: db_mysql [km_my_con.c:173]: db_mysql_new_connection(): connection type is my-bucket-priymak20231120152601247000000001.cmq0h3hyc1g1.us-east-2.rds.amazonaws.com via TCP/IP
+17(20172) DEBUG: db_mysql [km_my_con.c:174]: db_mysql_new_connection(): protocol version is 10
+17(20172) DEBUG: db_mysql [km_my_con.c:175]: db_mysql_new_connection(): server version is 8.0.35
+16(20171) DEBUG: db_mysql [km_my_con.c:173]: db_mysql_new_connection(): connection type is my-bucket-priymak20231120152601247000000001.cmq0h3hyc1g1.us-east-2.rds.amazonaws.com via TCP/IP
+16(20171) DEBUG: db_mysql [km_my_con.c:174]: db_mysql_new_connection(): protocol version is 10
+17(20172) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 17 rank -1: registrar [slow timer]
+17(20172) DEBUG: <core> [core/utils/sruid.c:125]: sruid_init(): root for sruid is [uloc-65b23507-4ecc-] (0 / 19)
+16(20171) DEBUG: db_mysql [km_my_con.c:175]: db_mysql_new_connection(): server version is 8.0.35
+17(20172) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 17 rank -1: ctl [slow timer]
+17(20172) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 17 rank -1: acc [slow timer]
+17(20172) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 17 rank -1: dispatcher [slow timer]
+17(20172) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 17 rank -1: uac [slow timer]
+17(20172) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 17 rank -1: debugger [slow timer]
+17(20172) DEBUG: debugger [debugger_mod.c:219]: child_init(): rank is (-1)
+17(20172) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 17 rank -1: auth_db [slow timer]
+17(20172) DEBUG: <core> [db.c:329]: db_do_init2(): connection 0x7f47234fc870 found in pool
+18(20173) DEBUG: db_mysql [km_my_con.c:173]: db_mysql_new_connection(): connection type is my-bucket-priymak20231120152601247000000001.cmq0h3hyc1g1.us-east-2.rds.amazonaws.com via TCP/IP
+18(20173) DEBUG: db_mysql [km_my_con.c:174]: db_mysql_new_connection(): protocol version is 10
+18(20173) DEBUG: db_mysql [km_my_con.c:175]: db_mysql_new_connection(): server version is 8.0.35
+18(20173) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 18 rank -1: registrar [timer]
+18(20173) DEBUG: <core> [core/utils/sruid.c:125]: sruid_init(): root for sruid is [uloc-65b23507-4ecd-] (0 / 19)
+18(20173) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 18 rank -1: ctl [timer]
+18(20173) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 18 rank -1: acc [timer]
+19(20174) DEBUG: db_mysql [km_my_con.c:173]: db_mysql_new_connection(): connection type is my-bucket-priymak20231120152601247000000001.cmq0h3hyc1g1.us-east-2.rds.amazonaws.com via TCP/IP
+19(20174) DEBUG: db_mysql [km_my_con.c:174]: db_mysql_new_connection(): protocol version is 10
+19(20174) DEBUG: db_mysql [km_my_con.c:175]: db_mysql_new_connection(): server version is 8.0.35
+18(20173) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 18 rank -1: dispatcher [timer]
+18(20173) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 18 rank -1: uac [timer]
+18(20173) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 18 rank -1: debugger [timer]
+19(20174) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 19 rank -1: registrar [secondary timer]
+18(20173) DEBUG: debugger [debugger_mod.c:219]: child_init(): rank is (-1)
+18(20173) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 18 rank -1: auth_db [timer]
+19(20174) DEBUG: <core> [core/utils/sruid.c:125]: sruid_init(): root for sruid is [uloc-65b23507-4ece-] (0 / 19)
+19(20174) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 19 rank -1: ctl [secondary timer]
+19(20174) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 19 rank -1: acc [secondary timer]
+18(20173) DEBUG: <core> [db.c:329]: db_do_init2(): connection 0x7f47234fc870 found in pool
+19(20174) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 19 rank -1: dispatcher [secondary timer]
+19(20174) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 19 rank -1: uac [secondary timer]
+19(20174) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 19 rank -1: debugger [secondary timer]
+19(20174) DEBUG: debugger [debugger_mod.c:219]: child_init(): rank is (-1)
+19(20174) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 19 rank -1: auth_db [secondary timer]
+19(20174) DEBUG: <core> [db.c:329]: db_do_init2(): connection 0x7f47234fc870 found in pool
+20(20175) DEBUG: db_mysql [km_my_con.c:173]: db_mysql_new_connection(): connection type is my-bucket-priymak20231120152601247000000001.cmq0h3hyc1g1.us-east-2.rds.amazonaws.com via TCP/IP
+20(20175) DEBUG: db_mysql [km_my_con.c:174]: db_mysql_new_connection(): protocol version is 10
+20(20175) DEBUG: db_mysql [km_my_con.c:175]: db_mysql_new_connection(): server version is 8.0.35
+20(20175) DEBUG: jsonrpcs [jsonrpcs_fifo.c:523]: jsonrpc_fifo_process(): new process with pid = 20175 created
+21(20176) DEBUG: db_mysql [km_my_con.c:173]: db_mysql_new_connection(): connection type is my-bucket-priymak20231120152601247000000001.cmq0h3hyc1g1.us-east-2.rds.amazonaws.com via TCP/IP
+21(20176) DEBUG: db_mysql [km_my_con.c:174]: db_mysql_new_connection(): protocol version is 10
+21(20176) DEBUG: db_mysql [km_my_con.c:175]: db_mysql_new_connection(): server version is 8.0.35
+21(20176) INFO: jsonrpcs [jsonrpcs_sock.c:471]: jsonrpc_dgram_process(): a new child 0/20176
+ 0(20155) DEBUG: db_mysql [km_my_con.c:173]: db_mysql_new_connection(): connection type is my-bucket-priymak20231120152601247000000001.cmq0h3hyc1g1.us-east-2.rds.amazonaws.com via TCP/IP
+ 0(20155) DEBUG: db_mysql [km_my_con.c:174]: db_mysql_new_connection(): protocol version is 10
+ 0(20155) DEBUG: db_mysql [km_my_con.c:175]: db_mysql_new_connection(): server version is 8.0.35
+ 0(20155) DEBUG: <core> [main.c:1991]: main_loop(): Expect maximum 100  open fds
+root@ip-172-31-35-208:~# 22(20177) DEBUG: db_mysql [km_my_con.c:173]: db_mysql_new_connection(): connection type is my-bucket-priymak20231120152601247000000001.cmq0h3hyc1g1.us-east-2.rds.amazonaws.com via TCP/IP
+22(20177) DEBUG: db_mysql [km_my_con.c:174]: db_mysql_new_connection(): protocol version is 10
+22(20177) DEBUG: db_mysql [km_my_con.c:175]: db_mysql_new_connection(): server version is 8.0.35
+22(20177) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 22 rank -1: registrar [USRLOC Timer]
+22(20177) DEBUG: <core> [core/utils/sruid.c:125]: sruid_init(): root for sruid is [uloc-65b23507-4ed1-] (0 / 19)
+22(20177) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 22 rank -1: ctl [USRLOC Timer]
+22(20177) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 22 rank -1: acc [USRLOC Timer]
+22(20177) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 22 rank -1: dispatcher [USRLOC Timer]
+22(20177) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 22 rank -1: uac [USRLOC Timer]
+22(20177) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 22 rank -1: debugger [USRLOC Timer]
+23(20178) DEBUG: db_mysql [km_my_con.c:173]: db_mysql_new_connection(): connection type is my-bucket-priymak20231120152601247000000001.cmq0h3hyc1g1.us-east-2.rds.amazonaws.com via TCP/IP
+23(20178) DEBUG: db_mysql [km_my_con.c:174]: db_mysql_new_connection(): protocol version is 10
+22(20177) DEBUG: debugger [debugger_mod.c:219]: child_init(): rank is (-1)
+22(20177) DEBUG: <core> [core/sr_module.c:918]: init_mod_child(): idx 22 rank -1: auth_db [USRLOC Timer]
+23(20178) DEBUG: db_mysql [km_my_con.c:175]: db_mysql_new_connection(): server version is 8.0.35
+23(20178) DEBUG: ctl [ctl.c:322]: mod_child(): ctl: mod_child(0), fork_process=0, csl=0x558923fee380
+22(20177) DEBUG: <core> [db.c:329]: db_do_init2(): connection 0x7f47234fc870 found in pool
+23(20178) DEBUG: ctl [ctl.c:329]: mod_child(): ctl: 0 io_listen_loop(1, 0x558923fee380)
+23(20178) INFO: ctl [io_listener.c:209]: io_listen_loop(): io_listen_loop: using epoll_lt as the io watch method (auto detected)
+23(20178) DEBUG: ctl [io_listener.c:250]: io_listen_loop(): io_listen_loop: adding socket 8, type 2, transport 3 (/var/run/kamailio//kamailio_ctl)
+23(20178) DEBUG: ctl [../../core/io_wait.h:368]: io_watch_add(): processing io_watch_add(0x7f4721eca3e0, 8, 2, 0x558923fee380) - fd_no=0
+17(20172) DEBUG: dispatcher [dispatch.c:3828]: ds_ping_result_helper(): probing set, but not mode DS_PROBE_INACTIVE
+17(20172) DEBUG: dispatcher [dispatch.c:3865]: ds_ping_set(): probing set #1, URI sip:3.141.19.252
+17(20172) DEBUG: dispatcher [dispatch.c:3895]: ds_ping_set(): Default ping_from: sip:dispatcher@localhost
+17(20172) DEBUG: dispatcher [dispatch.c:3904]: ds_ping_set(): Default outbound proxy: 
+17(20172) DEBUG: tm [h_table.c:582]: tm_xdata_replace(): replace existing list in backup xd from new xd
+17(20172) DEBUG: tm [h_table.c:415]: build_cell(): created new cell 0x7f471df41a20
+17(20172) DEBUG: tm [h_table.c:570]: tm_xdata_replace(): restore X/AVP msg context from backup data
+17(20172) DEBUG: tm [uac.c:472]: t_uac_prepare(): next_hop=<sip:3.141.19.252>
+17(20172) DEBUG: tm [uac.c:159]: dlg2hash(): hashid 26234
+17(20172) DEBUG: tm [uac.c:713]: send_prepared_request_impl(): uac: 0x7f471df41cf0  branch: 0  to 3.141.19.252:5060
+17(20172) DEBUG: <core> [core/onsend.c:50]: run_onsend(): required parameters are not available - ignoring
+17(20172) DEBUG: dispatcher [dispatch.c:3828]: ds_ping_result_helper(): probing set, but not mode DS_PROBE_INACTIVE
+17(20172) DEBUG: dispatcher [dispatch.c:3865]: ds_ping_set(): probing set #1, URI sip:3.138.109.217
+17(20172) DEBUG: dispatcher [dispatch.c:3895]: ds_ping_set(): Default ping_from: sip:dispatcher@localhost
+17(20172) DEBUG: dispatcher [dispatch.c:3904]: ds_ping_set(): Default outbound proxy: 
+17(20172) DEBUG: tm [h_table.c:582]: tm_xdata_replace(): replace existing list in backup xd from new xd
+17(20172) DEBUG: tm [h_table.c:415]: build_cell(): created new cell 0x7f471df43ee0
+17(20172) DEBUG: tm [h_table.c:570]: tm_xdata_replace(): restore X/AVP msg context from backup data
+17(20172) DEBUG: tm [uac.c:472]: t_uac_prepare(): next_hop=<sip:3.138.109.217>
+17(20172) DEBUG: tm [uac.c:159]: dlg2hash(): hashid 26235
+17(20172) DEBUG: tm [uac.c:713]: send_prepared_request_impl(): uac: 0x7f471df441b0  branch: 0  to 3.138.109.217:5060
+17(20172) DEBUG: <core> [core/onsend.c:50]: run_onsend(): required parameters are not available - ignoring

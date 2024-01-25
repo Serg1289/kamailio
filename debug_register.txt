@@ -1,0 +1,185 @@
+DEBUG: <core> [core/udp_server.c:698]: udp_rcv_loop(): received on udp socket: (106/100/820) [[REGISTER sip:voiptest.pp.ua SIP/2.0 0D  0A Via: SIP/2.0/UDP 95.67.94.178:5960;branch=z9hG4bK-524287-1---9e]]
+11(20166) DEBUG: <core> [core/parser/parse_fline.c:247]: parse_first_line(): first line type 1 (request) flags 1
+11(20166) DEBUG: <core> [core/parser/msg_parser.c:721]: parse_msg(): SIP Request:
+11(20166) DEBUG: <core> [core/parser/msg_parser.c:722]: parse_msg():  method:  <REGISTER>
+11(20166) DEBUG: <core> [core/parser/msg_parser.c:724]: parse_msg():  uri:     <sip:voiptest.pp.ua>
+11(20166) DEBUG: <core> [core/parser/msg_parser.c:726]: parse_msg():  version: <SIP/2.0>
+11(20166) DEBUG: <core> [core/parser/parse_hname2.c:314]: parse_sip_header_name(): parsed header name [Via] type 1
+11(20166) DEBUG: <core> [core/parser/parse_via.c:1309]: parse_via_param(): Found param type 232, <branch> = <z9hG4bK-524287-1---9ef61429d32efd12>; state=6
+11(20166) DEBUG: <core> [core/parser/parse_via.c:1309]: parse_via_param(): Found param type 235, <rport> = <n/a>; state=17
+11(20166) DEBUG: <core> [core/parser/parse_via.c:2663]: parse_via(): end of header reached, state=5
+11(20166) DEBUG: <core> [core/parser/msg_parser.c:591]: parse_headers(): Via found, flags=2
+11(20166) DEBUG: <core> [core/parser/msg_parser.c:593]: parse_headers(): this is the first via
+11(20166) DEBUG: <core> [core/parser/parse_hname2.c:314]: parse_sip_header_name(): parsed header name [Max-Forwards] type 8
+11(20166) DEBUG: <core> [core/parser/parse_hname2.c:314]: parse_sip_header_name(): parsed header name [Contact] type 7
+11(20166) DEBUG: <core> [core/parser/parse_hname2.c:314]: parse_sip_header_name(): parsed header name [To] type 3
+11(20166) DEBUG: <core> [core/parser/parse_addr_spec.c:904]: parse_addr_spec(): end of header reached, state=10
+11(20166) DEBUG: <core> [core/parser/msg_parser.c:172]: get_hdr_field(): <To> [34]; uri=[sip:SOFTPHONE_A@voiptest.pp.ua]
+11(20166) DEBUG: <core> [core/parser/msg_parser.c:174]: get_hdr_field(): to body (34)[<sip:SOFTPHONE_A@voiptest.pp.ua>
+], to tag (0)[]
+11(20166) DEBUG: <core> [core/parser/parse_hname2.c:314]: parse_sip_header_name(): parsed header name [From] type 4
+11(20166) DEBUG: <core> [core/parser/parse_hname2.c:314]: parse_sip_header_name(): parsed header name [Call-ID] type 6
+11(20166) DEBUG: <core> [core/parser/parse_hname2.c:314]: parse_sip_header_name(): parsed header name [CSeq] type 5
+11(20166) DEBUG: <core> [core/parser/msg_parser.c:152]: get_hdr_field(): cseq <CSeq>: <1> <REGISTER>
+11(20166) DEBUG: <core> [core/receive.c:392]: receive_msg(): --- received sip message - request - call-id: [iYguiKeryLdc2ZIs5Zt1QA..] - cseq: [1 REGISTER]
+11(20166) DEBUG: <core> [core/parser/parse_hname2.c:314]: parse_sip_header_name(): parsed header name [Expires] type 14
+11(20166) DEBUG: <core> [core/parser/parse_hname2.c:314]: parse_sip_header_name(): parsed header name [Allow] type 21
+11(20166) DEBUG: <core> [core/parser/parse_hname2.c:314]: parse_sip_header_name(): parsed header name [Supported] type 17
+11(20166) DEBUG: <core> [core/parser/parse_hname2.c:314]: parse_sip_header_name(): parsed header name [User-Agent] type 28
+11(20166) DEBUG: <core> [core/parser/parse_hname2.c:314]: parse_sip_header_name(): parsed header name [Allow-Events] type 39
+11(20166) DEBUG: <core> [core/parser/parse_hname2.c:314]: parse_sip_header_name(): parsed header name [x-p-push] type 0
+11(20166) DEBUG: <core> [core/parser/parse_hname2.c:314]: parse_sip_header_name(): parsed header name [X-Push] type 0
+11(20166) DEBUG: <core> [core/parser/parse_hname2.c:314]: parse_sip_header_name(): parsed header name [Content-Length] type 12
+11(20166) DEBUG: <core> [core/parser/msg_parser.c:187]: get_hdr_field(): content_length=0
+11(20166) DEBUG: <core> [core/parser/msg_parser.c:91]: get_hdr_field(): found end of header
+11(20166) DEBUG: {1 1 REGISTER iYguiKeryLdc2ZIs5Zt1QA..} <core> [core/receive.c:263]: ksr_evrt_pre_routing(): event route core:pre-routing not defined
+11(20166) DEBUG: {1 1 REGISTER iYguiKeryLdc2ZIs5Zt1QA..} <core> [core/receive.c:474]: receive_msg(): preparing to run routing scripts...
+11(20166) DEBUG: {1 1 REGISTER iYguiKeryLdc2ZIs5Zt1QA..} maxfwd [mf_funcs.c:74]: is_maxfwd_present(): value = 70 
+11(20166) DEBUG: {1 1 REGISTER iYguiKeryLdc2ZIs5Zt1QA..} sanity [sanity.c:253]: check_ruri_sip_version(): check_ruri_sip_version entered
+11(20166) DEBUG: {1 1 REGISTER iYguiKeryLdc2ZIs5Zt1QA..} sanity [sanity.c:277]: check_ruri_sip_version(): check_ruri_sip_version passed
+11(20166) DEBUG: {1 1 REGISTER iYguiKeryLdc2ZIs5Zt1QA..} sanity [sanity.c:285]: check_ruri_scheme(): check_ruri_scheme entered
+11(20166) DEBUG: {1 1 REGISTER iYguiKeryLdc2ZIs5Zt1QA..} sanity [sanity.c:304]: check_ruri_scheme(): check_ruri_scheme passed
+11(20166) DEBUG: {1 1 REGISTER iYguiKeryLdc2ZIs5Zt1QA..} sanity [sanity.c:326]: check_required_headers(): check_required_headers entered
+11(20166) DEBUG: {1 1 REGISTER iYguiKeryLdc2ZIs5Zt1QA..} sanity [sanity.c:349]: check_required_headers(): check_required_headers passed
+11(20166) DEBUG: {1 1 REGISTER iYguiKeryLdc2ZIs5Zt1QA..} sanity [sanity.c:357]: check_via1_header(): check via1 header
+11(20166) DEBUG: {1 1 REGISTER iYguiKeryLdc2ZIs5Zt1QA..} sanity [sanity.c:518]: check_cseq_method(): check_cseq_method entered
+11(20166) DEBUG: {1 1 REGISTER iYguiKeryLdc2ZIs5Zt1QA..} sanity [sanity.c:552]: check_cseq_method(): check_cseq_method passed
+11(20166) DEBUG: {1 1 REGISTER iYguiKeryLdc2ZIs5Zt1QA..} sanity [sanity.c:562]: check_cseq_value(): check_cseq_value entered
+11(20166) DEBUG: {1 1 REGISTER iYguiKeryLdc2ZIs5Zt1QA..} sanity [sanity.c:590]: check_cseq_value(): check_cseq_value passed
+11(20166) DEBUG: {1 1 REGISTER iYguiKeryLdc2ZIs5Zt1QA..} sanity [sanity.c:600]: check_cl(): check_cl entered
+11(20166) DEBUG: {1 1 REGISTER iYguiKeryLdc2ZIs5Zt1QA..} sanity [sanity.c:625]: check_cl(): check_cl passed
+11(20166) DEBUG: {1 1 REGISTER iYguiKeryLdc2ZIs5Zt1QA..} sanity [sanity.c:638]: check_expires_value(): check_expires_value entered
+11(20166) DEBUG: {1 1 REGISTER iYguiKeryLdc2ZIs5Zt1QA..} sanity [sanity.c:672]: check_expires_value(): check_expires_value passed
+11(20166) DEBUG: {1 1 REGISTER iYguiKeryLdc2ZIs5Zt1QA..} sanity [sanity.c:771]: check_parse_uris(): check_parse_uris entered
+11(20166) DEBUG: {1 1 REGISTER iYguiKeryLdc2ZIs5Zt1QA..} sanity [sanity.c:775]: check_parse_uris(): parsing ruri
+11(20166) DEBUG: {1 1 REGISTER iYguiKeryLdc2ZIs5Zt1QA..} sanity [sanity.c:788]: check_parse_uris(): looking up From header
+11(20166) DEBUG: {1 1 REGISTER iYguiKeryLdc2ZIs5Zt1QA..} <core> [core/parser/parse_addr_spec.c:185]: parse_to_param(): add param: tag=39059110
+11(20166) DEBUG: {1 1 REGISTER iYguiKeryLdc2ZIs5Zt1QA..} <core> [core/parser/parse_addr_spec.c:904]: parse_addr_spec(): end of header reached, state=29
+11(20166) DEBUG: {1 1 REGISTER iYguiKeryLdc2ZIs5Zt1QA..} sanity [sanity.c:803]: check_parse_uris(): looking up To header
+11(20166) DEBUG: {1 1 REGISTER iYguiKeryLdc2ZIs5Zt1QA..} sanity [sanity.c:853]: check_parse_uris(): check_parse_uris passed
+11(20166) DEBUG: {1 1 REGISTER iYguiKeryLdc2ZIs5Zt1QA..} sanity [sanity_mod.c:252]: w_sanity_check(): sanity checks result: 1
+11(20166) DEBUG: {1 1 REGISTER iYguiKeryLdc2ZIs5Zt1QA..} tm [t_lookup.c:1565]: t_check_msg(): msg (0x7f4723544ea0) id=1/20166 global id=0/0 T start=0xffffffffffffffff
+11(20166) DEBUG: {1 1 REGISTER iYguiKeryLdc2ZIs5Zt1QA..} tm [t_lookup.c:781]: t_lookup_request(): start searching: hash=61309, isACK=0
+11(20166) DEBUG: {1 1 REGISTER iYguiKeryLdc2ZIs5Zt1QA..} tm [t_lookup.c:499]: matching_3261(): RFC3261 transaction matching failed - via branch [z9hG4bK-524287-1---9ef61429d32efd12]
+11(20166) DEBUG: {1 1 REGISTER iYguiKeryLdc2ZIs5Zt1QA..} tm [t_lookup.c:981]: t_lookup_request(): no transaction found
+11(20166) DEBUG: {1 1 REGISTER iYguiKeryLdc2ZIs5Zt1QA..} tm [t_lookup.c:1637]: t_check_msg(): msg (0x7f4723544ea0) id=1/20166 global id=1/20166 T end=(nil)
+11(20166) DEBUG: {1 1 REGISTER iYguiKeryLdc2ZIs5Zt1QA..} siputils [checks.c:122]: has_totag(): no totag
+11(20166) DEBUG: {1 1 REGISTER iYguiKeryLdc2ZIs5Zt1QA..} auth_db [authorize.c:486]: auth_check(): realm [voiptest.pp.ua] table [subscriber] flags [1]
+11(20166) DEBUG: {1 1 REGISTER iYguiKeryLdc2ZIs5Zt1QA..} auth [api.c:76]: pre_auth(): Credentials with realm 'voiptest.pp.ua' not found
+11(20166) DEBUG: {1 1 REGISTER iYguiKeryLdc2ZIs5Zt1QA..} auth_db [authorize.c:256]: digest_authenticate_hdr(): no credentials
+11(20166) DEBUG: {1 1 REGISTER iYguiKeryLdc2ZIs5Zt1QA..} auth [challenge.c:167]: get_challenge_hf(): realm='voiptest.pp.ua'
+11(20166) DEBUG: {1 1 REGISTER iYguiKeryLdc2ZIs5Zt1QA..} auth [challenge.c:277]: get_challenge_hf(): auth: 'WWW-Authenticate: Digest realm="voiptest.pp.ua", nonce="ZbI3vmWyNpJVy3DR2nZb428JuYxzilra"
+'
+11(20166) DEBUG: {1 1 REGISTER iYguiKeryLdc2ZIs5Zt1QA..} sl [sl.c:299]: send_reply(): reply in stateless mode (sl)
+11(20166) DEBUG: {1 1 REGISTER iYguiKeryLdc2ZIs5Zt1QA..} <core> [core/receive.c:126]: sip_check_fline(): first line indicates a SIP reply
+11(20166) DEBUG: {1 1 REGISTER iYguiKeryLdc2ZIs5Zt1QA..} <core> [core/receive.c:531]: receive_msg(): request-route executed in: 561 usec
+11(20166) DEBUG: {1 1 REGISTER iYguiKeryLdc2ZIs5Zt1QA..} <core> [core/usr_avp.c:654]: destroy_avp_list(): destroying list (nil)
+11(20166) DEBUG: {1 1 REGISTER iYguiKeryLdc2ZIs5Zt1QA..} <core> [core/usr_avp.c:654]: destroy_avp_list(): destroying list (nil)
+11(20166) DEBUG: {1 1 REGISTER iYguiKeryLdc2ZIs5Zt1QA..} <core> [core/usr_avp.c:654]: destroy_avp_list(): destroying list (nil)
+11(20166) DEBUG: {1 1 REGISTER iYguiKeryLdc2ZIs5Zt1QA..} <core> [core/usr_avp.c:654]: destroy_avp_list(): destroying list (nil)
+11(20166) DEBUG: {1 1 REGISTER iYguiKeryLdc2ZIs5Zt1QA..} <core> [core/usr_avp.c:654]: destroy_avp_list(): destroying list (nil)
+11(20166) DEBUG: {1 1 REGISTER iYguiKeryLdc2ZIs5Zt1QA..} <core> [core/usr_avp.c:654]: destroy_avp_list(): destroying list (nil)
+11(20166) DEBUG: {1 1 REGISTER iYguiKeryLdc2ZIs5Zt1QA..} <core> [core/xavp.c:630]: xavp_destroy_list(): destroying xavp list (nil)
+11(20166) DEBUG: {1 1 REGISTER iYguiKeryLdc2ZIs5Zt1QA..} <core> [core/xavp.c:630]: xavp_destroy_list(): destroying xavp list (nil)
+11(20166) DEBUG: {1 1 REGISTER iYguiKeryLdc2ZIs5Zt1QA..} <core> [core/xavp.c:630]: xavp_destroy_list(): destroying xavp list (nil)
+11(20166) DEBUG: {1 1 REGISTER iYguiKeryLdc2ZIs5Zt1QA..} <core> [core/receive.c:635]: receive_msg(): cleaning up
+12(20167) DEBUG: <core> [core/udp_server.c:698]: udp_rcv_loop(): received on udp socket: (106/100/1385) [[REGISTER sip:voiptest.pp.ua SIP/2.0 0D  0A Via: SIP/2.0/UDP 95.67.94.178:5960;branch=z9hG4bK-524287-1---7d]]
+12(20167) DEBUG: <core> [core/parser/parse_fline.c:247]: parse_first_line(): first line type 1 (request) flags 1
+12(20167) DEBUG: <core> [core/parser/msg_parser.c:721]: parse_msg(): SIP Request:
+12(20167) DEBUG: <core> [core/parser/msg_parser.c:722]: parse_msg():  method:  <REGISTER>
+12(20167) DEBUG: <core> [core/parser/msg_parser.c:724]: parse_msg():  uri:     <sip:voiptest.pp.ua>
+12(20167) DEBUG: <core> [core/parser/msg_parser.c:726]: parse_msg():  version: <SIP/2.0>
+12(20167) DEBUG: <core> [core/parser/parse_hname2.c:314]: parse_sip_header_name(): parsed header name [Via] type 1
+12(20167) DEBUG: <core> [core/parser/parse_via.c:1309]: parse_via_param(): Found param type 232, <branch> = <z9hG4bK-524287-1---7d8cc645aff8be63>; state=6
+12(20167) DEBUG: <core> [core/parser/parse_via.c:1309]: parse_via_param(): Found param type 235, <rport> = <n/a>; state=17
+12(20167) DEBUG: <core> [core/parser/parse_via.c:2663]: parse_via(): end of header reached, state=5
+12(20167) DEBUG: <core> [core/parser/msg_parser.c:591]: parse_headers(): Via found, flags=2
+12(20167) DEBUG: <core> [core/parser/msg_parser.c:593]: parse_headers(): this is the first via
+12(20167) DEBUG: <core> [core/parser/parse_hname2.c:314]: parse_sip_header_name(): parsed header name [Max-Forwards] type 8
+12(20167) DEBUG: <core> [core/parser/parse_hname2.c:314]: parse_sip_header_name(): parsed header name [Contact] type 7
+12(20167) DEBUG: <core> [core/parser/parse_hname2.c:314]: parse_sip_header_name(): parsed header name [To] type 3
+12(20167) DEBUG: <core> [core/parser/parse_addr_spec.c:904]: parse_addr_spec(): end of header reached, state=10
+12(20167) DEBUG: <core> [core/parser/msg_parser.c:172]: get_hdr_field(): <To> [34]; uri=[sip:SOFTPHONE_A@voiptest.pp.ua]
+12(20167) DEBUG: <core> [core/parser/msg_parser.c:174]: get_hdr_field(): to body (34)[<sip:SOFTPHONE_A@voiptest.pp.ua>
+], to tag (0)[]
+12(20167) DEBUG: <core> [core/parser/parse_hname2.c:314]: parse_sip_header_name(): parsed header name [From] type 4
+12(20167) DEBUG: <core> [core/parser/parse_hname2.c:314]: parse_sip_header_name(): parsed header name [Call-ID] type 6
+12(20167) DEBUG: <core> [core/parser/parse_hname2.c:314]: parse_sip_header_name(): parsed header name [CSeq] type 5
+12(20167) DEBUG: <core> [core/parser/msg_parser.c:152]: get_hdr_field(): cseq <CSeq>: <2> <REGISTER>
+12(20167) DEBUG: <core> [core/receive.c:392]: receive_msg(): --- received sip message - request - call-id: [iYguiKeryLdc2ZIs5Zt1QA..] - cseq: [2 REGISTER]
+12(20167) DEBUG: <core> [core/parser/parse_hname2.c:314]: parse_sip_header_name(): parsed header name [Expires] type 14
+12(20167) DEBUG: <core> [core/parser/parse_hname2.c:314]: parse_sip_header_name(): parsed header name [Allow] type 21
+12(20167) DEBUG: <core> [core/parser/parse_hname2.c:314]: parse_sip_header_name(): parsed header name [Supported] type 17
+12(20167) DEBUG: <core> [core/parser/parse_hname2.c:314]: parse_sip_header_name(): parsed header name [User-Agent] type 28
+12(20167) DEBUG: <core> [core/parser/parse_hname2.c:314]: parse_sip_header_name(): parsed header name [Authorization] type 13
+12(20167) DEBUG: <core> [core/parser/parse_hname2.c:314]: parse_sip_header_name(): parsed header name [Allow-Events] type 39
+12(20167) DEBUG: <core> [core/parser/parse_hname2.c:314]: parse_sip_header_name(): parsed header name [x-p-push] type 0
+12(20167) DEBUG: <core> [core/parser/parse_hname2.c:314]: parse_sip_header_name(): parsed header name [X-Push] type 0
+12(20167) DEBUG: <core> [core/parser/parse_hname2.c:314]: parse_sip_header_name(): parsed header name [Content-Length] type 12
+12(20167) DEBUG: <core> [core/parser/msg_parser.c:187]: get_hdr_field(): content_length=0
+12(20167) DEBUG: <core> [core/parser/msg_parser.c:91]: get_hdr_field(): found end of header
+12(20167) DEBUG: {1 2 REGISTER iYguiKeryLdc2ZIs5Zt1QA..} <core> [core/receive.c:263]: ksr_evrt_pre_routing(): event route core:pre-routing not defined
+12(20167) DEBUG: {1 2 REGISTER iYguiKeryLdc2ZIs5Zt1QA..} <core> [core/receive.c:474]: receive_msg(): preparing to run routing scripts...
+12(20167) DEBUG: {1 2 REGISTER iYguiKeryLdc2ZIs5Zt1QA..} maxfwd [mf_funcs.c:74]: is_maxfwd_present(): value = 70 
+12(20167) DEBUG: {1 2 REGISTER iYguiKeryLdc2ZIs5Zt1QA..} sanity [sanity.c:253]: check_ruri_sip_version(): check_ruri_sip_version entered
+12(20167) DEBUG: {1 2 REGISTER iYguiKeryLdc2ZIs5Zt1QA..} sanity [sanity.c:277]: check_ruri_sip_version(): check_ruri_sip_version passed
+12(20167) DEBUG: {1 2 REGISTER iYguiKeryLdc2ZIs5Zt1QA..} sanity [sanity.c:285]: check_ruri_scheme(): check_ruri_scheme entered
+12(20167) DEBUG: {1 2 REGISTER iYguiKeryLdc2ZIs5Zt1QA..} sanity [sanity.c:304]: check_ruri_scheme(): check_ruri_scheme passed
+12(20167) DEBUG: {1 2 REGISTER iYguiKeryLdc2ZIs5Zt1QA..} sanity [sanity.c:326]: check_required_headers(): check_required_headers entered
+12(20167) DEBUG: {1 2 REGISTER iYguiKeryLdc2ZIs5Zt1QA..} sanity [sanity.c:349]: check_required_headers(): check_required_headers passed
+12(20167) DEBUG: {1 2 REGISTER iYguiKeryLdc2ZIs5Zt1QA..} sanity [sanity.c:357]: check_via1_header(): check via1 header
+12(20167) DEBUG: {1 2 REGISTER iYguiKeryLdc2ZIs5Zt1QA..} sanity [sanity.c:518]: check_cseq_method(): check_cseq_method entered
+12(20167) DEBUG: {1 2 REGISTER iYguiKeryLdc2ZIs5Zt1QA..} sanity [sanity.c:552]: check_cseq_method(): check_cseq_method passed
+12(20167) DEBUG: {1 2 REGISTER iYguiKeryLdc2ZIs5Zt1QA..} sanity [sanity.c:562]: check_cseq_value(): check_cseq_value entered
+12(20167) DEBUG: {1 2 REGISTER iYguiKeryLdc2ZIs5Zt1QA..} sanity [sanity.c:590]: check_cseq_value(): check_cseq_value passed
+12(20167) DEBUG: {1 2 REGISTER iYguiKeryLdc2ZIs5Zt1QA..} sanity [sanity.c:600]: check_cl(): check_cl entered
+12(20167) DEBUG: {1 2 REGISTER iYguiKeryLdc2ZIs5Zt1QA..} sanity [sanity.c:625]: check_cl(): check_cl passed
+12(20167) DEBUG: {1 2 REGISTER iYguiKeryLdc2ZIs5Zt1QA..} sanity [sanity.c:638]: check_expires_value(): check_expires_value entered
+12(20167) DEBUG: {1 2 REGISTER iYguiKeryLdc2ZIs5Zt1QA..} sanity [sanity.c:672]: check_expires_value(): check_expires_value passed
+12(20167) DEBUG: {1 2 REGISTER iYguiKeryLdc2ZIs5Zt1QA..} sanity [sanity.c:771]: check_parse_uris(): check_parse_uris entered
+12(20167) DEBUG: {1 2 REGISTER iYguiKeryLdc2ZIs5Zt1QA..} sanity [sanity.c:775]: check_parse_uris(): parsing ruri
+12(20167) DEBUG: {1 2 REGISTER iYguiKeryLdc2ZIs5Zt1QA..} sanity [sanity.c:788]: check_parse_uris(): looking up From header
+12(20167) DEBUG: {1 2 REGISTER iYguiKeryLdc2ZIs5Zt1QA..} <core> [core/parser/parse_addr_spec.c:185]: parse_to_param(): add param: tag=39059110
+12(20167) DEBUG: {1 2 REGISTER iYguiKeryLdc2ZIs5Zt1QA..} <core> [core/parser/parse_addr_spec.c:904]: parse_addr_spec(): end of header reached, state=29
+12(20167) DEBUG: {1 2 REGISTER iYguiKeryLdc2ZIs5Zt1QA..} sanity [sanity.c:803]: check_parse_uris(): looking up To header
+12(20167) DEBUG: {1 2 REGISTER iYguiKeryLdc2ZIs5Zt1QA..} sanity [sanity.c:853]: check_parse_uris(): check_parse_uris passed
+12(20167) DEBUG: {1 2 REGISTER iYguiKeryLdc2ZIs5Zt1QA..} sanity [sanity_mod.c:252]: w_sanity_check(): sanity checks result: 1
+12(20167) DEBUG: {1 2 REGISTER iYguiKeryLdc2ZIs5Zt1QA..} tm [t_lookup.c:1565]: t_check_msg(): msg (0x7f4723544ea0) id=1/20167 global id=0/0 T start=0xffffffffffffffff
+12(20167) DEBUG: {1 2 REGISTER iYguiKeryLdc2ZIs5Zt1QA..} tm [t_lookup.c:781]: t_lookup_request(): start searching: hash=61306, isACK=0
+12(20167) DEBUG: {1 2 REGISTER iYguiKeryLdc2ZIs5Zt1QA..} tm [t_lookup.c:499]: matching_3261(): RFC3261 transaction matching failed - via branch [z9hG4bK-524287-1---7d8cc645aff8be63]
+12(20167) DEBUG: {1 2 REGISTER iYguiKeryLdc2ZIs5Zt1QA..} tm [t_lookup.c:981]: t_lookup_request(): no transaction found
+12(20167) DEBUG: {1 2 REGISTER iYguiKeryLdc2ZIs5Zt1QA..} tm [t_lookup.c:1637]: t_check_msg(): msg (0x7f4723544ea0) id=1/20167 global id=1/20167 T end=(nil)
+12(20167) DEBUG: {1 2 REGISTER iYguiKeryLdc2ZIs5Zt1QA..} siputils [checks.c:122]: has_totag(): no totag
+12(20167) DEBUG: {1 2 REGISTER iYguiKeryLdc2ZIs5Zt1QA..} auth_db [authorize.c:486]: auth_check(): realm [voiptest.pp.ua] table [subscriber] flags [1]
+12(20167) DEBUG: {1 2 REGISTER iYguiKeryLdc2ZIs5Zt1QA..} auth [api.c:85]: pre_auth(): digest-algo: MD5 parsed value: 1
+12(20167) DEBUG: {1 2 REGISTER iYguiKeryLdc2ZIs5Zt1QA..} <core> [db_query.c:72]: db_do_submit_query(): submitted query: select `password` from `subscriber` where `username`='SOFTPHONE_A', result 0
+12(20167) DEBUG: {1 2 REGISTER iYguiKeryLdc2ZIs5Zt1QA..} <core> [db_res.c:120]: db_new_result(): allocate 56 bytes for result set at 0x7f4723510db0
+12(20167) DEBUG: {1 2 REGISTER iYguiKeryLdc2ZIs5Zt1QA..} db_mysql [km_res.c:67]: db_mysql_get_columns(): 1 columns returned from the query
+12(20167) DEBUG: {1 2 REGISTER iYguiKeryLdc2ZIs5Zt1QA..} <core> [db_res.c:156]: db_allocate_columns(): allocate 8 bytes for result names at 0x7f4723510e60
+12(20167) DEBUG: {1 2 REGISTER iYguiKeryLdc2ZIs5Zt1QA..} <core> [db_res.c:166]: db_allocate_columns(): allocate 4 bytes for result types at 0x7f4723510ee0
+12(20167) DEBUG: {1 2 REGISTER iYguiKeryLdc2ZIs5Zt1QA..} db_mysql [km_res.c:84]: db_mysql_get_columns(): allocate 16 bytes for RES_NAMES[0] at 0x7f4723510f60
+12(20167) DEBUG: {1 2 REGISTER iYguiKeryLdc2ZIs5Zt1QA..} db_mysql [km_res.c:91]: db_mysql_get_columns(): RES_NAMES(0x7f4723510f60)[0]=[password]
+12(20167) DEBUG: {1 2 REGISTER iYguiKeryLdc2ZIs5Zt1QA..} db_mysql [km_res.c:148]: db_mysql_get_columns(): use DB1_STRING result type
+12(20167) DEBUG: {1 2 REGISTER iYguiKeryLdc2ZIs5Zt1QA..} db_mysql [km_res.c:182]: db_mysql_convert_rows(): no rows returned from the query
+12(20167) DEBUG: {1 2 REGISTER iYguiKeryLdc2ZIs5Zt1QA..} auth_db [authorize.c:185]: get_ha1(): no result for user 'SOFTPHONE_A@'
+12(20167) DEBUG: {1 2 REGISTER iYguiKeryLdc2ZIs5Zt1QA..} <core> [db_res.c:79]: db_free_columns(): freeing 1 columns
+12(20167) DEBUG: {1 2 REGISTER iYguiKeryLdc2ZIs5Zt1QA..} <core> [db_res.c:83]: db_free_columns(): freeing RES_NAMES[0] at 0x7f4723510f60
+12(20167) DEBUG: {1 2 REGISTER iYguiKeryLdc2ZIs5Zt1QA..} <core> [db_res.c:97]: db_free_columns(): freeing result names at 0x7f4723510e60
+12(20167) DEBUG: {1 2 REGISTER iYguiKeryLdc2ZIs5Zt1QA..} <core> [db_res.c:102]: db_free_columns(): freeing result types at 0x7f4723510ee0
+12(20167) DEBUG: {1 2 REGISTER iYguiKeryLdc2ZIs5Zt1QA..} <core> [db_res.c:138]: db_free_result(): freeing result set at 0x7f4723510db0
+12(20167) DEBUG: {1 2 REGISTER iYguiKeryLdc2ZIs5Zt1QA..} auth [challenge.c:167]: get_challenge_hf(): realm='voiptest.pp.ua'
+12(20167) DEBUG: {1 2 REGISTER iYguiKeryLdc2ZIs5Zt1QA..} auth [challenge.c:277]: get_challenge_hf(): auth: 'WWW-Authenticate: Digest realm="voiptest.pp.ua", nonce="ZbI3vmWyNpJVy3DR2nZb428JuYxzilra"
+'
+12(20167) DEBUG: {1 2 REGISTER iYguiKeryLdc2ZIs5Zt1QA..} sl [sl.c:299]: send_reply(): reply in stateless mode (sl)
+12(20167) DEBUG: {1 2 REGISTER iYguiKeryLdc2ZIs5Zt1QA..} <core> [core/receive.c:126]: sip_check_fline(): first line indicates a SIP reply
+12(20167) DEBUG: {1 2 REGISTER iYguiKeryLdc2ZIs5Zt1QA..} <core> [core/receive.c:531]: receive_msg(): request-route executed in: 4558 usec
+12(20167) DEBUG: {1 2 REGISTER iYguiKeryLdc2ZIs5Zt1QA..} <core> [core/usr_avp.c:654]: destroy_avp_list(): destroying list (nil)
+12(20167) DEBUG: {1 2 REGISTER iYguiKeryLdc2ZIs5Zt1QA..} <core> [core/usr_avp.c:654]: destroy_avp_list(): destroying list (nil)
+12(20167) DEBUG: {1 2 REGISTER iYguiKeryLdc2ZIs5Zt1QA..} <core> [core/usr_avp.c:654]: destroy_avp_list(): destroying list (nil)
+12(20167) DEBUG: {1 2 REGISTER iYguiKeryLdc2ZIs5Zt1QA..} <core> [core/usr_avp.c:654]: destroy_avp_list(): destroying list (nil)
+12(20167) DEBUG: {1 2 REGISTER iYguiKeryLdc2ZIs5Zt1QA..} <core> [core/usr_avp.c:654]: destroy_avp_list(): destroying list (nil)
+12(20167) DEBUG: {1 2 REGISTER iYguiKeryLdc2ZIs5Zt1QA..} <core> [core/usr_avp.c:654]: destroy_avp_list(): destroying list (nil)
+12(20167) DEBUG: {1 2 REGISTER iYguiKeryLdc2ZIs5Zt1QA..} <core> [core/xavp.c:630]: xavp_destroy_list(): destroying xavp list (nil)
+12(20167) DEBUG: {1 2 REGISTER iYguiKeryLdc2ZIs5Zt1QA..} <core> [core/xavp.c:630]: xavp_destroy_list(): destroying xavp list (nil)
+12(20167) DEBUG: {1 2 REGISTER iYguiKeryLdc2ZIs5Zt1QA..} <core> [core/xavp.c:630]: xavp_destroy_list(): destroying xavp list (nil)
+12(20167) DEBUG: {1 2 REGISTER iYguiKeryLdc2ZIs5Zt1QA..} <core> [core/receive.c:635]: receive_msg(): cleaning up
